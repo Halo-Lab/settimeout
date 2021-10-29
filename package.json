@@ -1,0 +1,20 @@
+{
+	"name": "mailing",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"start:email": "npm start --workspace=email",
+		"build": "npm run build --workspaces",
+		"update": "npm up --workspaces",
+		"build:email": "npm run build --workspace=email"
+	},
+	"workspaces": [
+		"./packages/data",
+		"./packages/email",
+		"./packages/shared",
+		"./packages/landing"
+	],
+	"devDependencies": {
+		"@parcel/transformer-inline-string": "^2.0.0"
+	}
+}

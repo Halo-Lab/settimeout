@@ -1,0 +1,13 @@
+{
+	"name": "shared",
+	"type": "module",
+	"version": "0.0.1",
+	"exports": {
+		"./*.js": "./src/*.js",
+		"./*.css": "./src/*.css"
+	},
+	"dependencies": {
+		"@prostory/edelweiss": "^2.0.0-alpha.12",
+		"tailwindcss": "^2.2.17"
+	}
+}

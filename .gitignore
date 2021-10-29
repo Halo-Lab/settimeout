@@ -1,0 +1,9 @@
+node_modules/
+build/
+dist/
+.git/
+.vscode/
+.parcel-cache/
+
+*.swp
+*.swo

@@ -1,0 +1,13 @@
+[
+	{
+		"title": "Верстка",
+		"cards": [
+			{
+				"link": "https://us4-usndr.com/ua/mail_link_tracker?hash=68nrfnkf95ga1i4kyx7rwr9n8b41sqy6fg7p6u761msz7jt5neaxq9bo5xq55qe4b8xn4onsr7drsub31unphk4mp71o7udosa1s9aja&url=aHR0cHM6Ly93ZWJmb3JteXNlbGYuY29tL3ZpenVhbG5vZS1ydWtvdm9kc3R2by1wby1yZWFjdC1yZW5kZXJpbmctZG9tLw~~&uid=NDYyNTA1MA~~&ucs=7770b2d839f512d08f4572f5bcf283ed",
+				"title": "Визуальное руководство по React Rendering - DOM",
+				"description": "дейстивтельно ли повторный рендеринг является излишним и так уж ли это плохо? В статье автор на визуальных примерах рассказывает что такое повторный рендеринг и стоит ли его бояться.",
+				"author": "Alex Sidorenko"
+			}
+		]
+	}
+]
