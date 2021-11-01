@@ -5,6 +5,7 @@ import "./init.js";
 
 import { Email } from "./Email.js";
 import { write } from "./write.js";
+import { inlineCSS } from "./inline_css.js";
 import { loadLastAddedData } from "./load.js";
 
 loadLastAddedData()
@@ -12,4 +13,5 @@ loadLastAddedData()
 		render(document.body, Email(data));
 		return name;
 	})
-	.then((name) => write(page(), name));
+	.then((name) => inlineCSS(page()).then((result) => ({ name, html: result })))
+	.then(({ name, html }) => write(html, name));

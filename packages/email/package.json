@@ -10,6 +10,7 @@
 		"@fluss/core": "^0.35.0",
 		"@prostory/edelweiss": "^2.0.0-alpha.12",
 		"@prostory/edelweiss-ssr": "^0.2.2",
+		"css-inliner": "^2.0.0",
 		"shared": "^0.0.1",
 		"tailwindcss": "^2.2.17"
 	},

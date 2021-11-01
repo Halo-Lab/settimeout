@@ -2,7 +2,7 @@ import { html } from "@prostory/edelweiss";
 
 import { Section } from "shared/Section.js";
 
-export const Email = (data) => html`
+export const Email = ({ data }) => html`
 	<div class="max-w-2xl mx-auto">
 		<div class="text-xl mb-5 font-normal">
 			Привет.
