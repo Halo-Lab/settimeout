@@ -1,10 +1,13 @@
 {
 	"name": "landing",
 	"version": "0.0.1",
-	"dependencies": {
-		"@prostory/edelweiss": "^2.0.0-alpha.12"
+	"scripts": {
+		"start": "parcel ./src/index.html",
+		"build": "parcel build ./src/index.html"
 	},
-	"devDependencies": {
-		"parcel": "^2.0.0"
+	"dependencies": {
+		"@prostory/edelweiss": "^2.0.0-alpha.12",
+		"tailwindcss": "^2.2.19",
+		"shared": "^0.0.1"
 	}
 }

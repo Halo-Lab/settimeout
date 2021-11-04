@@ -2,9 +2,10 @@
 	"name": "shared",
 	"type": "module",
 	"version": "0.0.1",
+	"source": "./src/index.js",
 	"exports": {
-		"./*.js": "./src/*.js",
-		"./*.css": "./src/*.css"
+		".": "./src/index.js",
+		"./*": "./src/*"
 	},
 	"dependencies": {
 		"@prostory/edelweiss": "^2.0.0-alpha.12",

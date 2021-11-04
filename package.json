@@ -6,7 +6,9 @@
 		"start:email": "npm start --workspace=email",
 		"build": "npm run build --workspaces",
 		"update": "npm up --workspaces",
-		"build:email": "npm run build --workspace=email"
+		"build:email": "npm run build --workspace=email",
+		"start:landing": "npm start --workspace=landing",
+		"build:landing": "npm run build --workspace=landing"
 	},
 	"workspaces": [
 		"./packages/data",
@@ -15,6 +17,7 @@
 		"./packages/landing"
 	],
 	"devDependencies": {
+		"parcel": "^2.0.0",
 		"@parcel/transformer-inline-string": "^2.0.0"
 	}
 }
