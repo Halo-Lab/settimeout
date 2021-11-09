@@ -1,6 +1,6 @@
 import { html } from "@prostory/edelweiss";
 
-import { Section } from "shared";
+import { Section } from "shared/client";
 
 export const Email = ({ data }) => html`
 	<div class="max-w-2xl mx-auto">

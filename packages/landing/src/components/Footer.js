@@ -1,13 +1,11 @@
 import { html } from "@prostory/edelweiss";
 
-import { ShortLogo } from "./ShortLogo.js";
-
 export const Footer = html`
-	<footer class="bg-dark-blue" aria-labelledby="footer-heading">
-		<div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8">
-			<div class="flex items-center">
-				${ShortLogo}
-				<p class="text-base text-gray-400 px-4 xl:text-center">
+	<footer class="bg-white" aria-labelledby="footer-heading">
+		<h2 id="footer-heading" class="sr-only">Footer</h2>
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="border-t border-gray-200 pt-8 pb-8">
+				<p class="text-base text-gray-400 text-center">
 					&copy; Halo-lab. All rights reserved
 				</p>
 			</div>

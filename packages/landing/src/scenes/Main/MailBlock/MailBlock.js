@@ -1,8 +1,13 @@
-import { html, lazy } from "@prostory/edelweiss";
+import { effect, html, lazy } from "@prostory/edelweiss";
 
 import { Section } from "shared";
 
-const emails = lazy(() => Promise.resolve([]), []);
+const emails = lazy(
+	() => fetch("/api/data").then((response) => response.json()),
+	[]
+);
+
+effect(() => console.log(emails()));
 
 export const MailBlock = html`
 	<section class="px-4 py-12 sm:px-6 lg:py-16 lg:px-8">

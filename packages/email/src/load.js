@@ -2,14 +2,9 @@ import { promises } from "fs";
 import { basename, join, resolve } from "path";
 
 import { maybe } from "@fluss/core";
+import { toDate } from "shared/server";
 
 const folder = resolve("../data/src");
-
-const toDate = (name) => {
-	const [day, month, year] = name.split("-");
-
-	return new Date(year, month - 1, day);
-};
 
 const loadJSON = async (fileName) =>
 	promises

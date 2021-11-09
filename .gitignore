@@ -4,6 +4,7 @@ dist/
 .git/
 .vscode/
 .parcel-cache/
+.vercel/
 
 *.swp
 *.swo
