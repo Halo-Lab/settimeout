@@ -14,4 +14,4 @@ loadLastAddedData()
 		return name;
 	})
 	.then((name) => inlineCSS(page()).then((result) => ({ name, html: result })))
-	.then(({ name, html }) => write(html, name));
+	.then(({ html }) => write(html));

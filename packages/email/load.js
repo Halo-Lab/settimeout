@@ -2,19 +2,19 @@ import { promises } from "fs";
 import { basename, join, resolve } from "path";
 
 import { maybe } from "@fluss/core";
-import { toDate } from "shared/server";
+import { toDate } from "../shared/index.js";
 
-const folder = resolve("../data/src");
+const dataFolder = resolve("packages/data");
 
 const loadJSON = async (fileName) =>
 	promises
-		.readFile(join(folder, fileName), { encoding: "utf8" })
+		.readFile(join(dataFolder, fileName), { encoding: "utf8" })
 		.then(JSON.parse)
 		.catch(() => []);
 
 export const loadMailingList = async () =>
 	promises
-		.readdir(folder, { withFileTypes: true })
+		.readdir(dataFolder, { withFileTypes: true })
 		.then((files) =>
 			files.filter((file) => file.isFile()).map(({ name }) => name)
 		)

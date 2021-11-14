@@ -4,8 +4,6 @@ export const Header = html`
 	<header class="bg-indigo-600">
 		<div>
 			<div
-				@click=${() => console.log(1)}
-				@mouseup=${() => console.log(2)}
 				class="
             max-w-7xl
             mx-auto

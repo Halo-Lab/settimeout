@@ -1,8 +1,8 @@
 import { html } from "@prostory/edelweiss";
 
-import { Section } from "shared/client";
+import { Section } from "../shared/index.js";
 
-export const Email = ({ data }) => html`
+export const Email = ({ sections }) => html`
 	<div class="max-w-2xl mx-auto">
 		<div class="text-xl mb-5 font-normal">
 			Привет.
@@ -14,6 +14,6 @@ export const Email = ({ data }) => html`
 				Сережа.
 			</p>
 		</div>
-		${data.map(Section)}
+		${sections.map(Section)}
 	</div>
 `;

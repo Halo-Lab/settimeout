@@ -3,21 +3,25 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
-		"start:email": "npm start --workspace=email",
-		"build": "npm run build --workspaces",
-		"update": "npm up --workspaces",
-		"build:email": "npm run build --workspace=email",
-		"start:landing": "npm start --workspace=landing",
-		"build:landing": "npm run build --workspace=landing"
+		"start:email": "parcel ./packages/email/index.html",
+		"build": "npm run build:email; npm run build:landing",
+		"build:email": "node ./packages/email/index.js; parcel build ./packages/email/email.html",
+		"start:landing": "parcel ./packages/landing/index.html",
+		"build:landing": "parcel build ./packages/landing/index.html"
 	},
-	"workspaces": [
-		"./packages/data",
-		"./packages/email",
-		"./packages/shared",
-		"./packages/landing"
-	],
 	"devDependencies": {
 		"@parcel/transformer-inline-string": "^2.0.0",
-		"parcel": "^2.0.0"
+		"autoprefixer": "^10.4.0",
+		"netlify-cli": "^6.14.19",
+		"parcel": "^2.0.0",
+		"postcss": "^8.3.11"
+	},
+	"dependencies": {
+		"@fluss/core": "^0.35.0",
+		"@prostory/edelweiss": "^2.0.0-alpha.12",
+		"@prostory/edelweiss-ssr": "^0.2.3",
+		"css-inliner": "^2.0.0",
+		"happy-dom": "^2.24.3",
+		"tailwindcss": "^2.2.17"
 	}
 }

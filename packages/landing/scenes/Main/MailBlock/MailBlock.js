@@ -1,20 +1,17 @@
-import { effect, html, lazy } from "@prostory/edelweiss";
+import { html, lazy } from "@prostory/edelweiss";
 
-import { Section } from "shared";
+import { Section } from "~packages/shared";
 
 const emails = lazy(
-	() => fetch("/api/data").then((response) => response.json()),
+	() => fetch("/.netlify/functions/data").then((response) => response.json()),
 	[]
 );
-
-effect(() => console.log(emails()));
 
 export const MailBlock = html`
 	<section class="px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
 		<div style="margin: 0 auto 0 auto; max-width: 600px">
 			${() => {
-				const emailsList = emails();
-				const currentEmail = emailsList[0];
+				const currentEmail = emails()[0];
 
 				return currentEmail !== undefined
 					? currentEmail.sections.map(Section)

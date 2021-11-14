@@ -5,6 +5,13 @@ dist/
 .vscode/
 .parcel-cache/
 .vercel/
+.netlify/
+.DS_Store
 
 *.swp
 *.swo
+# SSG of the email
+email.html
+
+# Local Netlify folder
+.netlify
