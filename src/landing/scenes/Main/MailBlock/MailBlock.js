@@ -1,9 +1,9 @@
 import { html, lazy } from "@prostory/edelweiss";
 
-import { Section } from "~packages/shared";
+import { Section } from "~src/shared";
 
 const emails = lazy(
-	() => fetch("/.netlify/functions/data").then((response) => response.json()),
+	() => fetch("/data.json").then((response) => response.json()),
 	[]
 );
 

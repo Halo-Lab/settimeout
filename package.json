@@ -3,11 +3,14 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
-		"start:email": "parcel ./packages/email/index.html",
-		"build": "npm run build:email; npm run build:landing",
-		"build:email": "node ./packages/email/index.js; parcel build ./packages/email/email.html",
-		"start:landing": "parcel ./packages/landing/index.html",
-		"build:landing": "parcel build ./packages/landing/index.html"
+		"join:data": "node scripts/prepareData.js",
+		"cleanup:build": "node scripts/cleanup.js",
+		"start:email": "node ./src/email/index.js; parcel ./src/email/email.html",
+		"build:email": "npm run cleanup:build; node ./src/email/index.js; parcel build ./src/email/email.html",
+		"prestart:landing": "npm run join:data",
+		"start:landing": "parcel ./src/landing/index.html",
+		"build:landing": "npm run cleanup:build; parcel build ./src/landing/index.html",
+		"postbuild:landing": "npm run join:data"
 	},
 	"devDependencies": {
 		"@parcel/transformer-inline-string": "^2.0.0",
@@ -18,7 +21,7 @@
 	},
 	"dependencies": {
 		"@fluss/core": "^0.35.0",
-		"@prostory/edelweiss": "^2.0.0-alpha.12",
+		"@prostory/edelweiss": "^2.0.0-alpha.13",
 		"@prostory/edelweiss-ssr": "^0.2.3",
 		"css-inliner": "^2.0.0",
 		"happy-dom": "^2.24.3",
