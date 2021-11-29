@@ -1,0 +1,43 @@
+.footer {
+	margin-top: 30px;
+	font-size: 12px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.footer-list {
+	margin-bottom: 16px;
+}
+
+.footer-list-item {
+	color: #0f204d;
+	text-decoration: none;
+	margin: 0 16px;
+}
+
+.footer-list-item:hover {
+	text-decoration: underline;
+}
+
+.footer-list-item:active {
+	color: #3bb5f2;
+}
+
+.footer-list-item:visited {
+	color: #651297;
+}
+
+.footer-list-separator {
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	background: #0f204d;
+	vertical-align: middle;
+	opacity: 0.6;
+	border-radius: 50%;
+}
+
+.footer-copy {
+	color: #838895;
+	padding-bottom: 30px;
+}

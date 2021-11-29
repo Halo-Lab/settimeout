@@ -24,10 +24,14 @@ export const loadMailingListData = async () =>
 
 export const loadLastAddedData = async () => {
 	const files = await loadMailingListData();
+	const issueNumber = files.length;
 
 	return maybe(files.at(-1))
 		.map((name) =>
-			loadJSON(name).then((data) => ({ name: basename(name, ".json"), data }))
+			loadJSON(name).then((data) => ({
+				name: basename(name, ".json"),
+				data: { ...data, issueNumber },
+			}))
 		)
 		.fill(() => Promise.resolve({ name: "", data: [] }))
 		.extract();

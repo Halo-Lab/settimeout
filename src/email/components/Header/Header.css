@@ -1,0 +1,25 @@
+.header {
+	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
+	padding: 25px 0 20px 0;
+	margin: 0 72px 25px 72px;
+	font-family: Helvetica, sans-serif;
+}
+
+.logo {
+	width: 100%;
+}
+
+.issue {
+	white-space: nowrap;
+	color: #0f204d;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.issue-num {
+	background: #0f204d;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 40px;
+}
