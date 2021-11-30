@@ -1,0 +1,32 @@
+.greeting {
+	font-family: Helvetica, sans-serif;
+	color: #535353;
+	padding: 0 100px;
+}
+
+.greeting-left {
+	width: 400px;
+	padding: 20px 0;
+}
+
+.greeting-title {
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	color: #0f204d;
+	margin-bottom: 10px;
+}
+
+.greeting-text {
+	font-size: 14px;
+}
+
+.greeting-img {
+	display: block;
+}
+
+@media only screen and (max-width: 600px) {
+	.greeting-img {
+		display: none;
+	}
+}

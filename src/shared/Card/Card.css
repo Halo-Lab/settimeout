@@ -1,0 +1,87 @@
+.item {
+	padding-bottom: 27px;
+	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
+	margin-bottom: 24px;
+}
+
+.item--last {
+	margin-bottom: 0;
+	border: 0;
+	padding-bottom: 0;
+}
+
+.item-title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 130%;
+	margin-bottom: 10px;
+}
+
+.item-link {
+	color: #0f204d;
+	text-decoration: none;
+}
+
+.item-link:hover {
+	text-decoration: underline;
+}
+
+.item-link:active {
+	color: #3bb5f2;
+}
+
+.item-link:visited {
+	color: #651297;
+}
+
+.item-description {
+	font-size: 14px;
+	line-height: 130%;
+	color: #535353;
+	margin-bottom: 8px;
+}
+
+.item-footer {
+	font-size: 12px;
+}
+
+.item-author {
+	color: #838895;
+}
+
+.item-tag {
+	margin-left: 12px;
+	padding: 3px 6px;
+	border-radius: 4px;
+	margin: 3px 0;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.item-tag-ico {
+	display: initial;
+	vertical-align: baseline;
+	width: 15px;
+}
+
+/* Tags variants */
+
+.item-tag--english {
+	background: rgba(58, 202, 107, 0.1);
+	color: #3aca6b;
+}
+
+.item-tag--translate {
+	background: rgba(93, 95, 239, 0.1);
+	color: #5d5fef;
+}
+
+.item-tag--twitter {
+	background: rgba(59, 181, 242, 0.1);
+	color: #3bb5f2;
+}
+
+.item-tag--youtube {
+	background: rgba(242, 55, 66, 0.1);
+	color: #f23742;
+}
