@@ -1,20 +1,20 @@
 import { html } from "@prostory/edelweiss";
 
-import { getTagData } from "../data/tagsData.js";
+import { tagsData } from "../data/tagsData.js";
 
 export const Card = ({ link, title, author, description, tags }) => {
 	const getTags = () => {
 		return tags.map((key) => {
-			let imgElement = "";
-			const { name, img, tagKey } = getTagData(key);
+			const tag = tagsData(key);
+			let img = "";
 
-			if (img) {
-				const imgPath = `./assets/tags/${tagKey}.png`;
-				imgElement = html`<img class="item-tag-ico" src=${imgPath} alt="" />`;
+			if (tag.img) {
+				const imgPath = `./assets/tags/${key}.png`;
+				img = html`<img class="item-tag-ico" src=${imgPath} alt="" />`;
 			}
 
-			return html`<span class="item-tag item-tag--${tagKey}">
-				${imgElement} #${name}
+			return html`<span class="item-tag item-tag--${key.toLowerCase()}">
+				${img} #${tag.name}
 			</span>`;
 		});
 	};

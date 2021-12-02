@@ -5,8 +5,14 @@ import { Card } from "../Card/Card.js";
 import { sectionsData } from "../data/sectionsData.js";
 
 export const Section = ({ title, cards }) => {
-	const section = sectionsData[title];
-	const iconPath = `./assets/icons/${section.icon}.png`;
+	const section = sectionsData(title);
+	const icon = section.icon
+		? html`<img
+				class="section-title-ico"
+				src="./assets/icons/${section.icon}.png"
+				alt=""
+		  />`
+		: "";
 
 	return html`
 		<style>
@@ -14,10 +20,7 @@ export const Section = ({ title, cards }) => {
 		</style>
 
 		<div class="section">
-			<div class="section-title">
-				<img class="section-title-ico" src=${iconPath} alt="" />
-				${title}
-			</div>
+			<div class="section-title">${icon} ${title}</div>
 			${cards.map(Card)}
 		</div>
 	`;

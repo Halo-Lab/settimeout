@@ -1,7 +1,11 @@
-.item {
+.item:not(:last-child) {
 	padding-bottom: 27px;
 	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
 	margin-bottom: 24px;
+}
+
+.item:not(:last-child) {
+	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
 }
 
 .item--last {
@@ -56,6 +60,7 @@
 	margin: 3px 0;
 	display: inline-block;
 	white-space: nowrap;
+	text-transform: capitalize;
 }
 
 .item-tag-ico {
@@ -84,4 +89,9 @@
 .item-tag--youtube {
 	background: rgba(242, 55, 66, 0.1);
 	color: #f23742;
+}
+
+.item-tag--unknown {
+	background: rgba(131, 136, 149, 0.1);
+	color: #0f204d;
 }

@@ -1,6 +1,16 @@
-export const tagsData = {
-	english: { name: "English", img: false },
-	translate: { name: "Переведено", img: false },
-	twitter: { name: "Twitter", img: true },
-	youtube: { name: "Youtube", img: true },
+const tagsData = [
+	{ name: "English", img: false, tagKey: "english" },
+	{ name: "Переведено", img: false, tagKey: "translate" },
+	{ name: "Twitter", img: true, tagKey: "twitter" },
+	{ name: "Youtube", img: true, tagKey: "youtube" },
+];
+
+export const getTagData = (key) => {
+	return (
+		tagsData.find(({ name }) => name.toLowerCase() === key.toLowerCase()) ?? {
+			name: key,
+			img: false,
+			tagKey: "unknown",
+		}
+	);
 };
