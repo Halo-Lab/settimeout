@@ -1,11 +1,7 @@
-.item:not(:last-child) {
+.item {
 	padding-bottom: 27px;
 	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
 	margin-bottom: 24px;
-}
-
-.item:not(:last-child) {
-	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
 }
 
 .item--last {

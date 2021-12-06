@@ -14,6 +14,10 @@ export const Section = ({ title, cards }) => {
 		  />`
 		: "";
 
+	const cardElement = cards.map((item, index) =>
+		Card(item, index === cards.length - 1)
+	);
+
 	return html`
 		<style>
 			@import "../shared/Section/Section.css";
@@ -21,7 +25,7 @@ export const Section = ({ title, cards }) => {
 
 		<div class="section">
 			<div class="section-title">${icon} ${title}</div>
-			${cards.map(Card)}
+			${cardElement}
 		</div>
 	`;
 };

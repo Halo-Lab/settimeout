@@ -2,7 +2,7 @@ import { html } from "@prostory/edelweiss";
 
 import { getTagData } from "../data/tagsData.js";
 
-export const Card = ({ link, title, author, description, tags }) => {
+export const Card = ({ link, title, author, description, tags }, isLast) => {
 	const getTags = () => {
 		return tags.map((key) => {
 			let imgElement = "";
@@ -24,7 +24,7 @@ export const Card = ({ link, title, author, description, tags }) => {
 			@import "../shared/Card/Card.css";
 		</style>
 
-		<div class="item">
+		<div class="item ${isLast ? "item--last" : ""}">
 			<div class="item-title">
 				<a
 					class="item-link"
