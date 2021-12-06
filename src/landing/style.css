@@ -5,6 +5,7 @@
 html,
 body {
 	font-family: Arial, sans-serif;
+	background-color: #ffffff;
 }
 
 .bg-dark-blue {
@@ -13,4 +14,17 @@ body {
 
 .bg-indigo {
 	background-color: #3719ca;
+}
+
+/* container */
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 806px;
+	}
 }

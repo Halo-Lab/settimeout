@@ -1,0 +1,52 @@
+.issue {
+	margin-bottom: 24px;
+}
+
+.issue > .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 78px;
+	padding: 0 24px 0 24px;
+	background-color: #f3f4f8;
+	border-radius: 6px;
+}
+
+.issue-description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.issue-title {
+	margin-right: 10px;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 1.167;
+
+	color: #0f204d;
+}
+
+.issue-number {
+	width: 51px;
+	height: 30px;
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	background-color: #0f204d;
+	border-radius: 60px;
+}
+
+.issue-date {
+	font-size: 14px;
+	line-height: 1.286;
+
+	color: #838895;
+}
