@@ -2,18 +2,15 @@ import { html } from "@prostory/edelweiss";
 
 import { Section } from "../shared/index.js";
 
-export const Email = ({ sections }) => html`
-	<div class="max-w-2xl mx-auto">
-		<div class="text-xl mb-5 font-normal">
-			Привет.
-			<br />
-			Это второе письмо, которое мы подготовили в
-			<address class="inline">Halo Lab.</address>
-			<p class="text-l">
-				Авторы: Оля, Митя и Дима. Кнопку <strong>"Отправить"</strong> жмет
-				Сережа.
-			</p>
-		</div>
-		${sections.map(Section)}
+import { Footer } from "./components/Footer/Footer.js";
+import { Header } from "./components/Header/Header.js";
+import { Greeting } from "./components/Greeting/Greeting.js";
+import { ContentFooter } from "./components/ContentFooter/ContentFooter.js";
+
+export const Email = ({ sections, issueNumber }) => html`
+	<div class="frame">
+		${Header({ issueNumber })}${Greeting}
+		<div class="content">${sections.map(Section)} ${ContentFooter}</div>
+		${Footer}
 	</div>
 `;
