@@ -1,0 +1,133 @@
+.subscription {
+	position: fixed;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	width: 32.34375%;
+	max-width: 414px;
+	height: 866px;
+
+	padding: 40px 22px 24px 22px;
+
+	background-color: #3bb5f2;
+}
+
+.logo {
+}
+
+.subscription-content-wrap {
+	width: 100%;
+}
+
+.subscription-content-img {
+	width: 100%;
+	max-width: 250px;
+	height: 226px;
+	margin: 0 auto;
+
+	background-repeat: no-repeat;
+	background-position: 0 15px;
+	background-size: 100% 100%;
+	background-image: url(../../../images/subscription/men.png);
+}
+
+.subscription-content {
+	max-width: 370px;
+	min-height: 257px;
+
+	margin: 0 auto;
+	padding: 30px 24px 30px 24px;
+
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.subscription-appeal-title,
+.subscription-appeal-description {
+	text-align: center;
+	color: #0f204d;
+}
+
+.subscription-appeal-title {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.292;
+}
+
+.subscription-appeal-description {
+	margin-bottom: 18px;
+	font-size: 14px;
+	line-height: 1.286;
+}
+
+.subscription-form {
+}
+
+.subscription-form-label {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.subscription-form-input {
+	width: 100%;
+
+	padding: 12px;
+
+	border: 1px solid #dddddd;
+	border-radius: 6px;
+	outline: none;
+}
+
+.subscription-form-input-email::placeholder {
+}
+
+.subscription-form-btn-submit {
+	width: 100%;
+	max-width: 322px;
+	height: 44px;
+
+	margin: 0 auto;
+
+	font-size: 14px;
+	line-height: 1.286;
+
+	color: #ffffff;
+
+	background: #3bb5f2;
+	border-radius: 6px;
+}
+
+.subscription-form-btn-submit:hover,
+.subscription-form-btn-submit:focus {
+	background-color: #2f9acf;
+}
+
+/* footer */
+
+.subscription-footer:before {
+	content: "";
+
+	display: block;
+	width: 238px;
+	margin: 0 auto 20px auto;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.subscription-footer {
+	font-size: 12px;
+	line-height: 1.333;
+
+	text-align: center;
+}
+
+.subscription-footer-mailto {
+	color: #ffffff;
+}
+
+.subscription-footer-copyright {
+	color: rgba(255, 255, 255, 0.6);
+}
