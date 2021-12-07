@@ -2,6 +2,7 @@ import { html, lazy } from "@prostory/edelweiss";
 
 import { Section } from "~src/shared";
 import { IssueInfo } from "../../../components/IssueInfo/IssueInfo";
+import { Pagination } from "../../../components/Pagination/Pagination";
 import "./ArticlesBlock.css";
 
 const emails = lazy(
@@ -21,5 +22,6 @@ export const ArticlesBlock = html`
 					: "";
 			}}
 		</div>
+		${Pagination}
 	</section>
 `;

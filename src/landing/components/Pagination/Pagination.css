@@ -1,0 +1,16 @@
+.pagination {
+	margin-bottom: 24px;
+}
+
+.pagination > .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 78px;
+
+	background-color: #f3f4f8;
+	border-radius: 6px;
+}
+
+.pagination-link {
+}

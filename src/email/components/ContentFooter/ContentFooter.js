@@ -1,7 +1,7 @@
 import { html } from "@prostory/edelweiss";
 
 export const ContentFooter = () => {
-	const logoFooterPNG = "./assets/img/logo-footer.png";
+	const logoFooterPNG = "../shared/assets/img/logo-footer.png";
 
 	return html`<style>
 			@import "./components/ContentFooter/ContentFooter.css";

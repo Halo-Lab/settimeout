@@ -1,16 +1,11 @@
 import { html } from "@prostory/edelweiss";
 
 import "./SubscriptionBlock.css";
+import logoImg from "../../../images/subscription/logo-landing.png";
 
 export const SubscriptionBlock = html`
 	<section class="subscription">
-		<img
-			src="../../../images/subscription/logo-landing.png"
-			alt="logo"
-			class="logo"
-			width="242"
-			height="36"
-		/>
+		<img src=${logoImg} alt="logo" class="logo" width="242" height="36" />
 		<div class="subscription-content-wrap">
 			<div class="subscription-content-img"></div>
 			<div class="subscription-content">

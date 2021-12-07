@@ -9,7 +9,7 @@ export const Section = ({ title, cards }) => {
 	const icon = section.icon
 		? html`<img
 				class="section-title-ico"
-				src="./assets/icons/${section.icon}.png"
+				src="../shared/assets/icons/${section.icon}.png"
 				alt=""
 		  />`
 		: "";

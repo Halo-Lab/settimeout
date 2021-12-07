@@ -1,7 +1,7 @@
 import { html } from "@prostory/edelweiss";
 
 export const Header = ({ issueNumber }) => {
-	const logoPNG = "./assets/img/logo.png";
+	const logoPNG = "../shared/assets/img/logo.png";
 
 	return html`<style>
 			@import "./components/Header/Header.css";
