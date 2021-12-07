@@ -38,6 +38,7 @@ body {
 .main-content-wrap {
 	width: 100%;
 	margin-left: auto;
+	padding-bottom: 30px;
 }
 
 @media screen and (min-width: 1280px) {

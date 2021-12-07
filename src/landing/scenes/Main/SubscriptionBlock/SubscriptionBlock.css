@@ -4,65 +4,30 @@
 	justify-content: space-between;
 
 	width: 100%;
-	height: 652px;
+	height: 645px;
 
-	padding: 20px 16px 106px 16px;
+	padding: 60px 16px 24px 16px;
 
 	background-color: #3bb5f2;
 	background-image: url("../../../images/subscription/mail.png"),
 		url("../../../images/subscription/book.png"),
 		url("../../../images/subscription/note.png");
 	background-repeat: no-repeat;
-	background-position: 0 127px, 10px 555px, 290px 575px;
+	background-position: 0 70px, 0px 515px, 310px 535px;
 }
 
 @media screen and (min-width: 1280px) {
 	.subscription {
 		position: fixed;
+		top: 115px;
 
 		width: 32.34375%;
 		max-width: 414px;
-		height: 866px;
+		height: 750px;
 
 		padding: 40px 22px 24px 22px;
 
-		background-position: 0 127px, 0 690px, 322px 710px;
-	}
-}
-
-.logo-link {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-right: auto;
-	color: #ffffff;
-}
-
-@media screen and (min-width: 1280px) {
-	.logo-link {
-		margin: 0 auto;
-	}
-}
-
-.logo-icon {
-	margin-right: 10px;
-}
-
-.logo-text {
-	display: none;
-
-	font-family: "Manrope", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.385;
-	letter-spacing: -0.04em;
-
-	color: #ffffff;
-}
-
-@media screen and (min-width: 1280px) {
-	.logo-text {
-		display: block;
+		background-position: 0 10px, 10px 551px, 322px 580px;
 	}
 }
 
@@ -176,7 +141,7 @@
 }
 
 .subscription-footer {
-	display: none;
+	/* display: none; */
 
 	font-size: 12px;
 	line-height: 1.333;
@@ -191,6 +156,8 @@
 }
 
 .subscription-footer-mailto {
+	display: block;
+	margin-bottom: 8px;
 	color: #ffffff;
 }
 
