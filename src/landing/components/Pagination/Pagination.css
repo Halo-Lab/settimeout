@@ -13,4 +13,22 @@
 }
 
 .pagination-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.286;
+
+	color: #0f204d;
+}
+
+.pagination-link:hover,
+.pagination-link:focus {
+	color: #3bb5f2;
+}
+
+.arrow-left-icon {
+	margin-right: 10px;
 }

@@ -12,9 +12,33 @@
 	padding: 40px 22px 24px 22px;
 
 	background-color: #3bb5f2;
+	background-image: url("../../../images/subscription/mail.png"),
+		url("../../../images/subscription/book.png"),
+		url("../../../images/subscription/note.png");
+	background-repeat: no-repeat;
+	background-position: 0 127px, 0 690px, 322px 710px;
 }
 
-.logo {
+.logo-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.logo-icon {
+	margin-right: 10px;
+}
+
+.logo-text {
+	font-family: "Manrope", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.385;
+	letter-spacing: -0.04em;
+
+	color: #ffffff;
 }
 
 .subscription-content-wrap {
