@@ -1,6 +1,6 @@
 import { html } from "@prostory/edelweiss";
 
-import { Header } from "./components/Header.js";
+import { Header } from "./components/Header/Header.js";
 import { Footer } from "./components/Footer.js";
 import { ArticlesBlock } from "./scenes/Main/ArticlesBlock/ArticlesBlock.js";
 import { SubscriptionBlock } from "./scenes/Main/SubscriptionBlock/SubscriptionBlock.js";

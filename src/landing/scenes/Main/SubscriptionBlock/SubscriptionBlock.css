@@ -1,30 +1,47 @@
 .subscription {
-	position: fixed;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 
-	width: 32.34375%;
+	width: 100%;
 	max-width: 414px;
-	height: 866px;
+	height: 652px;
 
-	padding: 40px 22px 24px 22px;
+	padding: 20px 16px 106px 16px;
 
 	background-color: #3bb5f2;
 	background-image: url("../../../images/subscription/mail.png"),
 		url("../../../images/subscription/book.png"),
 		url("../../../images/subscription/note.png");
 	background-repeat: no-repeat;
-	background-position: 0 127px, 0 690px, 322px 710px;
+	background-position: 0 127px, 10px 555px, 290px 575px;
+}
+
+@media screen and (min-width: 1280px) {
+	.subscription {
+		position: fixed;
+
+		width: 32.34375%;
+		height: 866px;
+
+		padding: 40px 22px 24px 22px;
+
+		background-position: 0 127px, 0 690px, 322px 710px;
+	}
 }
 
 .logo-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
+	margin-right: auto;
 	color: #ffffff;
+}
+
+@media screen and (min-width: 1280px) {
+	.logo-link {
+		margin: 0 auto;
+	}
 }
 
 .logo-icon {
@@ -32,6 +49,8 @@
 }
 
 .logo-text {
+	display: none;
+
 	font-family: "Manrope", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
@@ -41,20 +60,37 @@
 	color: #ffffff;
 }
 
+@media screen and (min-width: 1280px) {
+	.logo-text {
+		display: block;
+	}
+}
+
 .subscription-content-wrap {
 	width: 100%;
 }
 
 .subscription-content-img {
 	width: 100%;
-	max-width: 250px;
-	height: 226px;
+	max-width: 207px;
+	height: 192px;
 	margin: 0 auto;
 
 	background-repeat: no-repeat;
 	background-position: 0 15px;
 	background-size: 100% 100%;
 	background-image: url(../../../images/subscription/men.svg);
+}
+
+@media screen and (min-width: 1280px) {
+	.subscription-content-img {
+		max-width: 250px;
+		height: 226px;
+
+		background-position: 0 15px;
+
+		background-image: url(../../../images/subscription/men.svg);
+	}
 }
 
 .subscription-content {
@@ -100,12 +136,10 @@
 
 	padding: 12px;
 
+	font-size: 14px;
 	border: 1px solid #dddddd;
 	border-radius: 6px;
 	outline: none;
-}
-
-.subscription-form-input-email::placeholder {
 }
 
 .subscription-form-btn-submit {
@@ -142,10 +176,18 @@
 }
 
 .subscription-footer {
+	display: none;
+
 	font-size: 12px;
 	line-height: 1.333;
 
 	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.subscription-footer {
+		display: block;
+	}
 }
 
 .subscription-footer-mailto {

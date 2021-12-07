@@ -2,4 +2,11 @@
 @import "../../../../shared/Card/Card.css";
 
 .articles {
+	padding-top: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+	.articles {
+		padding-top: 44px;
+	}
 }
