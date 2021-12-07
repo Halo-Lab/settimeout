@@ -5,6 +5,7 @@
 body {
 	@apply leading-tight;
 	background-color: #f3f4f8;
+	font-family: "Inter", Helvetica, Arial, sans-serif;
 }
 
 .frame {
