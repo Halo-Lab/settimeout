@@ -1,9 +1,9 @@
 import { html } from "@prostory/edelweiss";
 
-import "./IssueBlock.css";
+import "./IssueInfo.css";
 
-export const IssueBlock = html`
-	<section class="issue">
+export const IssueInfo = html`
+	<div class="issue">
 		<div class="container">
 			<div class="issue-description">
 				<span class="issue-title">Выпуск </span>
@@ -11,5 +11,5 @@ export const IssueBlock = html`
 			</div>
 			<span class="issue-date">Пятница, 26 ноября 2021</span>
 		</div>
-	</section>
+	</div>
 `;
