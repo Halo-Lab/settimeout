@@ -4,7 +4,6 @@
 	justify-content: space-between;
 
 	width: 100%;
-	max-width: 414px;
 	height: 652px;
 
 	padding: 20px 16px 106px 16px;
@@ -22,6 +21,7 @@
 		position: fixed;
 
 		width: 32.34375%;
+		max-width: 414px;
 		height: 866px;
 
 		padding: 40px 22px 24px 22px;

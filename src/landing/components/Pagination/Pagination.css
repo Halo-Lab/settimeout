@@ -1,5 +1,14 @@
 .pagination {
-	margin-bottom: 24px;
+	margin: 0 16px 24px 16px;
+
+	background-color: #f3f4f8;
+	border-radius: 6px;
+}
+
+@media screen and (min-width: 1280px) {
+	.pagination {
+		margin: 0 30px 24px 30px;
+	}
 }
 
 .pagination > .container {
@@ -7,9 +16,6 @@
 	align-items: center;
 	justify-content: space-between;
 	min-height: 78px;
-
-	background-color: #f3f4f8;
-	border-radius: 6px;
 }
 
 .pagination-link {

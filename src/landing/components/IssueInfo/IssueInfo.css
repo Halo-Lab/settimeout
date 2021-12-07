@@ -1,5 +1,14 @@
 .issue {
-	margin-bottom: 24px;
+	margin: 0 16px 24px 16px;
+
+	background-color: #f3f4f8;
+	border-radius: 6px;
+}
+
+@media screen and (min-width: 1280px) {
+	.issue {
+		margin: 0 30px 24px 30px;
+	}
 }
 
 .issue > .container {
@@ -7,9 +16,6 @@
 	align-items: center;
 	justify-content: space-between;
 	min-height: 78px;
-
-	background-color: #f3f4f8;
-	border-radius: 6px;
 }
 
 .issue-description {
@@ -25,17 +31,23 @@
 	text-transform: uppercase;
 
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1.167;
 
 	color: #0f204d;
 }
 
+@media screen and (min-width: 1280px) {
+	.issue-title {
+		font-size: 24px;
+	}
+}
+
 .issue-number {
-	width: 51px;
-	height: 30px;
+	padding: 4.5px 8.5px;
 
 	text-align: center;
+	font-size: 14px;
 	text-transform: uppercase;
 	color: #ffffff;
 
@@ -43,9 +55,29 @@
 	border-radius: 60px;
 }
 
+@media screen and (min-width: 1280px) {
+	.issue-number {
+		padding: 4.5px 10px;
+
+		font-size: 18px;
+	}
+}
+
 .issue-date {
 	font-size: 14px;
 	line-height: 1.286;
+	word-break: break-word;
 
+	text-align: right;
 	color: #838895;
+}
+
+.week-day {
+	display: block;
+}
+
+@media screen and (min-width: 1280px) {
+	.week-day {
+		display: inline;
+	}
 }

@@ -9,7 +9,9 @@ export const IssueInfo = html`
 				<span class="issue-title">Выпуск </span>
 				<span class="issue-number">#23</span>
 			</div>
-			<span class="issue-date">Пятница, 26 ноября 2021</span>
+			<span class="issue-date"
+				><span class="week-day">Пятница, </span> 26 ноября 2021</span
+			>
 		</div>
 	</div>
 `;
