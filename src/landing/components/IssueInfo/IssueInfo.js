@@ -1,22 +1,25 @@
 import { html } from "@prostory/edelweiss";
 
 import "./IssueInfo.css";
+import { toDate } from "../../../shared/utils/toDate";
 
 export const IssueInfo = (issueDate) => {
 	let issueDateFull, issueDateWeekDay;
 
 	if (issueDate) {
+		const formattedIssueDate = toDate(issueDate);
+
 		const issueDateFullOptions = {
 			year: "numeric",
 			month: "long",
 			day: "numeric",
 		};
 
-		issueDateFull = new Date(issueDate)
+		issueDateFull = new Date(formattedIssueDate)
 			.toLocaleString("Ru-ru", issueDateFullOptions)
 			.replace(/г\./, "");
 
-		issueDateWeekDay = new Date(issueDate).toLocaleString("Ru-ru", {
+		issueDateWeekDay = new Date(formattedIssueDate).toLocaleString("Ru-ru", {
 			weekday: "long",
 		});
 	}
