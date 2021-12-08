@@ -12,7 +12,13 @@ const emails = lazy(
 
 export const ArticlesBlock = html`
 	<section class="articles">
-		${IssueInfo}
+		${() => {
+			const articlesData = emails()[0];
+			const issueDate = articlesData?.createdAt;
+
+			return articlesData ? IssueInfo(issueDate) : "";
+		}}
+
 		<div class="container">
 			${() => {
 				const currentEmail = emails()[0];

@@ -74,6 +74,7 @@
 
 .week-day {
 	display: block;
+	text-transform: capitalize;
 }
 
 @media screen and (min-width: 1280px) {
