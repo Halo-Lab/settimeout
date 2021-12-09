@@ -10,7 +10,10 @@ export const ContentFooter = () => {
 		<div class="content-footer">
 			<div class="content-footer-text">Узнавайте новое вместе с нами 💙️</div>
 			<div class="content-footer-logo">
-				<a href="https://www.settimeout.dev" target="blank"
+				<a
+					href="https://www.settimeout.dev"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src=${logoFooterPNG}
 						alt="SetTimeout logo"

@@ -4,7 +4,7 @@ import "./AppBar.css";
 
 export const AppBar = html`
 	<section class="app-bar">
-		<a href="#" class="logo-link">
+		<a href="/" class="logo-link">
 			<svg
 				width="39"
 				height="36"

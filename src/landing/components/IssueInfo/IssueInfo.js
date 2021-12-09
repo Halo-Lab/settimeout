@@ -4,7 +4,6 @@ import "./IssueInfo.css";
 
 export const IssueInfo = (issueNumber, issueDate) => {
 	let issueDateFull, issueDateWeekDay;
-	console.log("issueDate", issueDate);
 
 	if (issueDate) {
 		const issueDateFullOptions = {

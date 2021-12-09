@@ -11,7 +11,10 @@ export const Header = ({ issueNumber }) => {
 			<table class="header-table" cellspacing="0" cellpadding="0">
 				<tr>
 					<td class="logo">
-						<a href="https://www.settimeout.dev" target="blank"
+						<a
+							href="https://www.settimeout.dev"
+							target="_blank"
+							rel="noopener noreferrer"
 							><img
 								src=${logoPNG}
 								alt="SetTimeout logo"
