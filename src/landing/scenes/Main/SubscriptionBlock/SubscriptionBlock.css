@@ -22,7 +22,7 @@
 		top: 115px;
 
 		width: 32.34375%;
-		max-width: 414px;
+		/* max-width: 414px; */
 		height: 100vh;
 
 		padding: 40px 22px 24px 22px;
@@ -33,6 +33,13 @@
 
 .subscription-content-wrap {
 	width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+	.subscription-content-wrap {
+		max-width: 414px;
+		margin-left: auto;
+	}
 }
 
 .subscription-content-img {
