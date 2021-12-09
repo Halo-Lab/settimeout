@@ -10,24 +10,19 @@ const emails = lazy(
 	[]
 );
 
-export const ArticlesBlock = html`
-	<section class="articles">
-		${() => {
-			const articlesData = emails()[0];
-			const issueDate = articlesData?.createdAt;
+export const ArticlesBlock = () => {
+	const articlesData = emails()[emails().length - 1];
+	const issueNumber = articlesData?.number;
+	const issueDate = articlesData?.createdAt;
 
-			return articlesData ? IssueInfo(issueDate) : "";
-		}}
+	return html`
+		<section class="articles">
+			${articlesData ? IssueInfo(issueNumber, issueDate) : ""}
 
-		<div class="container">
-			${() => {
-				const currentEmail = emails()[0];
-
-				return currentEmail !== undefined
-					? currentEmail.sections.map(Section)
-					: "";
-			}}
-		</div>
-		${Pagination}
-	</section>
-`;
+			<div class="container">
+				${articlesData !== undefined ? articlesData.sections.map(Section) : ""}
+			</div>
+			${Pagination}
+		</section>
+	`;
+};

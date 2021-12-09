@@ -1,25 +1,23 @@
 import { html } from "@prostory/edelweiss";
 
 import "./IssueInfo.css";
-import { toDate } from "../../../shared/utils/toDate";
 
-export const IssueInfo = (issueDate) => {
+export const IssueInfo = (issueNumber, issueDate) => {
 	let issueDateFull, issueDateWeekDay;
+	console.log("issueDate", issueDate);
 
 	if (issueDate) {
-		const formattedIssueDate = toDate(issueDate);
-
 		const issueDateFullOptions = {
 			year: "numeric",
 			month: "long",
 			day: "numeric",
 		};
 
-		issueDateFull = new Date(formattedIssueDate)
+		issueDateFull = new Date(issueDate)
 			.toLocaleString("Ru-ru", issueDateFullOptions)
 			.replace(/г\./, "");
 
-		issueDateWeekDay = new Date(formattedIssueDate).toLocaleString("Ru-ru", {
+		issueDateWeekDay = new Date(issueDate).toLocaleString("Ru-ru", {
 			weekday: "long",
 		});
 	}
@@ -38,7 +36,7 @@ export const IssueInfo = (issueDate) => {
 			<div class="container">
 				<div class="issue-description">
 					<span class="issue-title">Выпуск </span>
-					<span class="issue-number">#23</span>
+					<span class="issue-number">#${issueNumber}</span>
 				</div>
 				${issueDateElement}
 			</div>
