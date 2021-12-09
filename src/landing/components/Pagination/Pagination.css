@@ -1,0 +1,40 @@
+.pagination {
+	margin: 0 16px;
+
+	background-color: #f3f4f8;
+	border-radius: 6px;
+}
+
+@media screen and (min-width: 1280px) {
+	.pagination {
+		margin: 0 30px 24px 30px;
+	}
+}
+
+.pagination > .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 78px;
+}
+
+.pagination-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.286;
+
+	color: #0f204d;
+}
+
+.pagination-link:hover,
+.pagination-link:focus {
+	color: #3bb5f2;
+}
+
+.arrow-left-icon {
+	margin-right: 10px;
+}

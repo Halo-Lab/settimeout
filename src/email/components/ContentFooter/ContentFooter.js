@@ -1,7 +1,7 @@
 import { html } from "@prostory/edelweiss";
 
 export const ContentFooter = () => {
-	const logoFooterPNG = "./assets/img/logo-footer.png";
+	const logoFooterPNG = "../shared/assets/img/logo-footer.png";
 
 	return html`<style>
 			@import "./components/ContentFooter/ContentFooter.css";
@@ -10,7 +10,10 @@ export const ContentFooter = () => {
 		<div class="content-footer">
 			<div class="content-footer-text">Узнавайте новое вместе с нами 💙️</div>
 			<div class="content-footer-logo">
-				<a href="https://www.settimeout.dev" target="blank"
+				<a
+					href="https://www.settimeout.dev"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src=${logoFooterPNG}
 						alt="SetTimeout logo"

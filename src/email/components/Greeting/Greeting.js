@@ -1,7 +1,7 @@
 import { html } from "@prostory/edelweiss";
 
 export const Greeting = () => {
-	const greetingPNG = "./assets/img/greeting.png";
+	const greetingPNG = "../shared/assets/img/greeting.png";
 
 	return html`<style>
 			@import "./components/Greeting/Greeting.css";

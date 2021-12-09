@@ -9,7 +9,7 @@ export const Card = ({ link, title, author, description, tags }, isLast) => {
 			const { name, img, tagKey } = getTagData(key);
 
 			if (img) {
-				const imgPath = `./assets/tags/${tagKey}.png`;
+				const imgPath = `../shared/assets/tags/${tagKey}.png`;
 				imgElement = html`<img class="item-tag-ico" src=${imgPath} alt="" />`;
 			}
 
