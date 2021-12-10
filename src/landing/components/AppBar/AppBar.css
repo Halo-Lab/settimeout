@@ -3,13 +3,13 @@
 	align-items: center;
 
 	background-color: #3bb5f2;
-	padding: 40px 22px;
 }
 
 @media screen and (min-width: 1280px) {
 	.app-bar {
 		position: fixed;
 		width: 32.34375%;
+		padding: 40px 22px;
 	}
 }
 
