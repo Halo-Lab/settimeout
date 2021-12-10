@@ -8,7 +8,7 @@
 @media screen and (min-width: 1280px) {
 	.app-bar {
 		position: fixed;
-		width: 32.34375%;
+		width: 32%;
 		padding: 40px 22px;
 	}
 }
