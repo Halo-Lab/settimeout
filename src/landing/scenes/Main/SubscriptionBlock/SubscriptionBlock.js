@@ -4,22 +4,26 @@ import "./SubscriptionBlock.css";
 import unisenderAPI from "../../../../../services/unisenderAPI";
 
 const subscriptionEmail = data("");
-// effect(() => console.log(subscriptionEmail()));
 
-//current("/thanks") - to go to the corresponding page
-
-const onSubscriptionFormSubmit = (e) => {
+const onSubscriptionFormSubmit = async (e) => {
 	e.preventDefault();
-
-	// console.log(subscriptionEmail());
 
 	const email = subscriptionEmail();
 
-	unisenderAPI
-		.addContact(email)
-		.catch((err) => (err ? current("/thanks") : {}));
+	try {
+		const contact = await unisenderAPI.getContact(email);
 
-	// unisenderAPI.exportContact(email);
+		if (contact.result.email) return current("/already-subscribed"); //- to go to the corresponding page
+
+		const response = await unisenderAPI.addContact(email);
+
+		if (response.result.person_id) return current("/thanks"); //- to go to the corresponding page
+	} catch (error) {
+		//for test
+		console.log(error);
+		if (error) current("/something-wrong");
+		////////////
+	}
 };
 
 export const SubscriptionBlock = html`

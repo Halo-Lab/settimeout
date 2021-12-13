@@ -6,16 +6,16 @@ import { SubscriptionBlock } from "./scenes/Main/SubscriptionBlock/SubscriptionB
 import { SubscriptionThanks } from "./scenes/SubscriptionThanks/SubscriptionThanks.js";
 import { SubscriptionAlready } from "./scenes/SubscriptionAlready/SubscriptionAlready.js";
 
-export const App = html`
-	<div class="page-wrap">
-		${AppBar}
-		<div class="main-content-wrap">${ArticlesBlock}</div>
-		${SubscriptionBlock}
-	</div>
-`;
+// export const App = html`
+// 	<div class="page-wrap">
+// 		${AppBar}
+// 		<div class="main-content-wrap">${ArticlesBlock}</div>
+// 		${SubscriptionBlock}
+// 	</div>
+// `;
 
 //use when the design of the corresponding pages is ready
-/*export const App = html`
+export const App = html`
 	<div class="page-wrap">
 		${router(
 			{
@@ -28,7 +28,13 @@ export const App = html`
 			},
 			{ pattern: "/thanks", template: SubscriptionThanks },
 			{ pattern: "/already-subscribed", template: SubscriptionAlready },
+			{
+				pattern: "/something-wrong",
+				template: html`<p>
+					Извините, что-то пошло не так... Попробуйте ещё раз позже
+				</p>`,
+			},
 			{ pattern: "", template: html`<p>404 Not Found</p>` }
 		)}
 	</div>
-`;*/
+`;
