@@ -1,7 +1,6 @@
 .app-bar {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 
 	background-color: #3bb5f2;
 }
@@ -9,13 +8,23 @@
 @media screen and (min-width: 1280px) {
 	.app-bar {
 		position: fixed;
+		width: 32%;
+		padding: 40px 22px;
+	}
+}
 
+.app-bar-content-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+	.app-bar-content-wrap {
 		justify-content: center;
 
-		width: 32.34375%;
-		max-width: 414px;
-
-		padding: 40px 0;
+		width: 414px;
+		margin-left: auto;
 	}
 }
 

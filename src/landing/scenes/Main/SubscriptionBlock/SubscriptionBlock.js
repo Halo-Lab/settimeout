@@ -57,14 +57,15 @@ export const SubscriptionBlock = html`
 						Подписаться
 					</button>
 				</form>
-			</div>
-		</div>
 
-		<div class="subscription-footer">
-			<!-- <a href="mailto:example@gmail.com" class="subscription-footer-mailto"
+			</div>
+
+			<div class="subscription-footer">
+				<!-- <a href="mailto:example@gmail.com" class="subscription-footer-mailto"
 				>Остались вопросы? Напишите нам</a
 			> --><!--uncomment when there will be an email address -->
-			<p class="subscription-footer-copyright">&copy; SetTimeout.dev 2021</p>
+				<p class="subscription-footer-copyright">&copy; SetTimeout.dev 2021</p>
+			</div>
 		</div>
 	</section>
 `;
