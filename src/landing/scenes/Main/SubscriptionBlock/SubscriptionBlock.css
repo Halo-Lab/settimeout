@@ -87,6 +87,12 @@
 	border-radius: 10px;
 }
 
+@media screen and (min-width: 1280px) {
+	.subscription-content {
+		margin-bottom: 145px;
+	}
+}
+
 .subscription-appeal-title,
 .subscription-appeal-description {
 	text-align: center;
