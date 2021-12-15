@@ -1,0 +1,4 @@
+
+
+[dev]
+command = "npx parcel .\src\landing\index.html"
