@@ -1,4 +1,3 @@
+[build]
+  command = "npm run build:landing"
 
-
-[dev]
-command = "npx parcel .\src\landing\index.html"
