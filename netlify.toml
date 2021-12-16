@@ -1,0 +1,5 @@
+[build]
+  command = "npm run build:landing"
+
+[functions]
+  node_bundler = "esbuild"

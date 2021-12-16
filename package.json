@@ -1,6 +1,6 @@
 {
 	"name": "mailing",
-	"type": "module",
+	"type":"module",
 	"version": "0.0.1",
 	"scripts": {
 		"join:data": "node scripts/prepareData.js",
@@ -25,6 +25,7 @@
 		"@prostory/edelweiss-ssr": "^0.2.3",
 		"css-inliner": "^2.0.0",
 		"happy-dom": "^2.24.3",
+		"netlify-cli": "^8.1.4",
 		"tailwindcss": "^2.2.17"
 	}
 }

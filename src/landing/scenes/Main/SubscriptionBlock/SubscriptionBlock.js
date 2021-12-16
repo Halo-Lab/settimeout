@@ -11,17 +11,18 @@ const onSubscriptionFormSubmit = async (e) => {
 	const email = subscriptionEmail();
 
 	try {
-		const contact = await unisenderAPI.getContact(email);
+		// const contactData = await unisenderAPI.getContact(email);
 
-		if (contact.result.email) return current("/already-subscribed"); //- to go to the corresponding page
+		// if (contactData?.result?.email) return current("/already-subscribed"); //- to go to the corresponding page
 
-		const response = await unisenderAPI.addContact(email);
+		const newContactData = await unisenderAPI.addContact(email);
 
-		if (response.result.person_id) return current("/thanks"); //- to go to the corresponding page
+		// if (newContactData?.result?.person_id) return current("/thanks"); //- to go to the corresponding page
+
+		subscriptionEmail("");
 	} catch (error) {
 		//for test
-		console.log(error);
-		if (error) current("/something-wrong");
+		// if (error) current("/something-wrong");
 		////////////
 	}
 };
