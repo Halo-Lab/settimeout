@@ -1,4 +1,4 @@
-const https = require("https");
+import https from "https";
 const BASIC_URL = "https://api.unisender.com/ru/api";
 const API_KEY = process.env.UNISENDER_API_KEY;
 
@@ -20,7 +20,7 @@ const makeResponse = async (request) =>
 			.on("error", reject)
 	);
 
-exports.handler = async function (event, context) {
+export async function handler(event, context) {
 	const { email } = event.queryStringParameters;
 
 	const requestData = `${BASIC_URL}/getContact?format=json&api_key=${API_KEY}&email=${email}`;
@@ -31,4 +31,4 @@ exports.handler = async function (event, context) {
 		statusCode: 200,
 		body: response,
 	};
-};
+}
