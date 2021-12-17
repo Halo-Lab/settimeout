@@ -25,7 +25,7 @@ const makeResponse = async (request) =>
 export async function handler(event, context) {
 	const { email } = event.queryStringParameters;
 
-	const requestData = `${BASIC_URL}/subscribe?format=json&api_key=${API_KEY}&list_ids=${LIST_ID}&fields[email]=${email}&double_optin=3&overwrite=0`;
+	const requestData = `${BASIC_URL}/subscribe?format=json&api_key=${API_KEY}&list_ids=${LIST_ID}&fields[email]=${email}&double_optin=0&overwrite=0`;
 
 	const response = await makeResponse(requestData);
 
