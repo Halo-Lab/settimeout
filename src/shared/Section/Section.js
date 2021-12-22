@@ -24,7 +24,7 @@ export const Section = ({ title, cards }) => {
 		</style>
 
 		<div class="section">
-			<div class="section-title">${icon} ${title}</div>
+			<div class="section-title">${title}</div>
 			${cardElement}
 		</div>
 	`;
