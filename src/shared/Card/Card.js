@@ -13,9 +13,7 @@ export const Card = ({ link, title, author, description, tags }, isLast) => {
 				imgElement = html`<img class="item-tag-ico" src=${imgPath} alt="" />`;
 			}
 
-			return html`<span class="item-tag item-tag--${tagKey}">
-				${imgElement} #${name}
-			</span>`;
+			return html`<span class="item-tag item-tag--${tagKey}"> #${name} </span>`;
 		});
 	};
 
