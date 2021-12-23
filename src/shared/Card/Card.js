@@ -1,27 +1,21 @@
 import { html } from "@prostory/edelweiss";
 
-import { getTagData } from "../data/tagsData.js";
+import { getTag } from "../assets/index.js";
 
-export const Card = ({ link, title, author, description, tags }, isLast) => {
-	const getTags = () => {
-		return tags.map((key) => {
-			let imgElement = "";
-			const { name, img, tagKey } = getTagData(key);
+const buildTags = (tags) =>
+	tags.map((name) => {
+		const { url, key, name: tagName } = getTag(name);
 
-			if (img) {
-				const imgPath = `../shared/assets/tags/${tagKey}.png`;
-				imgElement = html`<img class="item-tag-ico" src=${imgPath} alt="" />`;
-			}
+		return html`
+			<span class="item-tag item-tag--${key}">
+				${url ? html` <img class="item-tag-ico" .src="${url}" alt="" /> ` : ""}
+				#${tagName}
+			</span>
+		`;
+	});
 
-			return html`<span class="item-tag item-tag--${tagKey}"> #${name} </span>`;
-		});
-	};
-
-	return html`
-		<style>
-			@import "../shared/Card/Card.css";
-		</style>
-
+export const Card = ({ link, title, author, description, tags }, isLast) =>
+	html`
 		<div class="item ${isLast ? "item--last" : ""}">
 			<div class="item-title">
 				<a
@@ -36,8 +30,7 @@ export const Card = ({ link, title, author, description, tags }, isLast) => {
 			<div class="item-description">— ${description}</div>
 			<div class="item-footer">
 				<span class="item-author">— ${author}</span>
-				${getTags()}
+				${buildTags(tags)}
 			</div>
 		</div>
 	`;
-};

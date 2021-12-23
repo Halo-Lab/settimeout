@@ -5,6 +5,7 @@ import { pipe } from "@fluss/core";
 import { mkdir } from "./mkdir.js";
 
 export const write = pipe(
-	({ file, data }) => mkdir(file).then(() => ({ file, data })),
-	({ file, data }) => promises.writeFile(file, data, { encoding: "utf8" })
+	({ file, ...other }) => mkdir(file).then(() => ({ file, ...other })),
+	({ file, data, encoding = null }) =>
+		promises.writeFile(file, data, { encoding })
 );

@@ -1,9 +1,10 @@
 import { html } from "@prostory/edelweiss";
 
-export const Header = ({ issueNumber }) => {
-	const logoPNG = "../shared/assets/img/logo.png";
+import { getImageURL, Image } from "../../../shared/index.js";
 
-	return html`<style>
+export const Header = ({ issueNumber }) =>
+	html`
+		<style>
 			@import "./components/Header/Header.css";
 		</style>
 
@@ -15,17 +16,19 @@ export const Header = ({ issueNumber }) => {
 							href="https://www.settimeout.dev"
 							target="_blank"
 							rel="noopener noreferrer"
-							><img
-								src=${logoPNG}
+						>
+							<img
+								.src=${getImageURL(Image.LOGO)}
 								alt="SetTimeout logo"
 								width="168"
 								height="27"
-						/></a>
+							/>
+						</a>
 					</td>
 					<td class="issue">
 						выпуск <span class="issue-num">#${issueNumber}</span>
 					</td>
 				</tr>
 			</table>
-		</div>`;
-};
+		</div>
+	`;

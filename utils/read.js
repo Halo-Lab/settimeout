@@ -4,7 +4,8 @@ import { when } from "@fluss/core";
 
 const readDir = (dir) => promises.readdir(dir, { withFileTypes: true });
 
-const readFile = (file) => promises.readFile(file, { encoding: "utf8" });
+const readFile = (file, encoding = null) =>
+	promises.readFile(file, { encoding });
 
 export const read = (type = "dir") =>
-	when((_path) => type === "dir")(readDir, readFile);
+	when((_path, _encoding) => type === "dir")(readDir, readFile);

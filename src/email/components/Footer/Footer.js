@@ -1,6 +1,7 @@
 import { html } from "@prostory/edelweiss";
 
-export const Footer = html`<style>
+export const Footer = html`
+	<style>
 		@import "./components/Footer/Footer.css";
 	</style>
 
@@ -10,5 +11,8 @@ export const Footer = html`<style>
 			<span class="footer-list-separator"></span>
 			<a class="footer-list-item" href="#">Отписаться</a>
 		</div>
-		<div class="footer-copy">© SetTimeout.dev 2021. Все права защищены</div>
-	</div> `;
+		<div class="footer-copy">
+			© SetTimeout.dev ${new Date().getFullYear()}. Все права защищены
+		</div>
+	</div>
+`;

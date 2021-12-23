@@ -1,6 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "npm:reseter.css";
+
+@import "/src/shared/Section/Section.css";
+@import "/src/shared/Card/Card.css";
 
 html,
 body {

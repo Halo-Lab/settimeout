@@ -1,9 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "npm:reseter.css";
+
+@import "/src/shared/Section/Section.css";
+@import "/src/shared/Card/Card.css";
 
 body {
-	@apply leading-tight;
 	background-color: #f3f4f8;
 	font-family: "Inter", Helvetica, Arial, sans-serif;
 }

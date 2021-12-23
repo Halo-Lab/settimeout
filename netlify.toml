@@ -1,5 +1,8 @@
+[dev]
+	command = "make start_site"
+
 [build]
-  command = "npm run build:landing"
+  command = "make build_site"
 
 [functions]
   node_bundler = "esbuild"

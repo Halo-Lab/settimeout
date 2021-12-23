@@ -1,31 +1,20 @@
 import { html } from "@prostory/edelweiss";
 
 import { Card } from "../Card/Card.js";
+import { getIcon } from "../assets/index.js";
 
-import { sectionsData } from "../data/sectionsData.js";
+const buildSectionIcon = (title) => {
+	const { url } = getIcon(title);
 
-export const Section = ({ title, cards }) => {
-	const section = sectionsData(title);
-	const icon = section.icon
-		? html`<img
-				class="section-title-ico"
-				src="../shared/assets/icons/${section.icon}.png"
-				alt=""
-		  />`
+	return url
+		? html` <img class="section-title-ico" .src="${url}" alt="" /> `
 		: "";
+};
 
-	const cardElement = cards.map((item, index) =>
-		Card(item, index === cards.length - 1)
-	);
-
-	return html`
-		<style>
-			@import "../shared/Section/Section.css";
-		</style>
-
+export const Section = ({ title, cards }) =>
+	html`
 		<div class="section">
-			<div class="section-title">${title}</div>
-			${cardElement}
+			<div class="section-title">${buildSectionIcon(title)} ${title}</div>
+			${cards.map((item, index) => Card(item, index === cards.length - 1))}
 		</div>
 	`;
-};

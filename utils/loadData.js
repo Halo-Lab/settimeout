@@ -30,9 +30,11 @@ export const loadLastAddedData = async () => {
 		.map((name) =>
 			loadJSON(name).then((data) => ({
 				name: basename(name, ".json"),
-				data: { ...data, issueNumber },
+				data: { ...data, number: issueNumber },
 			}))
 		)
-		.fill(() => Promise.resolve({ name: "", data: [] }))
+		.fill(() =>
+			Promise.resolve({ createdAt: new Date(), name: "", number: -1, data: [] })
+		)
 		.extract();
 };

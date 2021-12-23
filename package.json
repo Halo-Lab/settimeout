@@ -1,23 +1,14 @@
 {
-	"name": "mailing",
-	"type":"module",
+	"name": "settimeout.dev",
+	"type": "module",
 	"version": "0.0.1",
-	"scripts": {
-		"join:data": "node scripts/prepareData.js",
-		"cleanup:build": "node scripts/cleanup.js",
-		"start:email": "node ./src/email/index.js; parcel ./src/email/email.html",
-		"build:email": "npm run cleanup:build; node ./src/email/index.js; parcel build ./src/email/email.html",
-		"prestart:landing": "npm run join:data",
-		"start:landing": "parcel ./src/landing/index.html",
-		"build:landing": "npm run cleanup:build; parcel build ./src/landing/index.html",
-		"postbuild:landing": "npm run join:data"
-	},
 	"devDependencies": {
 		"@parcel/optimizer-data-url": "^2.0.1",
 		"@parcel/transformer-inline-string": "^2.0.0",
 		"autoprefixer": "^10.4.0",
 		"parcel": "^2.0.0",
-		"postcss": "^8.3.11"
+		"postcss": "^8.3.11",
+		"tailwindcss": "^3.0.7"
 	},
 	"dependencies": {
 		"@fluss/core": "^0.35.0",
@@ -26,6 +17,6 @@
 		"css-inliner": "^2.0.0",
 		"happy-dom": "^2.24.3",
 		"netlify-cli": "^8.1.4",
-		"tailwindcss": "^2.2.17"
+		"reseter.css": "^2.0.0"
 	}
 }

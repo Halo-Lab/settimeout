@@ -2,31 +2,26 @@ import { html } from "@prostory/edelweiss";
 
 import "./IssueInfo.css";
 
-export const IssueInfo = (issueNumber, issueDate) => {
-	let issueDateFull, issueDateWeekDay;
+export const IssueInfo = (number, date) => {
+	const dateFullOptions = {
+		year: "numeric",
+		month: "long",
+		day: "numeric",
+	};
 
-	if (issueDate) {
-		const issueDateFullOptions = {
-			year: "numeric",
-			month: "long",
-			day: "numeric",
-		};
+	const dateFull = new Date(date)
+		.toLocaleString("Ru-ru", dateFullOptions)
+		.replace(/г\./, "");
 
-		issueDateFull = new Date(issueDate)
-			.toLocaleString("Ru-ru", issueDateFullOptions)
-			.replace(/г\./, "");
+	const dateWeekDay = new Date(date).toLocaleString("Ru-ru", {
+		weekday: "long",
+	});
 
-		issueDateWeekDay = new Date(issueDate).toLocaleString("Ru-ru", {
-			weekday: "long",
-		});
-	}
-
-	const issueDateElement = issueDate
+	const dateElement = date
 		? html`
-				<span class="issue-date"
-					><span class="week-day">${issueDateWeekDay}, </span>
-					${issueDateFull}</span
-				>
+				<span class="issue-date">
+					<span class="week-day">${dateWeekDay}, </span> ${dateFull}
+				</span>
 		  `
 		: "";
 
@@ -35,9 +30,9 @@ export const IssueInfo = (issueNumber, issueDate) => {
 			<div class="container">
 				<div class="issue-description">
 					<span class="issue-title">Выпуск </span>
-					<span class="issue-number">#${issueNumber}</span>
+					<span class="issue-number">#${number}</span>
 				</div>
-				${issueDateElement}
+				${dateElement}
 			</div>
 		</div>
 	`;
