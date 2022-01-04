@@ -14,7 +14,6 @@
 .pagination > .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	min-height: 78px;
 }
 
@@ -36,6 +35,14 @@
 .pagination-button:hover,
 .pagination-button:focus {
     color: #3bb5f2;
+}
+
+.previous-mailing-btn{
+    margin-right: auto;
+}
+
+.next-mailing-btn{
+    margin-left: auto;
 }
 
 .arrow-left-icon {

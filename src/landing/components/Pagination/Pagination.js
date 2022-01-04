@@ -2,8 +2,9 @@ import { html, data, effect } from "@prostory/edelweiss";
 
 import "./Pagination.css";
 
-export const getMailingNumber = data(0);
+import { emails } from "../../scenes/Main/ArticlesBlock/ArticlesBlock";
 
+export const getMailingNumber = data(0);
 
 const onPreviousMailingBtnClick = () => {
 
@@ -19,12 +20,12 @@ const onNextMailingBtnClick = () => {
 	getMailingNumber(currentMailingNumber += 1);
 };
 
-export const Pagination = html`
-	<div class="pagination">
-		<div class="container">
-			<button
-				href="#"
-				class="pagination-button"
+const PreviousMailingBtn = () => {
+
+	if (getMailingNumber() !== 0) {
+		return html`
+	<button
+				class="pagination-button previous-mailing-btn"
 				@click=${() => onPreviousMailingBtnClick()}
 			>
 				<svg
@@ -41,9 +42,19 @@ export const Pagination = html`
 				</svg>
 				<span>Предыдущая рассылка</span>
 			</button>
-			<button
-				href="#"
-				class="pagination-button"
+	`} else {
+		return ''
+	}
+}
+
+const NextMailingBtn = () => {
+
+	const mailingTotalCount = emails().length - 1;
+
+	if (getMailingNumber() < mailingTotalCount) {
+		return html`
+	<button
+				class="pagination-button next-mailing-btn"
 				@click=${() => onNextMailingBtnClick()}
 			>
 				<span>Следующая рассылка</span>
@@ -59,6 +70,16 @@ export const Pagination = html`
 					/>
 					</svg>
 			</button>
+	`} else {
+		return ''
+	}
+}
+
+export const Pagination = html`
+	<div class="pagination">
+		<div class="container">
+			${PreviousMailingBtn}
+			${NextMailingBtn}
 		</div>
 	</div>
 `;
