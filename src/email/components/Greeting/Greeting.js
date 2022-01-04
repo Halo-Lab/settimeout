@@ -2,7 +2,17 @@ import { html } from "@prostory/edelweiss";
 
 import { getImageURL, Image } from "../../../shared/index.js";
 
-export const Greeting = html`
+
+
+export const Greeting = (greetingTitle, greetingSubtitle) => {
+
+	const defaultGreetingTitle = 'Привет, это SetTimeout!&nbsp;✌';
+	const defaultGreetingSubtitle = 'Подготовили для тебя новую подборку полезных материалов.';
+	
+	if (greetingTitle=== undefined || greetingTitle === '') greetingTitle = defaultGreetingTitle;
+	if (greetingSubtitle=== undefined || greetingSubtitle === '') greetingSubtitle = defaultGreetingSubtitle;
+	
+	return html`
 	<style>
 		@import "./components/Greeting/Greeting.css";
 	</style>
@@ -11,10 +21,9 @@ export const Greeting = html`
 		<table class="greeting-table">
 			<tr>
 				<td class="greeting-left">
-					<div class="greeting-title">Привет, это SetTimeout!&nbsp;✌</div>
+					<div class="greeting-title">${greetingTitle}</div>
 					<div class="greeting-text">
-						Подготовили для тебя новую подборку полезных материалов о
-						разработке, технологиях и опенсорсе.
+						${greetingSubtitle}
 					</div>
 				</td>
 				<td>
@@ -29,4 +38,4 @@ export const Greeting = html`
 			</tr>
 		</table>
 	</div>
-`;
+`};

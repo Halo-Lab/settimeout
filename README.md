@@ -34,7 +34,9 @@ interface Mail {
 }
 ```
 
-> Issue number and issue date will be generated authomatically.
+> Issue number and issue date will be generated authomatically (the issue number is the number of json-files in the data folder, date is the name of json-file).
+
+>To add a mailing letter header, you need to fill in the "greetingTitle" and "greetingSubtitle" fields in the json-file.
 
 There are only four tags recognizable now (see `Tag` type). If you need to add more, then edit `shared/assets/index.js` file and add corresponding image.
 
