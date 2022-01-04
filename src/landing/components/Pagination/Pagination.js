@@ -1,11 +1,30 @@
-import { html } from "@prostory/edelweiss";
+import { html, data } from "@prostory/edelweiss";
 
 import "./Pagination.css";
+// const getMailingNumber = data(1);
 
-export const Pagination = html`
+
+export const Pagination = (getMailingNumber,lastMailingNumber) => {
+	getMailingNumber(lastMailingNumber);
+
+const onPaginationLinkClick = (e) => {
+	e.preventDefault();
+	
+	getMailingNumber(lastMailingNumber -= 1);
+	console.log("onPaginationLinkClick");
+	console.log('lastMailingNumber',lastMailingNumber);
+	
+	
+};
+	
+	return html`
 	<div class="pagination">
 		<div class="container">
-			<a href="#" class="pagination-link">
+			<a
+				href="#"
+				class="pagination-link"
+				@click=${(e) => onPaginationLinkClick(e)}
+			>
 				<svg
 					width="18"
 					height="14"
@@ -22,4 +41,4 @@ export const Pagination = html`
 			</a>
 		</div>
 	</div>
-`;
+`};
