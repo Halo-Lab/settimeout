@@ -26,8 +26,8 @@ const tagsData = [
 		url: isProduction()
 			? assets("tags/twitter.png")
 			: normalizeURL(
-					new URL("/src/shared/assets/tags/twitter.png", import.meta.url)
-			  ),
+				new URL("/src/shared/assets/tags/twitter.png", import.meta.url)
+			),
 	},
 	{
 		name: "Youtube",
@@ -35,8 +35,8 @@ const tagsData = [
 		url: isProduction()
 			? assets("tags/youtube.png")
 			: normalizeURL(
-					new URL("/src/shared/assets/tags/youtube.png", import.meta.url)
-			  ),
+				new URL("/src/shared/assets/tags/youtube.png", import.meta.url)
+			),
 	},
 	{ name: "English", key: Tag.ENGLISH },
 	{ name: "Переведено", key: Tag.TRANSLATE },
@@ -56,10 +56,12 @@ export const getTag = (name) =>
 	) ?? tagsData[tagsData.length - 1];
 
 const Icon = Object.freeze({
-	MARKUP: "Верстка",
+	MARKUP: "Вёрстка",
 	UNKNOWN: "Unknown",
 	JAVASCRIPT: "JavaScript",
 	WEB_DEVELOPMENT: "Веб-разработка",
+	FRAMEWORKS: "Фреймворки и библиотеки",
+	PSYCHOLOGY: "Психология"
 });
 
 const iconsData = [
@@ -69,8 +71,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/star.png")
 			: normalizeURL(
-					new URL("/src/shared/assets/icons/star.png", import.meta.url)
-			  ),
+				new URL("/src/shared/assets/icons/star.png", import.meta.url)
+			),
 	},
 	{
 		key: Icon.WEB_DEVELOPMENT,
@@ -78,8 +80,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/light.png")
 			: normalizeURL(
-					new URL("/src/shared/assets/icons/light.png", import.meta.url)
-			  ),
+				new URL("/src/shared/assets/icons/light.png", import.meta.url)
+			),
 	},
 	{
 		key: Icon.JAVASCRIPT,
@@ -87,8 +89,26 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/light.png")
 			: normalizeURL(
-					new URL("/src/shared/assets/icons/light.png", import.meta.url)
-			  ),
+				new URL("/src/shared/assets/icons/light.png", import.meta.url)
+			),
+	},
+	{
+		key: Icon.FRAMEWORKS,
+		name: "asterisk",
+		url: isProduction()
+			? assets("icons/asterisk.png")
+			: normalizeURL(
+				new URL("/src/shared/assets/icons/asterisk.png", import.meta.url)
+			),
+	},
+	{
+		key: Icon.PSYCHOLOGY,
+		name: "smile",
+		url: isProduction()
+			? assets("icons/smile.png")
+			: normalizeURL(
+				new URL("/src/shared/assets/icons/smile.png", import.meta.url)
+			),
 	},
 	{
 		key: Icon.UNKNOWN,
@@ -121,13 +141,13 @@ const Images = {
 	[Image.GREETING]: isProduction()
 		? assets("img/greeting.png")
 		: normalizeURL(
-				new URL("/src/shared/assets/img/greeting.png", import.meta.url)
-		  ),
+			new URL("/src/shared/assets/img/greeting.png", import.meta.url)
+		),
 	[Image.LOGO_FOOTER]: isProduction()
 		? assets("img/logo-footer.png")
 		: normalizeURL(
-				new URL("/src/shared/assets/img/logo-footer.png", import.meta.url)
-		  ),
+			new URL("/src/shared/assets/img/logo-footer.png", import.meta.url)
+		),
 	[Image.LOGO]: isProduction()
 		? assets("img/logo.png")
 		: normalizeURL(new URL("/src/shared/assets/img/logo.png", import.meta.url)),
