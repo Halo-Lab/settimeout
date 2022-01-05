@@ -41,7 +41,6 @@ const tagsData = [
 	{ name: "English", key: Tag.ENGLISH },
 	{ name: "Переведено", key: Tag.TRANSLATE },
 	{
-		name: "Unknown",
 		key: Tag.UNKNOWN,
 	},
 ];
@@ -49,10 +48,11 @@ const tagsData = [
 /**
  * @param {string} name
  */
+
 export const getTag = (name) =>
 	tagsData.find(
 		({ name: predefinedName }) =>
-			name.toLowerCase() === predefinedName.toLowerCase()
+			name.toLowerCase() === predefinedName?.toLowerCase()
 	) ?? tagsData[tagsData.length - 1];
 
 const Icon = Object.freeze({
