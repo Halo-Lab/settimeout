@@ -61,7 +61,7 @@ const Icon = Object.freeze({
 	JAVASCRIPT: "JavaScript",
 	WEB_DEVELOPMENT: "Веб-разработка",
 	FRAMEWORKS: "Фреймворки и библиотеки",
-	PSYCHOLOGY: "Психология"
+	PSYCHOLOGY: "Психология, продуктивность, soft skills"
 });
 
 const iconsData = [
