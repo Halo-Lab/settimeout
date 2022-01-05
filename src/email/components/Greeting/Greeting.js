@@ -8,10 +8,10 @@ export const Greeting = (greetingTitle, greetingSubtitle) => {
 
 	const defaultGreetingTitle = 'Привет, это SetTimeout!&nbsp;✌';
 	const defaultGreetingSubtitle = 'Подготовили для тебя новую подборку полезных материалов.';
-	
-	if (greetingTitle=== undefined || greetingTitle === '') greetingTitle = defaultGreetingTitle;
-	if (greetingSubtitle=== undefined || greetingSubtitle === '') greetingSubtitle = defaultGreetingSubtitle;
-	
+
+	if (greetingTitle === undefined || greetingTitle.trim() === '') greetingTitle = defaultGreetingTitle;
+	if (greetingSubtitle === undefined || greetingSubtitle.trim() === '') greetingSubtitle = defaultGreetingSubtitle;
+
 	return html`
 	<style>
 		@import "./components/Greeting/Greeting.css";
