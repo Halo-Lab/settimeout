@@ -1,9 +1,9 @@
 {
-	"greetingTitle": "Привет, это SetTimeout!&nbsp;✌",
-	"greetingSubtitle": "Подготовили для тебя новую подборку полезных материалов!",
+	"greetingTitle": "   ",
+	"greetingSubtitle": "   ",
 	"sections": [
 		{
-			"title": "Верстка",
+			"title": "Вёрстка",
 			"cards": [
 				{
 					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
@@ -35,7 +35,21 @@
 			]
 		},
 		{
-			"title": "Веб-разработка",
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
+					"title": "Используйте ссылки и кнопки правильно!!!",
+					"description": " Из статьи вы узнаете, почему важно использовать нужный элемент — ссылку или кнопку, и к чему может привести неправильный выбор.",
+					"author": "Блог компании HTML Academy",
+					"tags": [
+						"English"
+					]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
 			"cards": [
 				{
 					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
