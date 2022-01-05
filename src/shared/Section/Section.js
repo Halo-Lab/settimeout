@@ -7,7 +7,7 @@ const buildSectionIcon = (title) => {
 	const { url } = getIcon(title);
 
 	return url
-		? html` <img class="section-title-ico" .src="${url}" alt="" /> `
+		? html` <img class="section-title-ico" .src="${url}" alt="section title icon" /> `
 		: "";
 };
 

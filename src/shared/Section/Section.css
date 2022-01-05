@@ -9,7 +9,6 @@
 	margin-bottom: 20px;
 	display: flex;
 	align-items: center;
-	gap: 5px;
 }
 
 .section-title-ico {
@@ -17,4 +16,5 @@
 	vertical-align: middle;
 	height: 100%;
 	width: 13px;
+	margin-right: 8.5px;
 }
