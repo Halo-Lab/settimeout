@@ -20,7 +20,7 @@
 					"description": " Материал по основам по блочной модели CSS, который научит более точно использовать свойства размеров, полей, отступов и границ.",
 					"author": "Валерий Линьков",
 					"tags": [
-						"Неизвестный сборщику тег"
+						"Тег, который не закодирован в /shared/index.js"
 					]
 				},
 				{
@@ -55,6 +55,20 @@
 					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
 					"title": "Используйте ссылки и кнопки правильно!!!",
 					"description": " Из статьи вы узнаете, почему важно использовать нужный элемент — ссылку или кнопку, и к чему может привести неправильный выбор.",
+					"author": "Блог компании HTML Academy",
+					"tags": [
+						"English"
+					]
+				}
+			]
+		},
+		{
+			"title": "Незакодированный заголовок (без иконки)",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
+					"title": "Lorem ipsum dolor sit",
+					"description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in architecto voluptatibus deserunt quo vitae animi laudantium esse adipisci facere ex fugit laboriosam corporis sequi voluptatum nostrum obcaecati, tempore voluptas!",
 					"author": "Блог компании HTML Academy",
 					"tags": [
 						"English"
