@@ -2,20 +2,20 @@
 @import "../../../../shared/Card/Card.css";
 
 .articles {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 @media screen and (min-width: 1280px) {
-    .articles {
-        display: flex;
-        flex-direction: column;
-        
-        max-width: 806px;
-        height: 100%;
-        margin-right: auto;
-        padding-top: 44px;
-    }
-    .articles .container {
-        flex-grow: 1;
-    }
+	.articles {
+		display: flex;
+		flex-direction: column;
+
+		max-width: 806px;
+		height: 100%;
+		margin-right: auto;
+		padding-top: 44px;
+	}
+	.articles .container {
+		flex-grow: 1;
+	}
 }
