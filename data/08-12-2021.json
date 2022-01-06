@@ -20,7 +20,7 @@
 					"description": " Материал по основам по блочной модели CSS, который научит более точно использовать свойства размеров, полей, отступов и границ.",
 					"author": "Валерий Линьков",
 					"tags": [
-						"Тег, который не закодирован в /shared/index.js"
+						"Неизвестный тэг"
 					]
 				},
 				{
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"title": "Незакодированный заголовок (без иконки)",
+			"title": "Неизвестный заголовок",
 			"cards": [
 				{
 					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
@@ -71,7 +71,7 @@
 					"description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in architecto voluptatibus deserunt quo vitae animi laudantium esse adipisci facere ex fugit laboriosam corporis sequi voluptatum nostrum obcaecati, tempore voluptas!",
 					"author": "Блог компании HTML Academy",
 					"tags": [
-						"English"
+						"Переведено"
 					]
 				}
 			]
