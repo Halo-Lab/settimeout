@@ -1,7 +1,9 @@
 .item {
-	padding-bottom: 27px;
-	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
 	margin-bottom: 24px;
+	padding-bottom: 27px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ebebeb;
 }
 
 .item--last {
@@ -68,26 +70,26 @@
 /* Tags variants */
 
 .item-tag--english {
-	background: rgba(58, 202, 107, 0.1);
+	background-color: #edfff3;
 	color: #3aca6b;
 }
 
 .item-tag--translate {
-	background: rgba(93, 95, 239, 0.1);
+	background-color: #ededff;
 	color: #5d5fef;
 }
 
 .item-tag--twitter {
-	background: rgba(59, 181, 242, 0.1);
+	background-color: #ecf9ff;
 	color: #3bb5f2;
 }
 
 .item-tag--youtube {
-	background: rgba(242, 55, 66, 0.1);
+	background-color: #ffe7e9;
 	color: #f23742;
 }
 
 .item-tag--unknown {
-	background: rgba(131, 136, 149, 0.1);
+	background-color: #e6e9f7;
 	color: #0f204d;
 }
