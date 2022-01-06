@@ -1,4 +1,4 @@
-import { html, data, effect } from "@prostory/edelweiss";
+import { html, data } from "@prostory/edelweiss";
 
 import "./Pagination.css";
 
@@ -7,15 +7,13 @@ import { emails } from "../../scenes/Main/ArticlesBlock/ArticlesBlock";
 export const getMailingNumber = data(0);
 
 const onPreviousMailingBtnClick = () => {
-	let currentMailingNumber = getMailingNumber();
+	const currentMailingNumber = getMailingNumber();
 
-	if (currentMailingNumber > 0) getMailingNumber((currentMailingNumber -= 1));
+	if (currentMailingNumber > 0) getMailingNumber(currentMailingNumber - 1);
 };
 
 const onNextMailingBtnClick = () => {
-	let currentMailingNumber = getMailingNumber();
-
-	getMailingNumber((currentMailingNumber += 1));
+	getMailingNumber(getMailingNumber() + 1);
 };
 
 const PreviousMailingBtn = () => {

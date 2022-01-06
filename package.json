@@ -6,7 +6,7 @@
 		"@parcel/optimizer-data-url": "^2.0.1",
 		"@parcel/transformer-inline-string": "^2.0.0",
 		"autoprefixer": "^10.4.0",
-		"parcel": "^2.0.0",
+		"parcel": "^2.1.0",
 		"postcss": "^8.3.11",
 		"tailwindcss": "^3.0.7"
 	},
