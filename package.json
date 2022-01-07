@@ -3,20 +3,17 @@
 	"type": "module",
 	"version": "0.0.1",
 	"devDependencies": {
-		"@parcel/optimizer-data-url": "^2.0.1",
-		"@parcel/transformer-inline-string": "^2.0.0",
 		"autoprefixer": "^10.4.0",
-		"parcel": "^2.1.0",
-		"postcss": "^8.3.11",
-		"tailwindcss": "^3.0.7"
-	},
-	"dependencies": {
-		"@fluss/core": "^0.35.0",
-		"@prostory/edelweiss": "^2.0.0-alpha.13",
-		"@prostory/edelweiss-ssr": "^0.2.3",
+		"parcel": "^2.1.1",
 		"css-inliner": "^2.0.0",
 		"happy-dom": "^2.24.3",
 		"netlify-cli": "^8.1.4",
+		"postcss": "^8.3.11",
+		"@prostory/edelweiss-ssr": "^0.2.3"
+	},
+	"dependencies": {
+		"@fluss/core": "^0.35.0",
+		"@prostory/edelweiss": "^2.0.0",
 		"reseter.css": "^2.0.0"
 	}
 }
