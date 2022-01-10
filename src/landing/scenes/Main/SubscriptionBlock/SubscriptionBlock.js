@@ -61,9 +61,9 @@ export const SubscriptionBlock = html`
 			</div>
 
 			<div class="subscription-footer">
-				<!-- <a href="mailto:example@gmail.com" class="subscription-footer-mailto"
-				>Остались вопросы? Напишите нам</a
-			> --><!--uncomment when there will be an email address -->
+				<a href="mailto:hey@settimeout.dev" class="subscription-footer-mailto"
+					>Остались вопросы? Напишите нам</a
+				>
 				<p class="subscription-footer-copyright">&copy; SetTimeout.dev 2021</p>
 			</div>
 		</div>
