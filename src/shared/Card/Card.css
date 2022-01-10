@@ -8,8 +8,8 @@
 
 .item--last {
 	margin-bottom: 0;
-	border: 0;
 	padding-bottom: 0;
+	border: 0;
 }
 
 .item-title {
@@ -20,27 +20,24 @@
 }
 
 .item-link {
-	color: #0f204d;
+	color: #0f204d !important;
 	text-decoration: none;
 }
 
-.item-link:hover {
+.item-link:hover,
+.item-link:focus {
 	text-decoration: underline;
 }
 
 .item-link:active {
-	color: #3bb5f2;
-}
-
-.item-link:visited {
-	color: #651297;
+	color: #3bb5f2 !important;
 }
 
 .item-description {
+	margin-bottom: 8px;
 	font-size: 14px;
 	line-height: 130%;
 	color: #535353;
-	margin-bottom: 8px;
 }
 
 .item-footer {
@@ -52,10 +49,14 @@
 }
 
 .item-tag {
+	margin-top: 3px;
+	margin-bottom: 3px;
 	margin-left: 12px;
-	padding: 3px 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
 	border-radius: 4px;
-	margin: 3px 0;
 	display: inline-block;
 	text-transform: capitalize;
 }

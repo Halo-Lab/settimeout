@@ -14,7 +14,9 @@
 		height: 100%;
 		margin-right: auto;
 		padding-top: 44px;
+		padding-left: 30px;
 	}
+
 	.articles .container {
 		flex-grow: 1;
 	}
