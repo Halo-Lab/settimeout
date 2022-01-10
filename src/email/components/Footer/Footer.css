@@ -10,21 +10,18 @@
 }
 
 .footer-list-item {
-	color: #0f204d;
-	text-decoration: none;
 	margin: 0 16px;
+	color: #0f204d !important;
+	text-decoration: none;
 }
 
-.footer-list-item:hover {
+.footer-list-item:hover,
+.footer-list-item:focus {
 	text-decoration: underline;
 }
 
 .footer-list-item:active {
-	color: #3bb5f2;
-}
-
-.footer-list-item:visited {
-	color: #651297;
+	color: #3bb5f2 !important;
 }
 
 .footer-list-separator {

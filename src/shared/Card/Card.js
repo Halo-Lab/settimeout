@@ -8,7 +8,17 @@ const buildTags = (tags) =>
 
 		return html`
 			<span class="item-tag item-tag--${key}">
-				${url ? html` <img class="item-tag-ico" .src="${url}" alt="${tagName} icon" width="14" height="10"/> ` : ""}
+				${url
+					? html`
+							<img
+								class="item-tag-ico"
+								.src="${url}"
+								alt="${tagName} icon"
+								width="14"
+								height="10"
+							/>
+					  `
+					: ""}
 				#${tagName ?? name}
 			</span>
 		`;
