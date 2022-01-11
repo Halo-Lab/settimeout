@@ -3,6 +3,32 @@
 	"greetingSubtitle": "",
 	"sections": [
 		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/596437/",
+					"title": "Вёрстка в 2022. Часть 2: Практика",
+					"description": "Практические варианты реализации отступов в проекте с использованием переменных.",
+					"author": "Mikita Dusmikeev",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/umnaya-texnika-lipkogo-futera-footer/",
+					"title": "Умная техника липкого футера (footer)",
+					"description": "Идея состоит в том, что footer размещают в нижней части экрана, даже когда содержимого страницы недостаточно, чтобы сместить его туда.",
+					"author": "Chris Coyier",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://www.joshwcomeau.com/animation/css-transitions/",
+					"title": "Интерактивное руководство по CSS-переходам",
+					"description": "Из этой статьи вы узнаете немного больше о переходах CSS и о том, как можно использовать их для создания качественных анимаций.",
+					"author": "Josh Comeau",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
 			"title": "Веб-разработка",
 			"cards": [
 				{
@@ -25,6 +51,39 @@
 					"description": "Интервью с автором одного из самых необычных языков программирования — YoptaScript. ",
 					"author": "Семён Гозман, Александр Усков",
 					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://trashbox.ru/link/why-have-this-browser-become-popular",
+					"title": "«За год браузер brave удвоил пользователей — я протестировал и понял причину». Техногиковские инструменты.",
+					"description": "Возможно это будущий конкурент «Google Chrome»? Посмотрим...",
+					"author": "@nickgric",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/generating-pdfs-react/",
+					"title": "Создание PDF-файлов в React с помощью react-pdf",
+					"description": "Небольшой гайд по использованию пакета «React-pdf» для создания PDF файлов.",
+					"author": "Hussain Arif",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://blog.bitsrc.io/using-ubers-base-web-react-components-library-a3ab412a5c41",
+					"title": "«Я попробовал библиотеку веб-компонентов React от Uber»",
+					"description": "Оказывается на UBER можно не только ездить, но и писать :).",
+					"author": "Fernando Doglio",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://webformyself.com/kak-pisat-bolee-chitaemyj-kod-react/",
+					"title": "Как писать более читаемый код React",
+					"description": "Код должен быть не только рабочим, но и легко читаемым. Сделаем жизнь наших коллег немного проще.",
+					"author": "Chak Shun Yu",
+					"tags": ["Переведено"]
 				}
 			]
 		},
