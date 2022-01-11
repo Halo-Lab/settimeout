@@ -1,12 +1,23 @@
 .greeting {
 	font-family: Helvetica, sans-serif;
 	color: #535353;
-	padding: 0 100px;
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+@media screen and (min-width: 1280px) {
+	.greeting {
+		padding-top: 30px;
+		padding-right: 100px;
+		padding-left: 100px;
+	}
 }
 
 .greeting-left {
 	width: 400px;
-	padding: 20px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .greeting-title {
@@ -15,6 +26,12 @@
 	line-height: 30px;
 	color: #0f204d;
 	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.greeting-title {
+		font-size: 22px;
+	}
 }
 
 .greeting-text {

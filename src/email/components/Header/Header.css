@@ -1,15 +1,21 @@
 .header {
-	border-bottom: 1px solid rgba(74, 74, 74, 0.1);
-	padding: 25px 0 20px 0;
-	margin: 0 72px 25px 72px;
+	max-width: 750px;
+	padding: 3%;
+	margin-right: 8%;
+	margin-left: 8%;
 	font-family: Helvetica, sans-serif;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ebebeb;
 }
 
 .logo {
 	width: 100%;
+	padding-right: 5px;
 }
 
 .issue {
+	width: 100%;
 	white-space: nowrap;
 	color: #0f204d;
 	text-transform: uppercase;
@@ -17,9 +23,18 @@
 	font-weight: 700;
 }
 
+@media only screen and (max-width: 600px) {
+	.issue {
+		font-size: 10px;
+	}
+}
+
 .issue-num {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
 	background: #0f204d;
-	color: #fff;
-	padding: 3px 6px;
+	color: #ffffff;
 	border-radius: 40px;
 }

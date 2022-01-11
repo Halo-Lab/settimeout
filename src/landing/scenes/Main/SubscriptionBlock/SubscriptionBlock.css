@@ -175,6 +175,12 @@
 	display: block;
 	margin-bottom: 8px;
 	color: #ffffff;
+	text-decoration: none;
+}
+
+.subscription-footer-mailto:hover,
+.subscription-footer-mailto:focus {
+	text-decoration: underline;
 }
 
 .subscription-footer-copyright {
