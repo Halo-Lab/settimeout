@@ -64,7 +64,9 @@ export const SubscriptionBlock = html`
 				<a href="mailto:hey@settimeout.dev" class="subscription-footer-mailto"
 					>Остались вопросы? Напишите нам</a
 				>
-				<p class="subscription-footer-copyright">&copy; SetTimeout.dev 2021</p>
+				<p class="subscription-footer-copyright">
+					&copy; SetTimeout.dev ${new Date().getFullYear()}
+				</p>
 			</div>
 		</div>
 	</section>
