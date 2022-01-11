@@ -1,0 +1,44 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://www.tabnine.com/blog/ai-assisted-development-is-here-to-stay/",
+					"title": "AI-assisted development is here to stay",
+					"description": "Подкаст CTO Tabnine посвящён использованию искусственного интеллекта в разработке. Спикер пытается заглянуть в будущее и понять, будут ли программисты работать бок о бок с умными машинами.",
+					"author": "Eran Yahav",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://skillbox.ru/media/code/novyy-uroboros-pochemu-mashiny-obyazatelno-budut-dominirovat-nad-chelovekom/",
+					"title": "Новый уроборос: почему машины обязательно будут доминировать над человеком",
+					"description": "Ещё одна заметка об искусственном интеллекте. На этот раз автор не так оптимистичен. По его мнению, сюжеты «Матрицы» и «Терминатора» могут стать реальностью.",
+					"author": "Александр Нефёдов",
+					"tags": []
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=Rk5wNGBIilM",
+					"title": "YoptaScript: как создать свой язык программирования для четких разработчиков",
+					"description": "Интервью с автором одного из самых необычных языков программирования — YoptaScript. ",
+					"author": "Семён Гозман, Александр Усков",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://twitter.com/DuncanMalashock/status/1479815164912353283",
+					"title": "Как продуктивно ревьюить чужой код",
+					"description": "твиттер-тред Elm-разработчика о том как сделать код ревью и не поругаться с коллегой. Инженер Blissfully делится списком практик, которые помогут избежать враждебности в пулл реквестах.",
+					"author": "Duncan Malashock",
+					"tags": ["Twitter", "English"]
+				}
+			]
+		}
+	]
+}

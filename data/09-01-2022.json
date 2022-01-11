@@ -1,0 +1,93 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://webformyself.com/predotvrashhenie-cepnoj-prokrutki-s-pomoshhyu-overscroll-behavior/",
+					"title": "Предотвращение цепной прокрутки с помощью overscroll-behavior ",
+					"description": " В статье рассматривается свойство CSS overscroll-behavior, какую проблему оно решает, как работает и где можно его использовать.",
+					"author": "Ahmad Shadeed",
+					"tags": [
+						"Переведено"
+					]
+				},
+				{
+					"link": "https://habr.com/ru/post/596439/",
+					"title": "Вёрстка в 2022. Часть 1: Теория",
+					"description": " В статье рассматриваются варианты реализации отступов в проекте на основании переменных исходя из дизайна.",
+					"author": "Mikita Dusmikeev",
+					"tags": []
+				},
+				{
+					"link": "https://css-live.ru/vecssti-s-polej/den-zimnego-solncsstoyaniya-novye-publikacii-css-i-priyatnyj-syurpriz-safari.html",
+					"title": "День зимнего солнCSSтояния: новые публикации CSS и приятный сюрприз Safari",
+					"description": " Обзор CSS-новостей: обновление официального определения CSS, изменения и новые возможности.",
+					"author": "Илья Стрельцын",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://skillbox.ru/media/code/yazyk-bogov-za-chto-khakery-lyubyat-lisp-i-kak-s-ego-pomoshchyu-dostich-prosvetleniya/",
+					"title": "Язык богов: за что хакеры любят Lisp и как с его помощью достичь просветления",
+					"description": " Автор рассказывает о языках семейства Лисп и объясняет, почему их называют «величайшими» и «помогающими достичь просветления».",
+					"author": "Рустам Сабиров",
+					"tags": [
+					
+					]
+				},
+				{
+					"link": "https://habr.com/ru/company/itsoft/blog/599261/",
+					"title": "Дональд Кнут — автор «Искусства программирования» и великий мастер ордена программистов Земли",
+					"description": " История одного из самых известных программистов всех времён — Дональда Кнута — не оставит равнодушными ни новичков, ни опытных специалистов.",
+					"author": "Максим Татаринов",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/timeweb/blog/598727/",
+					"title": "React: пример использования Auth0 для разработки сервиса аутентификации/авторизации",
+					"description": " В статье вы найдете примеры использования сервиса Auth0 как для клиентской, так и для серверной части.",
+					"author": "Igor Agapov",
+					"tags": []
+				},
+				{
+					"link": "https://tokmakov.msk.ru/blog/item/674",
+					"title": "MobX — управление состоянием приложения",
+					"description": "Небольшой гайд с примерами по использованию MobX — библиотеки управления состоянием.",
+					"author": "Tokmakov",
+					"tags": []
+				},
+				{
+					"link": "https://coderhub.ru/stati/chto-novogo-v-react-router-v6/",
+					"title": "Что нового в React Router v6?",
+					"description": " Представляем вашему вниманию обзор новых фишек шестой версии React Router",
+					"author": "CoderHub",
+					"tags": []
+				}
+			]
+		},
+			{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/597747/",
+					"title": "Без биполярки и синдрома хронической усталости: почему падает эффективность айтишника и что с этим делать",
+					"description": " Врач Александр Чомский рассказывает о продуктивности IT-специалистов, а также о профилактике проблем со здоровьем, депрессии и выгорании.",
+					"author": "Александр Козлов",
+					"tags": []
+				}
+			]
+		}
+	]
+}

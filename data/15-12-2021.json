@@ -1,0 +1,96 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/inline",
+					"title": "Почему инлайнить стили — плохо",
+					"description": "Обзор особенностей подключения и использования внешних и внутренних стилей",
+					"author": "Анастасия, блог HTML Academy",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/kak-rabotaet-css/",
+					"title": "Как работает CSS",
+					"description": "Автор статьи рассказывает о том, что такое CSS и как он работает под капотом.",
+					"author": "Amnah Khatun",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/post/555192/",
+					"title": "HTMHell — адовая разметка (25 плохих примеров)",
+					"description": "Коллекция плохих примеров HTML-кода, взятых из реальных проектов.",
+					"author": "Зварич Рома",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/state-machines-for-javascript-developers-how-to-use-them-in-your-apps",
+					"title": "State Machines for JavaScript Developers - How to Use Them in Your Apps ",
+					"description": "Конечные автоматы позволяют удобно работать с состояниями процессов. В статье рассматривается внедрение конечных автоматов на фронтенде с помощью библиотеки XState.",
+					"author": "Victoria Lo",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://habr.com/ru/company/yandex/blog/550100/",
+					"title": "Где я и где конечный автомат? Доклад Вадима Пацева о математике во фронтенде ",
+					"description": "Конечные автоматы — мощный и важный инструмент и парадигма в разработке. Глубже погрузиться в эту тему поможет доклад Вадима Пацева.",
+					"author": "Вадим Пацев",
+					"tags": []
+				},
+				{
+					"link": "http://is.ifmo.ru/books/_book.pdf",
+					"title": "Автоматное программирование",
+					"description": "Книга Шалыто и Поликарповой поможет освоить конечные автоматы. Электронная версия книги распространяется бесплатно.",
+					"author": "Н. Поликарпова, А. Шалыто",
+					"tags": ["Книга"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/otus/blog/595321/",
+					"title": "Blogged Answers: (почти) полное руководство по особенностям рендеринга в React. Часть 1",
+					"description": "В статье собрано много интересной информации о рендеринге. Также автор оставил много ссылок на другие полезные материалы.",
+					"author": "Max Rokatansky",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/citymobil/blog/592923/",
+					"title": "React. Как не стать заложником макета, или пример использования принципа единой ответственности ",
+					"description": "Далеко не каждый строго следует всем принципам SOLID, но порой они значительно упрощают жизнь разработчику.",
+					"author": "Marat",
+					"tags": []
+				},
+				{
+					"link": "https://levelup.gitconnected.com/how-to-deal-with-document-write-in-react-and-next-js-31f0c1215e43",
+					"title": "How To Deal With document.write() in React and Next.js",
+					"description": "Все не раз слышали о том, что document.write() стоит избегать, но что делать, когда это невозможно? Об этом читайте в статье.",
+					"author": "Antonello Zanini",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://twitter.com/xanf_ua/status/1469983480457183239",
+					"title": "Твит Ильи Климова о культуре отмены ",
+					"description": "Если вы пропустили громкий холивар в сообществе программистов, почитайте твит Ильи Климова с тредами. Короткое содержание — кто-то шутя или всерьёз написал, что фронтендеров нельзя называть программистами, а кто-то другой тегнул работодателя этого человека и попросил принять меры. Илья Климов считает, что апеллировать к работодателю из-за мнения в соцсетях нельзя ни при каких обстоятельствах.",
+					"author": "Илья Климов",
+					"tags": ["Twitter"]
+				}
+			]
+		}
+	]
+}

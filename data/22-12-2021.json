@@ -1,0 +1,89 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/592061/",
+					"title": "HTMHeaven — 19 советов и приёмов вёрстки ",
+					"description": "Коллекция полезных советов и примеров HTML-кода.",
+					"author": "Зварич Рома",
+					"tags": []
+				},
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/alt-text",
+					"title": "Как правильно написать alt-текст",
+					"description": "Из статьи вы узнаете об атрибуте alt — альтернативном описании для изображений, которое не видят пользователи. Поймёте, что это такое и как правильно его писать.",
+					"author": "Николай Шабалин",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/rekomendacii-po-vstraivaniyu-storonnix-veb-vidzhetov/",
+					"title": "Рекомендации по встраиванию сторонних веб-виджетов",
+					"description": "Автор статьи рассказывает, как определить влияние сторонних виджетов, а также рассматривает передовой опыт их использования в веб-приложениях.",
+					"author": "Ravidu Perera",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://skillbox.ru/media/code/odin-razrabotchik-zamenyaet-pyat-programmistov-na-javascript-dlya-chego-nuzhen-haskell/",
+					"title": "«Один разработчик заменяет пять программистов на JavaScript»: для чего нужен Haskell",
+					"description": "Дмитрий Коваников рассказывает о языке программирования Haskell и преимуществах функциональной парадигмы.",
+					"author": "Дмитрий Коваников",
+					"tags": []
+				},
+				{
+					"link": "https://twitter.com/ValeriiZhyla/status/1470666237286010881",
+					"title": "Сложность алгоритмов и нотация Big O",
+					"description": "Тред Валерия Жилы в «Твиттере» — находка для тех, кто хочет лучше понимать, как оценивать сложность алгоритмов",
+					"author": "Валерий Жила",
+					"tags": ["Twitter"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://prorabbit.ru/kak-optimizirovat-razmer-bandla-spa-i-uskorit-zagruzku-prilozhenija-v-neskolko-raz/",
+					"title": "Как оптимизировать размер бандла SPA и ускорить загрузку приложения в несколько раз",
+					"description": "Скорость работы — один из самых важных аспектов работы приложения. В статье вы найдете целый ряд полезных советов по аналитике и оптимизации SPA от автора статьи.",
+					"author": "Nikitka",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/otus/blog/595333/",
+					"title": "Blogged Answers: (почти) полное руководство по особенностям рендеринга в React. Часть 2",
+					"description": "Продолжение серии статей об особенностях рендеринга в React. В этот раз автор знакомит читателя с пакетным рендерингом и согласованием.",
+					"author": "Max Rokatansky",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://stefan-bauer.online/building-an-application-with-vue-and-type-script-best-practices-thoughts-and-recommendations/",
+					"title": "Building an application with Vue and TypeScript. Best practices, thoughts and recommendations",
+					"description": "Небольшая, но полезная статья по теме VueJS, в которой вы найдёте важные советы и ссылки по разработке с использованием данного фреймворка.",
+					"author": "Stefan Bauer",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "",
+					"title": "Андрей Ситник о секс-позитивизме, БДСМ и пятничных нюдсах",
+					"description": "Известный программист и опенсорс-активист Андрей Ситник рассказывает о движении.",
+					"author": "Андрей Ситник",
+					"tags": ["sitnikfriday"]
+				}
+			]
+		}
+	]
+}

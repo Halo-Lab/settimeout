@@ -1,50 +1,77 @@
 {
-	"greetingTitle": "   ",
-	"greetingSubtitle": "   ",
+	"greetingTitle": "",
+	"greetingSubtitle": "",
 	"sections": [
 		{
 			"title": "Вёрстка",
 			"cards": [
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Используйте ссылки и кнопки правильно. Пожалуйста",
-					"description": " Из статьи вы узнаете, почему важно использовать нужный элемент — ссылку или кнопку, и к чему может привести неправильный выбор.",
-					"author": "Блог компании HTML Academy",
-					"tags": [
-						"English"
-					]
+					"link": "https://habr.com/ru/company/htmlacademy/blog/590779/",
+					"title": "Никто не знает, как работает каскад",
+					"description": "Эта статья — попытка описать, как браузеры понимают и разбирают CSS, и почему важно знать, как это работает. ",
+					"author": "Лидия Захарова",
+					"tags": []
 				},
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Свойства блочной модели CSS. Объяснение с примерами",
-					"description": " Материал по основам по блочной модели CSS, который научит более точно использовать свойства размеров, полей, отступов и границ.",
-					"author": "Валерий Линьков",
-					"tags": [
-						"Неизвестный тэг"
-					]
+					"link": "http://www.css-tricks.ru/articles/css/z-index",
+					"title": "Распространенные ошибки при написании CSS с помощью БЭМ",
+					"description": "Автор статьи рассказывает о наиболее частых ошибках, которые встречаются в повседневной работе.",
+					"author": "Malte Riechmann",
+					"tags": ["Переведено"]
 				},
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Более 15 полезных инструментов для фронтендера с уклоном в CSS",
-					"description": " Подборка различных инструментов: от генератора CSS до редактора анимации прямо в браузере, а также средства масштабирования для отзывчивости в SVG и визуализатор специфичности CSS.",
-					"author": "Блог компании SkillFactory",
-					"tags": [
-						"Youtube"
-					]
+					"link": "https://htmlacademy.ru/blog/boost/tools/pixel-perfect",
+					"title": "Что такое Pixel Perfect вёрстка и зачем она нужна",
+					"description": "Pixel Perfect — способ вёрстки строго по макету, при котором размеры и интервалы соблюдаются с точностью до нескольких пикселей.",
+					"author": "Анастасия, блог HTML Academy",
+					"tags": []
+				},
+				{
+					"link": "http://www.css-tricks.ru/articles/css/css-white-space",
+					"title": "Поговорим о свойстве white-space",
+					"description": "В статье автор описывает, в чём разница между различными значениями свойства и как их использовать. ",
+					"author": "Louis Lazaris",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/skillbox/blog/592643/",
+					"title": "10 вещей, которые можно делать в верстке с помощью псевдоэлементов before и after",
+					"description": "Псевдоэлементы — мощный инструмент для создания дополнительной стилизации элементов. В этой статье рассказывается, для чего их можно использовать и как. ",
+					"author": "Блог компании Skillbox",
+					"tags": []
 				}
 			]
 		},
 		{
-			"title": "Психология, продуктивность, soft skills",
+			"title": "Веб-разработка",
 			"cards": [
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Используйте ссылки и кнопки правильно!!!",
-					"description": " Из статьи вы узнаете, почему важно использовать нужный элемент — ссылку или кнопку, и к чему может привести неправильный выбор.",
-					"author": "Блог компании HTML Academy",
-					"tags": [
-						"Twitter"
-					]
+					"link": "https://habr.com/ru/company/oleg-bunin/blog/593333/",
+					"title": "Мифология и реальные методы прагматичного программирования",
+					"description": "Автор рассказывает о культе карго в программировании, а также рассматривает частности этого явления. Код-ревью, стейджинг, тестирование, ООП — вот некоторые темы, затронутые в статье.",
+					"author": "Кирилл Мокевнин",
+					"tags": []
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=8rGYYC89BDo",
+					"title": "Что такое преждевременная оптимизация и почему это зло",
+					"description": "Сергей Немчинский в коротком видео объясняет, почему оптимизация без запроса бизнеса вредит самому бизнесу. Видео помогает посмотреть на разработку с точки зрения заказчика.",
+					"author": "Сергей Немчинский",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=0HNUOn-wIlM",
+					"title": "Hotwire перевернул веб-разработку и вернул её к истокам ",
+					"description": "Этот выпуск подкаста CSSSR посвящён CSS-фреймворкам, а также подходу Atomic CSS.",
+					"author": "Александр Павлють",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://guides.hexlet.io/time/",
+					"title": "Что такое время",
+					"description": "Фундаментальный гайд поможет понять, как компьютеры определяют человеческое время.",
+					"author": "Александр Вериго",
+					"tags": []
 				}
 			]
 		},
@@ -52,27 +79,39 @@
 			"title": "Фреймворки и библиотеки",
 			"cards": [
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Используйте ссылки и кнопки правильно!!!",
-					"description": " Из статьи вы узнаете, почему важно использовать нужный элемент — ссылку или кнопку, и к чему может привести неправильный выбор.",
-					"author": "Блог компании HTML Academy",
-					"tags": [
-						"English"
-					]
-				}
-			]
-		},
-		{
-			"title": "Неизвестный заголовок",
-			"cards": [
+					"link": "https://webformyself.com/poleznye-api-react-dlya-sozdaniya-gibkix-komponentov-s-pomoshhyu-typescript/",
+					"title": "Полезные API React для создания гибких компонентов с помощью TypeScript",
+					"description": "React и TypeScript — это великолепное сочетание, что и подтверждает автор в своей статье.",
+					"author": "Gaurav Khanna",
+					"tags": ["Переведено"]
+				},
 				{
-					"link": "https://habr.com/ru/company/htmlacademy/blog/561892/",
-					"title": "Lorem ipsum dolor sit",
-					"description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in architecto voluptatibus deserunt quo vitae animi laudantium esse adipisci facere ex fugit laboriosam corporis sequi voluptatum nostrum obcaecati, tempore voluptas!",
-					"author": "Блог компании HTML Academy",
-					"tags": [
-						"Переведено"
-					]
+					"link": "https://www.internet-technologies.ru/articles/opredeleniyu-vidimosti-css-peremennyh-v-angular.html",
+					"title": "Руководство по определению области видимости CSS-переменных в Angular ",
+					"description": "В статье автор сравнивает несколько методов определения области видимости, но какой из них лучше — решать только вам.",
+					"author": "перевод Наталья Кайда",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/tinkoff/blog/593165/",
+					"title": "Телеграф на RxJS",
+					"description": "Это, конечно, не GameDev. Но перед вами отличная статья, которая познакомит читателя с возможностями RxJS и Angular.",
+					"author": "Александр Инкин",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/post/593479/",
+					"title": "React. Странные хуки: каррирование функционального компонента",
+					"description": "Автор расскажет, что такое каррирование и как использовать его в React для улучшения компонентов, с которыми вы работаете.",
+					"author": "bevertax",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/post/593361/",
+					"title": "MastermindCMS2 vs Next.js",
+					"description": "Все наверное уже неоднократно читали статьи на тему «React vs. Vue/Angular» и так далее. Но вот MastermindCMS2 vs. Next.js — это уже что-то новенькое.",
+					"author": "SubarYan",
+					"tags": []
 				}
 			]
 		}

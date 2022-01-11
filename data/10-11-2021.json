@@ -1,0 +1,126 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/571828/",
+					"title": "6 хороших практик по HTML и CSS",
+					"description": "Автор статьи предлагает рассмотреть свой список из 6 кейсов, когда вы можете сделать удобный или не удобный интерфейс для пользователя только через HTML и CSS. ",
+					"author": "Стас Мельников",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/skillfactory/blog/581888/",
+					"title": "Разбираемся с цветами, палитрами, фильтрами CSS и не только",
+					"description": "Статья - карманный справочник о том, как работать с цветом в CSS и вебе в целом. Содержит теорию и множество инструментов и примеров работы с градиентами, анимацией, SVG и не только.",
+					"author": "Блог компании SkillFactory",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/maket-css-flexbox-protiv-maketa-css-grid/",
+					"title": "Макет CSS Flexbox против макета CSS Grid",
+					"description": "Это руководство поможет вам понять различия между моделями макетов CSS Flexbox и Grid и порекомендует, когда использовать одну вместо другой.",
+					"author": "Nathan Sebhastian",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://webformyself.com/min-content-max-content-i-fit-content-v-css/",
+					"title": "min-content, max-content и fit-content в CSS",
+					"description": "В статье рассказывается о значении этих ключевых слов, их различии и как они могут применяться в реальном проекте.",
+					"author": "Ibadehin Mojeed",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/retina",
+					"title": "Как подготовить вёрстку к Retina-экранам",
+					"description": "В статье разбираются основные моменты, как подготовить вёрстку к Retina-экранам",
+					"author": "Блог компании HTML Academy",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://prismic.io/blog/new-react-library-beta",
+					"title": "Prismic выпустил бета-версию новой библиотеки Prismic React",
+					"description": "Её можно использовать для работы с React и фреймворками типа Gatsby.js и Next.js. Подробности в блоге Prismic.",
+					"author": "Анджело Ашмор",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://habr.com/ru/post/587146/",
+					"title": "Chrome DevTools: Хитрости при отладке",
+					"description": "Навык отладки — одно из ключевых отличий опытного разработчика от новичка. В этой статье вы найдёте много полезных и практических рекомендаций по отладке в Chrome DevTools.",
+					"author": "Степан Зубашев",
+					"tags": []
+				},
+				{
+					"link": "https://blog.kamyshev.me/salo-selene/",
+					"title": "Как мы строим веб-платформу в Авиасейлс",
+					"description": "Игорь Камышев делится инсайдами о разработке веб-платформы, вокруг которой строится продукт компании.",
+					"author": "Игорь Камышев",
+					"tags": []
+				},
+				{
+					"link": "https://www.youtube.com/playlist?list=PLKaafC45L_SSUUku_N10BBkVWXkKzqZFI",
+					"title": "Подборка обучающих видео от Школы разработки интерфейсов «Яндекса»",
+					"description": "В ней есть уроки по работе с React, Node.js, тестированию, разработке доступных интерфейсов и другим темам.",
+					"author": "Яндекс",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://www.facebook.com/Hexlet/photos/a.191527631005918/1997028893789107",
+					"title": "На Code Basics появился бесплатный курс по Clojure",
+					"description": "Более 30 уроков познакомят вас с основами одного из языков семейства Лисп. Также на Code Basics есть бесплатные курсы по основам Go, Racket, Python, JavaScript, Java, Elixir, PHP, Ruby, HTML и CSS.",
+					"author": "Хекслет",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/timeweb/blog/586972/",
+					"title": "Как работает React: подробное руководство.",
+					"description": "Бесконечно можно смотреть на три вещи: как горит огонь, как течет вода и как работают реакт. Крайне советую к прочтению, на собесе пригодится!",
+					"author": "Igor Agapov",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/post/587358/",
+					"title": "Веб стал еще быстрее. Релиз Next.js 12",
+					"description": "Кто не успел прочесть в нашей предыдущей расылке на английском, ловите на русском! «Совершенству нет предела» — именно с такими мыслями просыпаются ребята из команды разработчиов Next.js.",
+					"author": "Савельев Александр",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/post/587640/",
+					"title": "React-формы, библиотека для частичной подписки.",
+					"description": "Очередная безумная идея или же все таки новая библиотка? Автор пытается проанализироват и понять, чего не достает современным библиотекам для работы с формами и предлогает свои решения.",
+					"author": "Алексей @utftufutukgyftryidytftuv",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/nuances-of-programming/%D0%BA%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D1%83-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-react-cceefbbc8706",
+					"title": "Как создать библиотеку компонентов React",
+					"description": "Написание библиотеки компонентов не самая тривиальная задачака. В статье автор пошагово разбирает этапы создания библиотке с помозью Bit. Что из этого вышло и что такое Bit читатйте в статье",
+					"author": "Alicia Jones",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://vc.ru/u/957161-anna-yarovaya/316151-kak-pravilno-vybrat-stek-dlya-svoego-proekta",
+					"title": "Как правильно выбрать стек для своего проекта?",
+					"description": "Иногда нам говорят на чем писать, а порой выбор приходится делать самому. Как правильно сделать выбор и не ошибиться…",
+					"author": "Anna Yarovaya",
+					"tags": []
+				}
+			]
+		}
+	]
+}

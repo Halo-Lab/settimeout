@@ -1,0 +1,126 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://web-standards.ru/articles/native-and-custom-select/",
+					"title": "Ищем баланс между нативным и кастомным селектом",
+					"description": "В статье рассматривается создание «гибридного» селекта - это одновременно и нативный <select>, и его стилизованная альтернатива.",
+					"author": "Сандрина Перейра, перевел Михаил Данюшин",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/584786/",
+					"title": "Типы значений в CSS. Абсолютные, относительные и всякие другие",
+					"description": "Разберёмся, какие бывают типы значений у CSS-свойств, и определим, чем отличаются абсолютные и относительные значения свойств, как задаются цвета, и зачем нужны CSS-директивы.",
+					"author": "Блог компании HTML Academy",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/skillfactory/blog/550392/",
+					"title": "Вы можете создавать эти элементы, не используя JavaScript",
+					"description": "Поскольку HTML и CSS постоянно получают новые функции, мы можем использовать намного меньше JavaScript-кода для создания элементов пользовательского интерфейса, например аккордеонов, тултипов и т. д.",
+					"author": "Блог компании SkillFactory",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/578224/",
+					"title": "Используйте фавиконки правильно",
+					"description": "Для правильного подключения иконки нужно использовать обязательные требования браузера и минимальный набор фавиконок, который подробно рассматривается в статье.",
+					"author": "Блог компании HTML Academy",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/edinicy-izmereniya-css-svyazannye-s-oblastyu-prosmotra/",
+					"title": "Единицы измерения CSS, связанные с областью просмотра",
+					"description": "В этой статье вы узнаете о единицах измерения CSS, связанных с областью просмотра, и о том, как их применять.",
+					"author": "Ahmad Shadeed",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://code.visualstudio.com/blogs/2021/10/20/vscode-dev",
+					"title": "vscode.dev",
+					"description": "Популярный редактор теперь доступен в браузере. Подробности - в блоге Visual Studio Code",
+					"author": "Chris Dias",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://www.gatsbyjs.com/blog/whats-new-in-gatsby-4/",
+					"title": "Официально вышел Gatsby 4",
+					"description": "В новой версии доступны серверный рендеринг, отложенная генерация статических страниц и другие фичи.",
+					"author": "Jeff James",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://twitter.com/andrey_sitnik/status/1452627442179391501",
+					"title": "Вышла новая версия Nano Stores",
+					"description": "маленького стейт-менеджера, разработанного при поддержке компании «Злые марсиане». Подробности о Nano Stores и изменениях в нём читайте в «Твиттере» Андрея Ситника",
+					"author": "Андрей Ситник",
+					"tags": ["Twitter"]
+				},
+				{
+					"link": "https://habr.com/ru/post/585318/",
+					"title": "COBOL снова востребован",
+					"description": "Почему рекрутёры активно ищут программистов, которые умеют писать на «мёртвом» языке? Читайте об этом в переводе статьи Чарльза Мартина",
+					"author": "Чарльз Мартин",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://medium.com/the-node-js-collection/node-js-17-is-here-8dba1e14e382",
+					"title": "Вышла новая мажорная версия Node.js ",
+					"description": "Новая версия работает на V8 9.5; поддерживает OpenSSL 3.0. Подробнее об изменениях читайте в блоге Node.js",
+					"author": "Node.js",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/vizualnoe-rukovodstvo-po-react-rendering-dom/",
+					"title": "Визуальное руководство по React Rendering - DOM",
+					"description": "Дейстивтельно ли повторный рендерин является излишним и так уж ли это плохо? В статье автор на визуальных примерах рассказывает что такое повторный рендеринг и стоит ли его бояться.",
+					"author": "Alex Sidorenko",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/2gis/blog/583894/",
+					"title": "Error Boundaries в React: препарируем лягушку",
+					"description": "Все знаю что такое 2ГИС, но ребята из компании могут не только показать Вам маршрут, но и рассказать о том, как работает Error Boundaries под капотом. Также в статье есть много полезных и инетерсных ссылок",
+					"author": "Блог компании 2ГИС",
+					"tags": []
+				},
+				{
+					"link": "https://nuancesprog.ru/p/14297/",
+					"title": "ТОП-25 библиотек React 2021–2022: новые, полезные, но малоизвестные пакеты JavaScript",
+					"description": "Небольшой список извстных и малоизвестных библиотек, котоырй призван сделать жизнь разработчика проще.",
+					"author": "Harsh Makadia",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://tproger.ru/articles/yam-1-kogda-hochetsja-napisat-svoju-redux-middleware/",
+					"title": "Когда хочется написать свою Redux middleware",
+					"description": "Тот самый случай, когда выдумать свой велосипед не такая уж и плохая идеия. Возможно перед нами зачатки новой библиотеки, посмотрим…",
+					"author": "Дима Шпак",
+					"tags": []
+				},
+				{
+					"link": "https://docs.microsoft.com/ru-ru/power-bi/developer/visuals/create-react-visual",
+					"title": "Создание визуального элемента Power BI с помощью React.",
+					"description": "Power BI достаточно мощная и универсальная штука в мире аналитики. Microsoft совсем недавно обновил документацию и если кто-то не знал, то Welcome",
+					"author": "Microsoft",
+					"tags": []
+				}
+			]
+		}
+	]
+}
