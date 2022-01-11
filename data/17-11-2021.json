@@ -1,0 +1,119 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "Patrick Brosset",
+					"title": "Понимание gap в CSS",
+					"description": "Давайте внимательно рассмотрим gap и связанные с ним свойства и поймем, как и где они применяются.",
+					"author": "Patrick Brosset",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/563894/",
+					"title": "Что можно положить в тег <head>",
+					"description": "Простое руководство по элементам HTML тега <head>",
+					"author": "Блог компании HTML Academy",
+					"tags": []
+				},
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/semantics?utm_source=habr&utm_medium=special&utm_campaign=head_230621",
+					"title": "Что такое семантическая вёрстка и зачем она нужна ",
+					"description": "В статье объясняется, что такое семантическая верстка, почему она важна, рассматриваются основные семантические теги HTML. ",
+					"author": "Евгений Шкляр",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/",
+					"title": "Глубокое погружение в object-fit и background-size в CSS",
+					"description": "В этой статье мы рассмотрим, как работают свойства object-fit и background-size, когда мы можем их использовать и почему, а также некоторые практические примеры использования и рекомендации. ",
+					"author": "Ahmad Shadeed",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://webformyself.com/prakticheskoe-ispolzovanie-funkcij-css-calc-clamp-min-max/",
+					"title": "Практическое использование функций CSS: calc, clamp, min, max ",
+					"description": "В статье мы рассмотрим каждую из функций (calc, clamp, min, max), а также практические варианты их использования.",
+					"author": "Stephanie Eckles",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte",
+					"title": "Vercel нанял Рича Харриса, создателя Svelte ",
+					"description": "Это знаковое событие для рынка. Похоже, Vercel, как и другие компании и участники сообщества, активно ищут направления развития, альтернативные React. ",
+					"author": "Блог Vercel",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://threadreaderapp.com/thread/1460245251696873477.html",
+					"title": "Как делать доступные компоненты ",
+					"description": "виттер-тред про доступность и создание доступных компонентов. ",
+					"author": "Никита Дубко",
+					"tags": ["Twitter"]
+				},
+				{
+					"link": "https://habr.com/ru/company/typeable/blog/589257/",
+					"title": "Какой вклад внесло функциональное программирование в современные языки?",
+					"description": "В этой статье пойдёт речь о парадигмах в программировании в целом, а также конкретно о функциональной парадигме.",
+					"author": "Блог компании Typeable",
+					"tags": []
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=JU5qcof-CKg",
+					"title": "Стоит ли программистам работать в JetRockets",
+					"description": "В рубрике «Распаковка компании» CEO Хекслет Кирилл Мокевнин говорит с CTO JetRockets Игорем Александровым об инженерных практиках, грейдах, опенсорсе и других вопросах.",
+					"author": "Кирилл Мокевнин, Игорь Александров",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/skillfactory/blog/588356/",
+					"title": "Как сделать игру 2048 на React.",
+					"description": "В игры можно не только играть, но и писать их на любимом React. О том, как развлечь себя кодом и игрой, читайте в статье от SkillFactory",
+					"author": "SkillFactory",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://nuancesprog.ru/p/11039/",
+					"title": "Понятие о порталах в React с примерами использования",
+					"description": "Статья не новая, но не смог пройти мимо, ведь буквально недавно сталкивался с порталами в React. Инструмент весьма интересный и полезный, так что советую к прочтению. ",
+					"author": "Madushika Perera",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/",
+					"title": "Простая реализация темного режима (и многоцветных тем) В React",
+					"description": "Вы еще не используете темный режим? Тогда мы идем к Вам (не переведем, но на подумать материал подкинем).",
+					"author": "Abram Thau",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://medium.com/nuances-of-programming/плюсы-и-минусы-react-виртуальная-dom-синтаксис-jsx-и-другие-аргументы-для-спора-85a111ba1494",
+					"title": "Плюсы и минусы React: виртуальная DOM, синтаксис JSX и другие аргументы для спора.",
+					"description": "Статью скорее можно рассматривать как суьбективное мнение автора, но оно имеет место быть. А вот соглашаться с ним или нет, уже решать Вам.",
+					"author": "Maria Hladka",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/timeweb/blog/588498/",
+					"title": "Next.js: подробное руководство. Итерация первая.",
+					"description": "Если Вы хорошо знакомы с React, самое время расширять горизонты. Вы узнаете что такое Next.js, как работает маршрутизация, что такое SSR/SSG и многое другое. ",
+					"author": "Igor Agapov",
+					"tags": []
+				}
+			]
+		}
+	]
+}

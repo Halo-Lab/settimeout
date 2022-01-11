@@ -1,0 +1,126 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/mailto",
+					"title": "Как использовать ссылки mailto: и tel:",
+					"description": "Обзор форматов ссылок mailto: и tel:. Автор рассказывает, для чего они нужны и как с ними работать. ",
+					"author": "Евгений Шкляр",
+					"tags": []
+				},
+				{
+					"link": "http://www.css-tricks.ru/articles/css/z-index",
+					"title": "Свойство z-index: детальный обзор",
+					"description": "Вы узнаете, что такое z-index, какие есть проблемы в его понимании, а также увидите примеры его использования.",
+					"author": "Louis Lazaris",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://webformyself.com/rasshirennaya-animaciya-css-s-ispolzovaniem-cubic-bezier/",
+					"title": "Расширенная анимация CSS с использованием cubic-bezier()",
+					"description": "В статье говорится, как проще работать со сложной анимацией CSS.",
+					"author": "Temani Afif",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/post/589375/",
+					"title": "Основные варианты использования CSS-переменных (Custom Properties)",
+					"description": "Здесь вы найдёте распространённые кейсы по использованию CSS-переменных.",
+					"author": "Антон Сергеенков",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/macloud/blog/557580/",
+					"title": "Инструменты для аудита CSS",
+					"description": "Полезный обзор инструментов для аудита CSS.",
+					"author": "@owlofmacloud",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://www.youtube.com/watch?v=IPhnq59EK8E",
+					"title": "Пишем ToDo на Svelte.js",
+					"description": "Практический урок посвящён восходящей звезде фронтенда — Svelte. Спикеры расскажут, почему этот инструмент называется «исчезающим фреймворком» и покажут, как с ним работать.",
+					"author": "Михаил Шпаков, Александр Усков",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=ZNJAmgO4H7c",
+					"title": "Интервью с Александром Соловьёвым, CTO Каста ",
+					"description": "Александр рассказывает о своей карьере, объясняет, почему Каста выбрала вместо Python язык семейства Лисп Clojure, и как этой компании удаётся искать фронтендеров, которые готовы писать на ClojureScript.",
+					"author": "Александр Соловьёв",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=ri2n5miYYxM",
+					"title": "Зачем фронтендеру делать опенсорс ",
+					"description": "Разработчик Aviasales Игорь Камышев беседует об опенсорсе с программистом Resume.io Владом Шиловым в очередном выпуске подкаста «Подлодка».",
+					"author": "Игорь Камышев, Влад Шилов",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://www.youtube.com/watch?v=pDKm6RweV5w",
+					"title": "Bootstrap, Atomic CSS, физическое здоровье на удаленке",
+					"description": "Этот выпуск подкаста CSSSR посвящён CSS-фреймворкам, а также подходу Atomic CSS.",
+					"author": "Никита Голубов, Никита Михайлов",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://habr.com/ru/post/591173/",
+					"title": "Rust — будущее инфраструктуры JavaScript",
+					"description": "Автор объясняет, почему программистам стоит обратить внимание на язык, который считается более низкоуровневым по сравнению с JavaScript.",
+					"author": "Lee Robertson",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+			{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/591381/",
+					"title": "Styled Components — идеальная стилизация React-приложения",
+					"description": "CSS in JS многим специалистам кажется сомнительным решением, но автор постарается убедить вас в обратном.",
+					"author": "YaroslavWeb",
+					"tags": []
+				},
+				{
+					"link": "https://blog.bitsrc.io/react-with-typescript-cheatsheet-9dd891dc5bfe",
+					"title": "React with TypeScript Cheatsheet ",
+					"description": "Сохраните шпаргалку, практикуйте английский и повторяйте TypeScript.",
+					"author": "Nathan Sebhastian",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://webformyself.com/react-protiv-drugix-frejmvorkov-sravnenie-po-trem-aspektam/",
+					"title": "React против других фреймворков: сравнение по трем аспектам",
+					"description": "Если кому-то надоел React, и есть желание освоить новый инструмент — вот сравнение фреймворков в стиле «React против всех». Да, мы знаем, что React — не фреймворк ;-) ",
+					"author": "Vithushan Jey",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://www.setup.pp.ua/2021/11/angular-enterprise.html",
+					"title": "Как Angular загоняет фронтенд разработчиков в enterprise кабалу",
+					"description": "В продолжение темы статьи выше — небольшой экскурс в историю Angular. Автор рассказывает, что это за инструмент и с чем его едят.",
+					"author": "Александр Серенко",
+					"tags": []
+				},
+				{
+					"link": "https://www.internet-technologies.ru/articles/instr-i-priemy-dlya-uskoren-razrabotki-na-vue-js.html",
+					"title": "Инструменты и приемы для ускорения разработки на Vue.js",
+					"description": "Если вы уже пробовали писать на Vue или присматривались к нему, тогда ловите отличную статью. Она поможет работать с Vue эффективнее.",
+					"author": "перевод Наталья Кайда",
+					"tags": ["Переведено"]
+				}
+			]
+		}
+	]
+}

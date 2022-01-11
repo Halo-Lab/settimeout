@@ -1,0 +1,79 @@
+{
+	"greetingTitle": "",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://webformyself.com/predotvrashhenie-cepnoj-prokrutki-s-pomoshhyu-overscroll-behavior/",
+					"title": "Предотвращение цепной прокрутки с помощью overscroll-behavior",
+					"description": "В статье рассматривается свойство CSS overscroll-behavior, какую проблему оно решает, как работает и где можно его использовать.",
+					"author": "Ahmad Shadeed",
+					"tags": [
+						"Переведено"
+					]
+				},
+				{
+					"link": "https://habr.com/ru/post/594211/",
+					"title": "Актуальные форматы изображений в вебе",
+					"description": "Автор статьи рассказывает о том, как подготавливать изображения для сайтов и веб-приложений, описывает актуальные форматы и дает рекомендации, как добавить поддержку WebP и AVIF на сайт и какие инструменты можно использовать.",
+					"author": "Алексей Черкасов",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/getting-deep-into-shadows/",
+					"title": "Getting Deep Into Shadows",
+					"description": "Тени добавляют текстуру, перспективу и подчеркивают размеры объектов. В веб-дизайне использование света и тени может добавить физического реализма и используется для создания насыщенных тактильных интерфейсов.",
+					"author": "Rob O'Leary",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/sberbank/blog/597683/",
+					"title": "Почему принцип единственной ответственности не всегда работает",
+					"description": "Автор статьи предлагает критический взгляд на один из принципов ООП. Кстати, дядюшка Боб Мартин давно переформулировал этот принцип.",
+					"author": "Блог компании Сбер",
+					"tags": []
+				},
+				{
+					"link": "https://skillbox.ru/media/code/gde-pobedil-open-source-chto-s-nim-ne-tak-i-komu-on-nuzhen/",
+					"title": "Где победил Open Source, что с ним не так и кому он нужен",
+					"description": "Техлид компании DaData Антон Жиянов рассказвает об опенсорсе в статье для медиа «Скиллбокс». Он объясняет, как и для чего контрибьютить в проекты с открытым исходным кодом.",
+					"author": "Антон Жиянов",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/596183/",
+					"title": "Что такое React Native? Комплексное руководство 2021",
+					"description": "Кажется, React Native ещё не достиг пика своей популярности — о нём с каждым годом говорят все больше и больше, и не зря.",
+					"author": "Maciej Budziński",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/otus/blog/595343/",
+					"title": "Blogged Answers: (почти) полное руководство по особенностям рендеринга в React. Часть 3",
+					"description": "Заключительная часть серии статей, посвященных особенностям рендеринга в ReactJS.",
+					"author": "Max Rokatansky",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://timeweb.com/ru/community/articles/krutye-freymvorki-i-biblioteki-js-css",
+					"title": "10 крутых фреймворков и библиотек, о которых вы могли не знать",
+					"description": "Технологии не стоят на месте, и многое может пройти мимо нас.",
+					"author": "Space Police",
+					"tags": []
+				}
+			]
+		}
+	]
+}
