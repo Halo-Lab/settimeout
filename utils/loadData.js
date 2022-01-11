@@ -18,7 +18,11 @@ export const loadMailingListData = async () =>
 			files
 				.filter((file) => file.isFile())
 				.map(({ name }) => name)
-				.sort((firstName, secondName) => toDate(firstName) - toDate(secondName))
+				.sort(
+					(firstName, secondName) =>
+						toDate(firstName.replace(/\.json/, "")) -
+						toDate(secondName.replace(/\.json/, ""))
+				)
 		)
 		.catch(() => []);
 

@@ -6,13 +6,11 @@
 			"title": "Вёрстка",
 			"cards": [
 				{
-					"link": "https://webformyself.com/predotvrashhenie-cepnoj-prokrutki-s-pomoshhyu-overscroll-behavior/",
-					"title": "Предотвращение цепной прокрутки с помощью overscroll-behavior ",
-					"description": " В статье рассматривается свойство CSS overscroll-behavior, какую проблему оно решает, как работает и где можно его использовать.",
+					"link": "https://webformyself.com/ispolzovanie-positionsticky-v-css/",
+					"title": "Использование position:sticky в CSS",
+					"description": " Автор статьи рассматривает, как правильно использовать position:sticky и добиться нужного эффекта.",
 					"author": "Ahmad Shadeed",
-					"tags": [
-						"Переведено"
-					]
+					"tags": ["Переведено"]
 				},
 				{
 					"link": "https://habr.com/ru/post/596439/",
