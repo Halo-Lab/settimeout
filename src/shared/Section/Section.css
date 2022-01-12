@@ -3,9 +3,7 @@
 }
 
 .section-title {
-	display: inline-block;
 	margin-bottom: 20px;
-	vertical-align: middle;
 
 	color: #0f204d;
 	font-size: 20px;
@@ -13,9 +11,12 @@
 }
 
 .section-title-ico {
-	display: inline-block;
 	vertical-align: middle;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: 8px;
+}
+
+.icon-td {
+	width: 21px;
+	height: auto;
+
+	padding-right: 8px;
 }

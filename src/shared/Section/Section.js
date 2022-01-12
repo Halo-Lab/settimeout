@@ -20,7 +20,18 @@ const buildSectionIcon = (title) => {
 export const Section = ({ title, cards }) =>
 	html`
 		<div class="section">
-			<div class="section-title">${buildSectionIcon(title)} ${title}</div>
+			<table
+				width="100%"
+				cellspacing="0"
+				cellpadding="0"
+				border="0"
+				class="section-title"
+			>
+				<tr>
+					<td class="icon-td">${buildSectionIcon(title)}</td>
+					<td class="section-title-text">${title}</td>
+				</tr>
+			</table>
 			${cards.map((item, index) => Card(item, index === cards.length - 1))}
 		</div>
 	`;
