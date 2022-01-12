@@ -17,6 +17,7 @@ const Tag = Object.freeze({
 	YOUTUBE: "youtube",
 	UNKNOWN: "unknown",
 	TRANSLATE: "translate",
+	PODCAST: "podcast",
 });
 
 const tagsData = [
@@ -26,8 +27,8 @@ const tagsData = [
 		url: isProduction()
 			? assets("tags/twitter.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/tags/twitter.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/tags/twitter.png", import.meta.url)
+			  ),
 	},
 	{
 		name: "Youtube",
@@ -35,11 +36,12 @@ const tagsData = [
 		url: isProduction()
 			? assets("tags/youtube.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/tags/youtube.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/tags/youtube.png", import.meta.url)
+			  ),
 	},
 	{ name: "English", key: Tag.ENGLISH },
 	{ name: "Переведено", key: Tag.TRANSLATE },
+	{ name: "Подкаст", key: Tag.PODCAST },
 	{
 		key: Tag.UNKNOWN,
 	},
@@ -61,7 +63,7 @@ const Icon = Object.freeze({
 	JAVASCRIPT: "JavaScript",
 	WEB_DEVELOPMENT: "Веб-разработка",
 	FRAMEWORKS: "Фреймворки и библиотеки",
-	PSYCHOLOGY: "Психология, продуктивность, soft skills"
+	PSYCHOLOGY: "Психология, продуктивность, soft skills",
 });
 
 const iconsData = [
@@ -71,8 +73,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/star.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/icons/star.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/icons/star.png", import.meta.url)
+			  ),
 	},
 	{
 		key: Icon.WEB_DEVELOPMENT,
@@ -80,8 +82,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/light.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/icons/light.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/icons/light.png", import.meta.url)
+			  ),
 	},
 	{
 		key: Icon.JAVASCRIPT,
@@ -89,8 +91,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/light.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/icons/light.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/icons/light.png", import.meta.url)
+			  ),
 	},
 	{
 		key: Icon.FRAMEWORKS,
@@ -98,8 +100,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/asterisk.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/icons/asterisk.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/icons/asterisk.png", import.meta.url)
+			  ),
 	},
 	{
 		key: Icon.PSYCHOLOGY,
@@ -107,8 +109,8 @@ const iconsData = [
 		url: isProduction()
 			? assets("icons/smile.png")
 			: normalizeURL(
-				new URL("/src/shared/assets/icons/smile.png", import.meta.url)
-			),
+					new URL("/src/shared/assets/icons/smile.png", import.meta.url)
+			  ),
 	},
 	{
 		key: Icon.UNKNOWN,
@@ -141,13 +143,13 @@ const Images = {
 	[Image.GREETING]: isProduction()
 		? assets("img/greeting.png")
 		: normalizeURL(
-			new URL("/src/shared/assets/img/greeting.png", import.meta.url)
-		),
+				new URL("/src/shared/assets/img/greeting.png", import.meta.url)
+		  ),
 	[Image.LOGO_FOOTER]: isProduction()
 		? assets("img/logo-footer.png")
 		: normalizeURL(
-			new URL("/src/shared/assets/img/logo-footer.png", import.meta.url)
-		),
+				new URL("/src/shared/assets/img/logo-footer.png", import.meta.url)
+		  ),
 	[Image.LOGO]: isProduction()
 		? assets("img/logo.png")
 		: normalizeURL(new URL("/src/shared/assets/img/logo.png", import.meta.url)),

@@ -89,6 +89,11 @@
 	color: #f23742;
 }
 
+.item-tag--podcast {
+	background-color: #fff3e5;
+	color: #ff9416;
+}
+
 .item-tag--unknown {
 	background-color: #e6e9f7;
 	color: #0f204d;
