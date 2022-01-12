@@ -14,7 +14,7 @@
 				},
 				{
 					"link": "https://webformyself.com/umnaya-texnika-lipkogo-futera-footer/",
-					"title": "Умная техника липкого футера (footer)",
+					"title": "Умная техника липкого футера",
 					"description": "Идея состоит в том, что footer размещают в нижней части экрана, даже когда содержимого страницы недостаточно, чтобы сместить его туда.",
 					"author": "Chris Coyier",
 					"tags": ["Переведено"]
@@ -36,7 +36,7 @@
 					"title": "AI-assisted development is here to stay",
 					"description": "Подкаст CTO Tabnine посвящён использованию искусственного интеллекта в разработке. Спикер пытается заглянуть в будущее и понять, будут ли программисты работать бок о бок с умными машинами.",
 					"author": "Eran Yahav",
-					"tags": ["English"]
+					"tags": ["English","Подкаст"]
 				},
 				{
 					"link": "https://skillbox.ru/media/code/novyy-uroboros-pochemu-mashiny-obyazatelno-budut-dominirovat-nad-chelovekom/",
@@ -57,13 +57,6 @@
 		{
 			"title": "Фреймворки и библиотеки",
 			"cards": [
-				{
-					"link": "https://trashbox.ru/link/why-have-this-browser-become-popular",
-					"title": "«За год браузер brave удвоил пользователей — я протестировал и понял причину». Техногиковские инструменты.",
-					"description": "Возможно это будущий конкурент «Google Chrome»? Посмотрим...",
-					"author": "@nickgric",
-					"tags": []
-				},
 				{
 					"link": "https://blog.logrocket.com/generating-pdfs-react/",
 					"title": "Создание PDF-файлов в React с помощью react-pdf",
