@@ -3,23 +3,27 @@ import { html, data, effect, router, current } from "@prostory/edelweiss";
 import "./SubscriptionBlock.css";
 import unisenderAPI from "../../../../services/unisenderAPI";
 
-const subscriptionEmail = data("");
+const subscriberName = data("");
+const subscriberEmail = data("");
 
 const onSubscriptionFormSubmit = async (e) => {
 	e.preventDefault();
 
-	const email = subscriptionEmail();
+	const name = subscriberName();
+	const email = subscriberEmail();
 
 	try {
 		// const contactData = await unisenderAPI.getContact(email);
 
 		// if (contactData?.result?.email) return current("/already-subscribed"); //- to go to the corresponding page
 
-		const newContactData = await unisenderAPI.addContact(email);
+		if (name.trim() === "") return;
+		const newContactData = await unisenderAPI.addContact(email, name);
 
 		// if (newContactData?.result?.person_id) return current("/thanks"); //- to go to the corresponding page
 
-		subscriptionEmail("");
+		subscriberName("");
+		subscriberEmail("");
 	} catch (error) {
 		//for test
 		// if (error) current("/something-wrong");
@@ -43,15 +47,28 @@ export const SubscriptionBlock = html`
 				>
 					<label class="subscription-form-label">
 						<input
+							type="text"
+							.value=${() => subscriberName()}
+							placeholder="Ваше имя"
+							autocomplete="name"
+							required
+							name="name"
+							id="name"
+							class="subscription-form-input"
+							@input=${(e) => subscriberName(e.target.value)}
+						/>
+					</label>
+					<label class="subscription-form-label">
+						<input
 							type="email"
-							.value=${() => subscriptionEmail()}
+							.value=${() => subscriberEmail()}
 							placeholder="Ваш Email"
 							autocomplete="email"
 							required
 							name="email-address"
 							id="email-address"
 							class="subscription-form-input"
-							@input=${(e) => subscriptionEmail(e.target.value)}
+							@input=${(e) => subscriberEmail(e.target.value)}
 						/>
 					</label>
 					<button type="submit" class="subscription-form-btn-submit">

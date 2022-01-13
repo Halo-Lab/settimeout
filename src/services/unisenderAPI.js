@@ -1,9 +1,9 @@
 const BASE_NETLIFY_URL = "/.netlify/functions";
 
-function addContact(email) {
-	return fetch(`${BASE_NETLIFY_URL}/add-contact?email=${email}`).then((res) =>
-		res.json()
-	);
+function addContact(email, name) {
+	return fetch(
+		`${BASE_NETLIFY_URL}/add-contact?email=${email}&name=${name}`
+	).then((res) => res.json());
 }
 
 function getContact(email) {
