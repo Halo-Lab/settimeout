@@ -70,23 +70,28 @@
 /* Tags variants */
 
 .item-tag--english {
-	background-color: #edfff3;
+	background-color: #ebfaf0;
 	color: #3aca6b;
 }
 
 .item-tag--translate {
-	background-color: #ededff;
+	background-color: #efeffd;
 	color: #5d5fef;
 }
 
 .item-tag--twitter {
-	background-color: #ecf9ff;
+	background-color: #ebf8fe;
 	color: #3bb5f2;
 }
 
 .item-tag--youtube {
-	background-color: #ffe7e9;
+	background-color: #feebec;
 	color: #f23742;
+}
+
+.item-tag--podcast {
+	background-color: #fff3e5;
+	color: #ff9416;
 }
 
 .item-tag--unknown {
