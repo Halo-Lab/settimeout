@@ -1,0 +1,145 @@
+.thanks-wrap {
+	margin-top: -1px;
+	padding-top: 110px;
+
+	color: #ffffff;
+
+	background: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-wrap {
+		padding-top: 238px;
+		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+	}
+}
+
+.thanks-title {
+	margin: 0 0 34px;
+
+	font-size: 34px;
+	line-height: 130%;
+	text-align: center;
+}
+
+.gratitude-reason {
+	display: block;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-title {
+		font-size: 65px;
+		line-height: 120%;
+	}
+}
+
+.thanks-notification {
+	margin: 0 auto 46px auto;
+	padding: 0 10%;
+
+	max-width: 422px;
+
+	font-size: 14px;
+	line-height: 140%;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-notification {
+		font-size: 20px;
+		line-height: 150%;
+	}
+}
+
+.back-home-link {
+	display: block;
+
+	width: 230px;
+
+	padding: 15px;
+	margin: 0 auto 84px auto;
+
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 130%;
+
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	background: #3bb5f2;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	border-radius: 6px;
+
+	cursor: pointer;
+}
+
+.back-home-link:hover,
+.back-home-link:focus {
+	background-color: #2f9acf;
+}
+
+@media screen and (min-width: 1280px) {
+	.back-home-link {
+		font-size: 16px;
+	}
+}
+
+.settimeout-mailto-link {
+	display: none;
+}
+
+.thanks-hero {
+	width: 56%;
+	min-width: 210px;
+	height: 23%;
+	min-height: 165px;
+
+	margin: 0 auto;
+
+	background-color: transparent;
+	background-image: url(../../../shared/assets/img/typing-man.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: 210px;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-hero {
+		width: 50%;
+		background-color: #ffffff;
+		background-size: cover;
+	}
+}
+
+/* footer */
+
+/* .thanks-footer:before {
+	content: "";
+
+	display: block;
+	width: 238px;
+	margin: 0 auto 20px auto;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.2);
+} */
+
+.thanks-footer {
+	padding: 54px 0 25px;
+	background-color: #ffffff;
+}
+
+/* .thanks-footer {
+	font-size: 12px;
+	line-height: 1.333;
+
+	text-align: center;
+} */
+
+.thanks-footer-copyright {
+	font-size: 15px;
+	line-height: 130%;
+	text-align: center;
+
+	color: rgba(15, 32, 77, 0.6);
+	/* color: rgba(255, 255, 255, 0.6); */
+}

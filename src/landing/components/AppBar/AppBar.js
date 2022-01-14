@@ -7,8 +7,8 @@ export const AppBar = html`
 		<div class="app-bar-content-wrap">
 			<a href="/" class="logo-link">
 				<svg
-					width="39"
-					height="36"
+					width="42"
+					height="39"
 					fill="currentColor"
 					xmlns="http://www.w3.org/2000/svg"
 					class="logo-icon"

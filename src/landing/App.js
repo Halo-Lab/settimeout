@@ -6,24 +6,28 @@ import { SubscriptionBlock } from "./scenes/Main/SubscriptionBlock/SubscriptionB
 import { SubscriptionThanks } from "./scenes/SubscriptionThanks/SubscriptionThanks.js";
 import { SubscriptionAlready } from "./scenes/SubscriptionAlready/SubscriptionAlready.js";
 
-export const App = html`
-	<div class="page-wrap">
-		${AppBar}
-		<div class="main-content-wrap">${ArticlesBlock}</div>
-		${SubscriptionBlock}
-	</div>
-`;
+export const App = html` ${SubscriptionThanks} `;
+
+// export const App = html`
+// 	<div class="page-wrap">
+// 		${AppBar}
+// 		<div class="main-content-wrap">${ArticlesBlock}</div>
+// 		${SubscriptionBlock}
+// 	</div>
+// `;
 
 //use when the design of the corresponding pages is ready
 // export const App = html`
-// 	<div class="page-wrap">
+
 // 		${router(
 // 			{
 // 				pattern: "/",
 // 				template: html`
-// 					${AppBar}
-// 					<div class="main-content-wrap">${ArticlesBlock}</div>
-// 					${SubscriptionBlock}
+// 					<div class="page-wrap">
+// 						${AppBar}
+// 						<div class="main-content-wrap">${ArticlesBlock}</div>
+// 						${SubscriptionBlock}
+// 					</div>
 // 				`,
 // 			},
 // 			{ pattern: "/thanks", template: SubscriptionThanks },
