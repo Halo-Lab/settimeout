@@ -1,16 +1,130 @@
-.thanks-wrap {
-	margin-top: -1px;
-	padding-top: 110px;
+.thanks-page {
+	position: relative;
 
-	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
-	background: #3bb5f2;
+	height: 100%;
+
+	background-color: #3bb5f2;
 }
 
 @media screen and (min-width: 1280px) {
-	.thanks-wrap {
-		padding-top: 238px;
+	.thanks-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		height: 100%;
+
 		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+	}
+}
+
+/* === header === */
+
+.header-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (min-width: 1280px) {
+	.header-container {
+		justify-content: space-between;
+		align-items: center;
+
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 100px;
+	}
+}
+
+.header {
+	background-color: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.header {
+		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+	}
+}
+
+.settimeout-mailto-link {
+	display: none;
+}
+
+@media screen and (min-width: 1280px) {
+	.settimeout-mailto-link {
+		display: block;
+
+		padding: 20px;
+
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 130%;
+		color: #3bb5f2;
+		text-decoration: none;
+		outline: none;
+	}
+
+	.settimeout-mailto-link:hover,
+	.settimeout-mailto-link:focus {
+		text-decoration: underline;
+	}
+}
+
+/* === main ===*/
+
+.main-wrap {
+	background-color: #3bb5f2;
+	background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-container {
+		display: flex;
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+}
+
+.thanks-main {
+	display: flex;
+	flex-direction: column;
+
+	background: #3bb5f2;
+
+	background-image: url("/src/shared/assets/img/mail.png"),
+		url("/src/shared/assets/img/book.png"),
+		url("/src/shared/assets/img/note.png");
+	background-repeat: no-repeat;
+	background-position: 5px 40px, 10px 410px, 315px 0;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-main {
+		width: 50%;
+		background-image: url("/src/shared/assets/img/mail.png"),
+			url("/src/shared/assets/img/book.png"),
+			url("/src/shared/assets/img/note.png");
+		background-repeat: no-repeat;
+		background-position: 20px 0, 0px 520px, 470px 560px;
+	}
+}
+
+.thanks-main-content {
+	margin-top: 110px;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+
+		margin-top: 160px;
+		padding-right: 100px;
 	}
 }
 
@@ -20,6 +134,7 @@
 	font-size: 34px;
 	line-height: 130%;
 	text-align: center;
+	color: #ffffff;
 }
 
 .gratitude-reason {
@@ -30,6 +145,7 @@
 	.thanks-title {
 		font-size: 65px;
 		line-height: 120%;
+		text-align: left;
 	}
 }
 
@@ -37,14 +153,19 @@
 	margin: 0 auto 46px auto;
 	padding: 0 10%;
 
-	max-width: 422px;
-
 	font-size: 14px;
 	line-height: 140%;
+	color: #ffffff;
+
+	text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
 	.thanks-notification {
+		padding: 0;
+		margin: 0 0 46px 0;
+		width: 430px;
+
 		font-size: 20px;
 		line-height: 150%;
 	}
@@ -64,13 +185,13 @@
 
 	text-decoration: none;
 	text-align: center;
-	vertical-align: middle;
 	color: #ffffff;
 	background: #3bb5f2;
 	border: 1px solid rgba(255, 255, 255, 0.6);
 	border-radius: 6px;
 
 	cursor: pointer;
+	outline: none;
 }
 
 .back-home-link:hover,
@@ -80,15 +201,28 @@
 
 @media screen and (min-width: 1280px) {
 	.back-home-link {
+		display: inline-block;
+
 		font-size: 16px;
+		margin: 0 200px 84px auto;
 	}
 }
 
-.settimeout-mailto-link {
-	display: none;
-}
+/* === hero === */
 
 .thanks-hero {
+	background-color: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-hero {
+		width: 50%;
+
+		position: relative;
+	}
+}
+
+.thanks-hero-image {
 	width: 56%;
 	min-width: 210px;
 	height: 23%;
@@ -104,42 +238,55 @@
 }
 
 @media screen and (min-width: 1280px) {
-	.thanks-hero {
-		width: 50%;
-		background-color: #ffffff;
-		background-size: cover;
+	.thanks-hero-image {
+		position: absolute;
+		left: 0;
+		bottom: -15%;
+
+		width: 100%;
+		height: 730px;
+
+		background-position: 50% 100%;
+		background-size: 464px;
 	}
 }
 
-/* footer */
+@media screen and (min-width: 1280px) {
+	.thanks-hero {
+		background-color: #ffffff;
+	}
+}
 
-/* .thanks-footer:before {
-	content: "";
-
-	display: block;
-	width: 238px;
-	margin: 0 auto 20px auto;
-	height: 1px;
-	background: rgba(255, 255, 255, 0.2);
-} */
+/* === footer === */
 
 .thanks-footer {
 	padding: 54px 0 25px;
 	background-color: #ffffff;
 }
 
-/* .thanks-footer {
-	font-size: 12px;
-	line-height: 1.333;
+@media screen and (min-width: 1280px) {
+	.thanks-footer {
+		position: static;
 
-	text-align: center;
-} */
+		width: 50%;
+
+		background: transparent;
+	}
+}
 
 .thanks-footer-copyright {
 	font-size: 15px;
 	line-height: 130%;
 	text-align: center;
-
 	color: rgba(15, 32, 77, 0.6);
-	/* color: rgba(255, 255, 255, 0.6); */
+}
+
+@media screen and (min-width: 1280px) {
+	.thanks-footer-copyright {
+		margin-left: 100px;
+
+		font-size: 12px;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.6);
+	}
 }
