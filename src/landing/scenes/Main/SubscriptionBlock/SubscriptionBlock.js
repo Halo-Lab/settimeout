@@ -34,7 +34,7 @@ const onSubscriptionFormSubmit = async (e) => {
 
 		const newContactData = await unisenderAPI.addContact(email, name);
 
-		if (newContactData?.result?.person_id) return current("/thanks");
+		if (newContactData?.result?.person_id) current("/thanks");
 
 		subscriberName("");
 		subscriberEmail("");
