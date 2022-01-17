@@ -20,14 +20,12 @@ const onSubscriptionFormSubmit = async (e) => {
 		if (name.trim() === "") return;
 		const newContactData = await unisenderAPI.addContact(email, name);
 
-		// if (newContactData?.result?.person_id) return current("/thanks"); //- to go to the corresponding page
+		if (newContactData?.result?.person_id) return current("/thanks");
 
 		subscriberName("");
 		subscriberEmail("");
 	} catch (error) {
-		//for test
-		// if (error) current("/something-wrong");
-		////////////
+		if (error) console.error(error.message);
 	}
 };
 
