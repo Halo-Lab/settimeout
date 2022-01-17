@@ -2,12 +2,6 @@ import { html, current } from "@prostory/edelweiss";
 
 import "./Unsubscribe.css";
 
-const onBackHomeLinkClick = (e) => {
-	e.preventDefault();
-
-	current("/");
-};
-
 export const Unsubscribe = html`
 	<div class="unsubscribe-page">
 		<header class="unsubscribe-header">
@@ -51,10 +45,7 @@ export const Unsubscribe = html`
 						Вы отписались и больше не будете получать сообщений от
 						SetTimeout.dev
 					</p>
-					<a
-						href="/"
-						class="subscribe-again"
-						@click=${(e) => onBackHomeLinkClick(e)}
+					<a href="https://www.settimeout.dev/" class="subscribe-again"
 						>Подписаться снова</a
 					>
 					<div class="unsubscribe-hero"></div>

@@ -23,7 +23,7 @@ const makeResponse = async (request) =>
 export async function handler(event, context) {
 	const { email } = event.queryStringParameters;
 
-	const requestData = `${BASIC_URL}/getContact?format=json&api_key=${API_KEY}&email=${email}`;
+	const requestData = `${BASIC_URL}/getContact?format=json&api_key=${API_KEY}&email=${email}&include_lists=1`;
 
 	const response = await makeResponse(requestData);
 

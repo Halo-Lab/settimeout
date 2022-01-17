@@ -155,6 +155,17 @@
 	background-color: #2f9acf;
 }
 
+.subscription-message {
+	display: block;
+	margin: 8px auto 0;
+
+	font-size: 14px;
+	line-height: 130%;
+	text-align: center;
+
+	color: #f23742;
+}
+
 /* footer */
 
 .subscription-footer:before {
