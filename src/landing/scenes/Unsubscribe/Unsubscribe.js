@@ -1,4 +1,4 @@
-import { html, current } from "@prostory/edelweiss";
+import { html } from "@prostory/edelweiss";
 
 import "./Unsubscribe.css";
 
