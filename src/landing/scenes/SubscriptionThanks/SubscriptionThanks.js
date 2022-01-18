@@ -1,6 +1,5 @@
 import { html, current } from "@prostory/edelweiss";
 
-import { AppBar } from "../../components/AppBar/AppBar";
 import { Logo } from "../../components/Logo/Logo";
 
 import "./SubscriptionThanks.css";
