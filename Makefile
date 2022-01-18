@@ -11,7 +11,6 @@ build_site:
 	@npx parcel build ./src/landing/index.html
 	@make join_data
 	@make copy_images
-	@echo '/*    /index.html   200' > dist/_redirects
 
 start_email:
 	@make clean
