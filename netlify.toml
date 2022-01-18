@@ -9,6 +9,6 @@
 
 [[redirects]]
   from = "/thanks"
-  to = "index.html"
+  to = "/index.html"
   status = 200
   force = false
