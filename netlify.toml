@@ -8,7 +8,7 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = "/thanks"
+  from = "/*"
   to = "/index.html"
   status = 200
-  force = false
+
