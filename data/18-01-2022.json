@@ -1,0 +1,91 @@
+{
+	"greetingTitle": "Привет, на связи Halo Lab!",
+	"greetingSubtitle": "Стоит ли хранить зависимости в репозитории после последних скандалов в мире опенсорса? Что нового в мире CSS? Чем хорош новый фреймворк Remix.js? Читайте новый выпуск рассылки, чтобы узнать ответы на эти и другие вопросы.",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/645471/",
+					"title": "HTML5 и алгоритм разметки документов",
+					"description": "Статья расскажет, как правильно использовать HTML5, разделять содержимое на разделы и понимать алгоритм структурирования документа.",
+					"author": "Derek Johnson, перевел Кинзябулатов Рамиль.",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2021/04/css-overflow-issues/",
+					"title": "Overflow Issues In CSS",
+					"description": "В статье рассматриваются причины проблем с переполнением контента и способы их решения. Также вы узнаете, как современные функции инструментов разработчика (DevTools) могут упростить процесс исправления и отладки.",
+					"author": "Ahmad Shadeed.",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://css-live.ru/vecssti-s-polej/novogodnie-podarki-rabochej-gruppy-css-znacheniya-i-edinicy-4-urovnya-mediavyrazheniya-4-i-5-urovnej.html",
+					"title": "Новогодние подарки Рабочей группы CSS: значения и единицы 4 уровня, медиавыражения 4 и 5 уровней",
+					"description": "Обзор обновленных модулей CSS. Читайте, чтобы быть в курсе нововведений.",
+					"author": "Илья Стрельцын.",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://forweb.dev/ru/blog/check-in-your-node-dependencies/",
+					"title": "Почему стоит хранить зависимости в системе контроля версий",
+					"description": "Любопытная и неоднозначная идея — хранение зависимостей в репозитории в системе контроля версий. Автор объясняет, почему считает эту практику хорошей.",
+					"author": "Джек Франклин, перевёл Андрей Романов.",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://parceljs.org/blog/parcel-css/",
+					"title": "Announcing Parcel CSS: A new CSS parser, compiler, and minifier written in Rust!",
+					"description": "Любители минималистичного билдера Parcel могут радостно потирать руки — вышел Parcel CSS. Подробнее об этом инструменте читайте в блоге разработчиков.",
+					"author": "Parcel team.",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://youtu.be/wL0HpCnxxpA",
+					"title": "Распаковка CSSSR: работа на полной удаленке, задачки на собеседовании и флаг на Эльбрусе",
+					"description": "Интервью с одним из руководителей компании CSSSR Сергеем Головиным. Он рассказывает о рабочих процессах, трекинге рабочего времени, внутреннеей активности, найме и других интересных вещах.",
+					"author": "Сергей Головин, Александр Усков.",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://habr.com/ru/post/645259/",
+					"title": "Как победить scroll в JavaScript",
+					"description": "Всеми любимый scroll. Секреты борьбы с этим могущественным зверем можно найти в данной статье.",
+					"author": "Денис Вершков.",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/adaptivnye-veb-stranicy-s-pomoshhyu-react-response-i-typescript/",
+					"title": "Адаптивные веб-страницы с помощью React-Response и TypeScript",
+					"description": "В статье вы найдете примеры и описание библиотеки для гибких медиа-запросов.",
+					"author": "Ikeh Akinyemi.",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://habr.com/ru/company/piter/blog/645343/",
+					"title": "Sapper и Svelte: быстрое руководство",
+					"description": "Про Svelte мы все слышали, а вот о том, что такое Sapper и как он связан со Svelte можно прочитать в статье.",
+					"author": "Debjyoti Banerjee.",
+					"tags": ["Переведено"]
+				},
+                {
+					"link": "https://blog.openreplay.com/an-alternative-to-next-js-everything-you-need-to-know-about-remixjs",
+					"title": "An Alternative to Next.JS? - Everything You Need to Know About RemixJS",
+					"description": "И снова пища для пытливых умов. Хочется чего-то новенького? Может, RemixJs именно для вас?",
+					"author": "Abhiraj Bhowmick.",
+					"tags": ["English"]
+				}
+			]
+		}
+	]
+}
