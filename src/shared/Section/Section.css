@@ -3,16 +3,20 @@
 }
 
 .section-title {
+	margin-bottom: 20px;
+
 	color: #0f204d;
 	font-size: 20px;
-	line-height: 23px;
-	margin-bottom: 20px;
-	display: flex;
-	align-items: center;
+	line-height: 1.15;
 }
 
 .section-title-ico {
-	display: initial;
 	vertical-align: middle;
-	margin-right: 8px;
+}
+
+.icon-td {
+	width: 21px;
+	height: auto;
+
+	padding-right: 8px;
 }

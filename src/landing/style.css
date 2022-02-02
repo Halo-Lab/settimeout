@@ -7,14 +7,7 @@ html,
 body {
 	font-family: "Inter", Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
-}
-
-.bg-dark-blue {
-	background-color: #02021e;
-}
-
-.bg-indigo {
-	background-color: #3719ca;
+	height: 100%;
 }
 
 /* page wrappers */

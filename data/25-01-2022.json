@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Привет, это новый выпуск рассылки от Halo Lab!",
+	"greetingSubtitle": "Чем пахнет код компонентов React? Как готовить код к ревью? Как разобраться в спецификациях W3C? Эти и другие темы рассматриваются в материалах выпуска.",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://css-live.ru/articles/kak-chitat-w3c-specifikacii.html",
+					"title": "Как читать W3C-спецификации",
+					"description": "Статья поможет понять, как читать и разбираться в W3C-спецификациях и находить нужную информацию.",
+					"author": "Максим Усачёв.",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/post/646089/",
+					"title": "Адаптивное свойство одной строкой",
+					"description": "Разбирается задача описания изменения значения CSS-свойства как функции от ширины вьюпорта без использования медиа-запросов.",
+					"author": "@ryevych.",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/dinamicheskoe-upravlenie-cvetami-s-pomoshhyu-otnositelnyx-cvetov-css/",
+					"title": "Динамическое управление цветами с помощью относительных цветов CSS",
+					"description": "С помощью относительных цветов в CSS вы можете декларативно выполнить своего рода приведение типа от одного цветового типа к другому, а затем деструктурировать нужные вам значения.",
+					"author": "Jim Nielsen.",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://guides.hexlet.io/numeral-systems/",
+					"title": "Системы счисления",
+					"description": "Фундаментальный гайд по системам счисления будет полезным как для новичков, так и для опытных разработчиков.",
+					"author": "Марк Шевченко.",
+					"tags": []
+				},
+				{
+					"link": "https://youtu.be/lICpNfSxDQw",
+					"title": "Lean: выпуск подкаста «Подлодка» №250",
+					"description": "В этом выпуске подкаста «Подлодка» идёт речь о бережливой разработке. В чём суть этого подхода и почему его любят стартапы?",
+					"author": "Алексей Пименов.",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://twitter.com/andrew__romanov/status/1483872160749965317",
+					"title": "Как упростить ревью вашего кода",
+					"description": "Тред известного разработчика и автора паблика ForWeb Андрея Романова о хороших практиках подготовки кода к ревью.",
+					"author": "Андрей Романов.",
+					"tags": ["Twitter"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/deklarativnaya-vyborka-dannyx-s-react-async/",
+					"title": "Декларативная выборка данных с React Async",
+					"description": "Данная библиотека представляет из себя async/await на максималках, где для извлечения данных используются хуки и компоненты.",
+					"author": "Piumi Liyana Gunawardhana.",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://blog.vuejs.org/posts/vue-3-as-the-new-default.html",
+					"title": "Vue 3 as the New Default",
+					"description": " Не только React готовит масштабное обновление, но и Vue не стоит на месте. 7 февраля Vue 3 станет новой версией по умолчанию.",
+					"author": "Evan You.",
+					"tags": ["English"]
+				},
+                {
+					"link": "https://css-live.ru/javascript/zapashki-koda-react-komponentov.html",
+					"title": "«Запашки» кода React-компонентов",
+					"description": "Подобные «запашки» можно найти в любом коде, и иногда они даже могут привести к ошибкам. Что автор обозвал «запашками»? Читайте в статье.",
+					"author": "Максим Учачёв.",
+					"tags": []
+				}
+			]
+		}
+	]
+}
