@@ -56,7 +56,7 @@ export const SubscriptionBlock = html`
 			<div class="subscription-content">
 				<h2 class="subscription-appeal-title">Подпишись на рассылку</h2>
 				<p class="subscription-appeal-description">
-					Узнавай первым новости в разработке и достигай большего ежедневно!
+				  Получай полезные статьи о веб-разработке и инструментах раз в неделю!
 				</p>
 
 				<form
