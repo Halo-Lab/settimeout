@@ -23,7 +23,7 @@
 	.app-bar-content-wrap {
 		justify-content: center;
 
-		width: 414px;
-		margin-left: auto;
+		max-width: 414px;
+		margin: 0 auto;
 	}
 }
