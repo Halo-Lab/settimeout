@@ -18,7 +18,7 @@
 	}
 }
 
-@media screen and (max-height: 865px), (max-width: 300px) {
+@media screen and (max-height: 865px) and (min-width: 768px) {
 	.subscription {
 		top: 49px;
 		padding: 0;
@@ -86,7 +86,7 @@
 	}
 }
 
-@media screen and (max-height: 865px), (max-width: 300px) {
+@media screen and (max-height: 865px) and (min-width: 768px) {
 	.subscription-content-img {
 		max-width: 200px;
 		height: 176px;
@@ -110,7 +110,7 @@
 	}
 }
 
-@media screen and (max-height: 865px), (max-width: 300px) {
+@media screen and (max-height: 865px) and (min-width: 768px) {
 	.subscription-content {
 		margin-bottom: 20px;
 	}
