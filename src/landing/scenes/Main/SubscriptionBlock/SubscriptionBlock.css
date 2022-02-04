@@ -96,6 +96,16 @@
 	}
 }
 
+@media screen and (max-height: 905px) and (min-width: 1280px) {
+	.subscription-content-img {
+      display: none;
+	}
+
+	.subscription-content {
+		margin-bottom: 35px;
+	}
+}
+
 .subscription-appeal-title,
 .subscription-appeal-description {
 	text-align: center;
