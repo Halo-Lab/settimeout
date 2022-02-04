@@ -1,4 +1,5 @@
-import { html, current } from "@prostory/edelweiss";
+import { html, effect, data, current } from "@prostory/edelweiss";
+import { subscriberName } from '../Main/SubscriptionBlock/SubscriptionBlock';
 
 import { Logo } from "../../components/Logo/Logo";
 
@@ -9,6 +10,15 @@ const onBackHomeLinkClick = (e) => {
 
 	current("/");
 };
+
+const userName = data("");
+
+effect(() => {
+	const name = subscriberName();
+	if (name.trim() !== "") {
+	  userName(name.trim());
+	}
+})
 
 export const SubscriptionThanks = html`
 	<div class="thanks-page">
@@ -25,7 +35,9 @@ export const SubscriptionThanks = html`
 				<main class="thanks-main">
 					<section class="thanks-main-content">
 						<h1 class="thanks-title">
-							Спасибо <span class="gratitude-reason">за подписку!</span>
+							Спасибо <span class="gratitude-reason">за подписку${() => {
+								  return userName() === '' ? '' : `, ${userName()}`
+								}}!</span>
 						</h1>
 						<p class="thanks-notification">
 							Проверьте свою почту, скоро мы пришлем вам подтверждение. Обещаем
