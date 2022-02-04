@@ -196,7 +196,8 @@
 
 .back-home-button:hover,
 .back-home-button:focus {
-	background-color: #2f9acf;
+	color: #2f9acf;
+	background-color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
