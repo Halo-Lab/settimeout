@@ -5,7 +5,7 @@ import unisenderAPI from "../../../../services/unisenderAPI";
 
 const LIST_ID = process.env.LIST_ID;
 
-const subscriberName = data("");
+export const subscriberName = data("");
 const subscriberEmail = data("");
 const isSubscribed = data(false);
 
@@ -16,8 +16,6 @@ const onSubscriptionFormSubmit = async (e) => {
 	const email = subscriberEmail();
 
 	try {
-		if (name.trim() === "") return;
-
 		const contactData = await unisenderAPI.getContact(email);
 
 		const isInSubscribeList = contactData?.result?.lists?.find(
@@ -36,7 +34,7 @@ const onSubscriptionFormSubmit = async (e) => {
 
 		if (newContactData?.result?.person_id) current("/thanks");
 
-		subscriberName("");
+        subscriberName("");
 		subscriberEmail("");
 	} catch (error) {
 		if (error) console.error(error.message);
@@ -69,7 +67,6 @@ export const SubscriptionBlock = html`
 							.value=${() => subscriberName()}
 							placeholder="Ваше имя"
 							autocomplete="name"
-							required
 							name="name"
 							id="name"
 							class="subscription-form-input"
