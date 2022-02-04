@@ -36,7 +36,7 @@ export const SubscriptionThanks = html`
 					<section class="thanks-main-content">
 						<h1 class="thanks-title">
 							Спасибо <span class="gratitude-reason">за подписку${() => {
-								  return userName().trim() === '' ? '' : `, ${userName().trim()}`
+								  return userName() === '' ? '' : `, ${userName()}`
 								}}!</span>
 						</h1>
 						<p class="thanks-notification">
