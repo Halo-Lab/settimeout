@@ -6,8 +6,8 @@ import "./EmailConfirmation.css";
 
 export const EmailConfirmation = html`
 	<div class="confirmation-page">
-		<header class="header">
-			<div class="header-container">
+		<header class="confirmation-header">
+			<div class="confirmation-header-container">
 				${Logo}
 				<a href="mailto:hey@settimeout.dev" class="settimeout-mailto-link"
 					>📨 hey@settimeout.dev</a
@@ -23,7 +23,7 @@ export const EmailConfirmation = html`
 							<span class="gratitude-reason">за подписку!</span>
 						</h1>
 
-						<a href="https://www.settimeout.dev/" class="back-home-link"
+						<a href="https://www.settimeout.dev/" class="back-home-button"
 							>Вернуться на главную</a
 						>
 					</section>

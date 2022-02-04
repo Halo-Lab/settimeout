@@ -24,28 +24,28 @@
 
 /* === header === */
 
-.header-container {
+.confirmation-header-container {
 	display: flex;
 	justify-content: flex-start;
 }
 
 @media screen and (min-width: 1280px) {
-	.header-container {
+	.confirmation-header-container {
 		justify-content: space-between;
 		align-items: center;
 
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 0 100px;
+		padding: 0 85px;
 	}
 }
 
-.header {
+.confirmation-header {
 	background-color: #3bb5f2;
 }
 
 @media screen and (min-width: 1280px) {
-	.header {
+	.confirmation-header {
 		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
 	}
 }
@@ -124,8 +124,7 @@
 		align-items: flex-end;
 
 		margin-top: 160px;
-		padding-right: 100px;
-		padding-left: 100px;
+		padding-left: 85px;
 	}
 }
 
@@ -172,7 +171,7 @@
 	}
 }
 
-.back-home-link {
+.back-home-button {
 	display: block;
 
 	width: 230px;
@@ -195,17 +194,17 @@
 	outline: none;
 }
 
-.back-home-link:hover,
-.back-home-link:focus {
+.back-home-button:hover,
+.back-home-button:focus {
 	background-color: #2f9acf;
 }
 
 @media screen and (min-width: 1280px) {
-	.back-home-link {
+	.back-home-button {
 		display: inline-block;
 
 		font-size: 16px;
-		margin: 0 200px 84px auto;
+		margin: 0 auto 84px 0;;
 	}
 }
 
@@ -284,7 +283,7 @@
 
 @media screen and (min-width: 1280px) {
 	.confirmation-footer-copyright {
-		margin-left: 100px;
+		margin-left: 85px;
 
 		font-size: 12px;
 		text-align: left;
