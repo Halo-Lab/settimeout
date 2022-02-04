@@ -98,7 +98,7 @@
 
 @media screen and (max-height: 905px) and (min-width: 1280px) {
 	.subscription-content-img {
-      display: none;
+		display: none;
 	}
 
 	.subscription-content {

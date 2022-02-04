@@ -8,7 +8,6 @@ import { EmailConfirmation } from "./scenes/EmailConfirmation/EmailConfirmation.
 import { Unsubscribe } from "./scenes/Unsubscribe/Unsubscribe.js";
 
 export const App = html`
-
 		${router(
 			{
 				pattern: "/",

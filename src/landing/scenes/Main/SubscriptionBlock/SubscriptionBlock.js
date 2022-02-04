@@ -34,7 +34,7 @@ const onSubscriptionFormSubmit = async (e) => {
 
 		if (newContactData?.result?.person_id) current("/thanks");
 
-        subscriberName("");
+		subscriberName("");
 		subscriberEmail("");
 	} catch (error) {
 		if (error) console.error(error.message);
@@ -54,7 +54,7 @@ export const SubscriptionBlock = html`
 			<div class="subscription-content">
 				<h2 class="subscription-appeal-title">Подпишись на рассылку</h2>
 				<p class="subscription-appeal-description">
-				  Получай полезные статьи о веб-разработке и инструментах раз в неделю!
+					Получай полезные статьи о веб-разработке и инструментах раз в неделю!
 				</p>
 
 				<form
