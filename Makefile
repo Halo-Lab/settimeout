@@ -9,6 +9,7 @@ build_email:
 build_site:
 	@make clean
 	@npx parcel build ./src/landing/index.html
+	@npx parcel build ./src/404.html
 	@make join_data
 	@make copy_images
 
