@@ -7,8 +7,3 @@
 [functions]
   node_bundler = "esbuild"
 
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 404
-
