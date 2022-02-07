@@ -6,6 +6,7 @@ import { SubscriptionBlock } from "./scenes/Main/SubscriptionBlock/SubscriptionB
 import { SubscriptionThanks } from "./scenes/SubscriptionThanks/SubscriptionThanks.js";
 import { EmailConfirmation } from "./scenes/EmailConfirmation/EmailConfirmation.js";
 import { Unsubscribe } from "./scenes/Unsubscribe/Unsubscribe.js";
+import { ErrorPage } from "./scenes/Error/Error.js";
 
 export const App = html`
 
@@ -23,7 +24,7 @@ export const App = html`
 			{ pattern: "/thanks", template: SubscriptionThanks },
 			{ pattern: "/email-confirmation", template: EmailConfirmation },
 			{ pattern: "/unsubscribe", template: Unsubscribe },
-			{ pattern: "", template: html`<p>404 Not Found</p>` }
+			{ pattern: "", template: ErrorPage }
 		)}
 	</div>
 `;
