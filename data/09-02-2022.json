@@ -1,0 +1,89 @@
+{
+	"greetingTitle": "Привет, на связи SetTimeout!",
+	"greetingSubtitle": "Вы знали, что интернет-индустрия производит столько же парниковых газов, как и вся мировая авиация? Разработчики могут влиять на это. Эта и другие темы рассматриваются в новом выпуске рассылки SetTimeout, developer.",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/648741/",
+					"title": "4 способа добавить иконки на сайт из Figma — все плюсы и минусы",
+					"description": "Из статьи вы узнаете, как лучше всего добавлять иконки на сайт из макета Figma. Способов хватает, а выбор конкретного способа зависит от самого проекта и дизайнера, который делал макет.",
+					"author": "Эмиль Рахматуллин",
+					"tags": []
+				},
+				{
+					"link": "https://htmlacademy.ru/blog/boost/frontend/text-decoration",
+					"title": "Нестандартное подчёркивание текста на чистом CSS. Свойство text-decoration",
+					"description": "Шпаргалка по CSS-свойству text-decoration и созданию различных подчеркиваний с его помощью.",
+					"author": "Светлана Корякина",
+					"tags": []
+				},
+				{
+					"link": "https://css-live.ru/articles/ne-borites-s-kaskadom-upravlyajte-im.html",
+					"title": "Не боритесь с каскадом, управляйте им!",
+					"description": "Управляться с CSS-каскадом становится намного проще благодаря новым функциям. В статье показывается, как это можно сделать.",
+					"author": "Максим Усачёв",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://doka.guide/css/pixel-perfect/",
+					"title": "Подход «Pixel Perfect»",
+					"description": "В «Доке» вышла статья о Pixel Perfect. Читайте материал, чтобы узнать, нужно ли использовать этот подход к вёрстке, как контролировать соответствие страницы макету и как исправлять недочёты.",
+					"author": "Иван Ельцов",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://www.smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
+					"title": "Reducing The Web’s Carbon Footprint: Optimizing Social Media Embeds",
+					"description": "Интернет-индустрия производит столько же парниковых газов, сколько вся мировая авиация. Эта статья рассказывает, как уменьшить карбоновый след с помощью оптимизации встроенного социального контента.",
+					"author": "Michele Barker",
+					"tags": ["English"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/nedoocenennye-xuki-react/",
+					"title": "Недооцененные хуки React",
+					"description": "Несколько интересных и полезных хуков ReactJS, о которых вы могли не знать.",
+					"author": " Chiamaka Umeh",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://webformyself.com/kak-i-pochemu-vy-dolzhny-xranit-sostoyanie-react-ui-v-url-adrese/",
+					"title": "Как и почему вы должны хранить состояние React UI в URL-адресе",
+					"description": "Управлять состоянием можно разными способами, в том числе и с помощью Jotai.",
+					"author": "Sidney Alcantara",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://dou.ua/forums/topic/33139/",
+					"title": "Базовые понятия Angular. Теория и примеры для новичков",
+					"description": "И снова старый добрый Angular. Все еще актуален и востребован, о чем и говорит автор.",
+					"author": "Александр Ларченко",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/oleg-bunin/blog/649511/",
+					"title": "Как команде учиться на своих ошибках?",
+					"description": "Ошибки можно рассматривать как маркер развития. Подробности читайте в статье.",
+					"author": "Denis Silver",
+					"tags": []
+				}
+			]
+		}
+	]
+}
