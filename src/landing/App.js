@@ -9,7 +9,6 @@ import { Unsubscribe } from "./scenes/Unsubscribe/Unsubscribe.js";
 import { ErrorPage } from "./scenes/Error/Error.js";
 
 export const App = html`
-
 		${router(
 			{
 				pattern: "/",

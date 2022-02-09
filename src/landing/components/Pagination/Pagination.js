@@ -12,8 +12,8 @@ const onPreviousMailingBtnClick = () => {
 	if (currentMailingNumber > 0) getMailingNumber(currentMailingNumber - 1);
 
 	window.scrollTo({
-	  top: 0,
-	  behavior: 'smooth'
+		top: 0,
+		behavior: "smooth",
 	});
 };
 
@@ -21,8 +21,8 @@ const onNextMailingBtnClick = () => {
 	getMailingNumber(getMailingNumber() + 1);
 
 	window.scrollTo({
-	  top: 0,
-	  behavior: 'smooth'
+		top: 0,
+		behavior: "smooth",
 	});
 };
 

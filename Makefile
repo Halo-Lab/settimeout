@@ -32,6 +32,11 @@ join_data:
 	@node scripts/prepareData.js
 	@echo "Data was prepared."
 
+format:
+	@echo "Start formatting files..."
+	@npx prettier --write .
+	@echo "Finish formatting files."
+
 clean:
 	@echo "Start cleaning the previous build."
 	@node scripts/cleanup.js
