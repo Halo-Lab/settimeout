@@ -3,7 +3,7 @@ import { html } from "@prostory/edelweiss";
 import "./Logo.css";
 
 export const Logo = html`
-	<a href="/" class="logo-link">
+	<route-link href="/" class="logo-link">
 		<svg
 			width="42"
 			height="39"
@@ -25,5 +25,5 @@ export const Logo = html`
 			/>
 		</svg>
 		<span class="logo-text">SetTimeout.dev</span>
-	</a>
+	</route-link>
 `;

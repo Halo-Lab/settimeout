@@ -1,4 +1,5 @@
 import https from "https";
+
 const BASIC_URL = "https://api.unisender.com/ru/api";
 const API_KEY = process.env.UNISENDER_API_KEY;
 

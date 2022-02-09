@@ -3,13 +3,12 @@
 	"type": "module",
 	"version": "0.0.1",
 	"devDependencies": {
-		"autoprefixer": "^10.4.0",
-		"parcel": "^2.1.1",
+		"@prostory/edelweiss-ssr": "^0.2.3",
 		"css-inliner": "^2.0.0",
 		"happy-dom": "^2.24.3",
 		"netlify-cli": "^8.1.4",
-		"postcss": "^8.3.11",
-		"@prostory/edelweiss-ssr": "^0.2.3"
+		"parcel": "^2.2.1",
+		"prettier": "^2.5.1"
 	},
 	"dependencies": {
 		"@fluss/core": "^0.35.0",
