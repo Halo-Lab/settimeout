@@ -162,6 +162,12 @@ const Images = {
 	[Image.NOTE]: isProduction()
 		? assets("img/note.png")
 		: normalizeURL(new URL("/src/shared/assets/img/note.png", import.meta.url)),
+	[Image.NOPAGEIMAGE]: isProduction()
+	    ? assets("img/nopageimage.png")
+		: normalizeURL(new URL("/src/shared/assets/img/nopageimage.png", import.meta.url)),
+	[Image.ERRORLOGO]: isProduction()
+		? assets("img/error-page-logo.png")
+		: normalizeURL(new URL("/src/shared/assets/img/error-page-logo.png", import.meta.url)),
 	[Image.UNKNOWN]: "#",
 };
 
