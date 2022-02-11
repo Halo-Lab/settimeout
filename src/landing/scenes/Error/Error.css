@@ -1,12 +1,70 @@
+.error-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  margin: 0 auto;
+
+  z-index: 10;
+
+  background: #00AAFF;
+
+  overflow: hidden;
+}
+
+.error-page:before {
+  position: absolute;
+
+  top: -485px;
+  left: -55px;
+
+  margin: 0 auto;
+
+  width: 108.59%;
+  height: 1390px;
+
+  background: #fff;
+
+  border-radius: 50%;
+
+  z-index: -10;
+
+  content: '';
+}
+
 .error-header-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   width: 100%;
+  max-width: 1280px;
+
+  margin: 0 auto;
   
   padding: 42px 86px;
+
+  z-index: 10;
 }
+
+.error-header-container::after {
+  position: absolute;
+
+  top: 180%;
+  left: 87%;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(../../../shared/assets/img/inverted-notepad.png);
+  background-repeat: no-repeat;
+
+  z-index: -10;
+
+  content: ' ';
+}
+
 
 .mailto-link {
   font-weight: 700;
@@ -18,17 +76,98 @@
   white-space: nowrap;
 }
 
+.main-content {
+  position: relative;
+}
+
 .main-content-container {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding-top: 66px;
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 60px 0;
+
+  z-index: 10;
+}
+
+.main-content-container::after {
+  position: absolute;
+
+  top: 8%;
+  left: 14.5%;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(../../../shared/assets/img/at.png);
+  background-repeat: no-repeat;
+
+  z-index: -10;
+
+  content: ' ';
+}
+
+.main-content-container::before {
+  position: absolute;
+
+  top: 35%;
+  left: 5%;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(../../../shared/assets/img/citate.png);
+  background-repeat: no-repeat;
+
+  z-index: -10;
+
+  content: ' ';
+}
+
+.main-content::after {
+  position: absolute;
+
+  top: 68%;
+  left: 19%;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(../../../shared/assets/img/notepad.png);
+  background-repeat: no-repeat;
+
+  z-index: -10;
+
+  content: ' ';
+}
+
+.main-content::before {
+  position: absolute;
+
+  top: 75%;
+  left: 75%;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(../../../shared/assets/img/citate.png);
+  background-repeat: no-repeat;
+
+  z-index: -10;
+
+  content: ' ';
 }
 
 .notfound-image {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
+
 
 .main-headline {
   margin-bottom: 30px;
@@ -41,11 +180,12 @@
 }
 
 .notfound-message {
-  max-width: 300px;
+  max-width: 378px;
 
   margin-bottom: 30px;
   
   font-weight: 400;
+  font-size: 20px;
   color: #838895;
   line-height: 150%;
   font-family: Helvetica, sans-serif;
@@ -88,5 +228,34 @@
 
   .main-headline {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .error-page {
+    background: #fff;
+  }
+
+  .error-page:before {
+    display: none;
+  }
+
+  .error-header-container::after, 
+  .main-content-container::after,
+  .main-content-container::before,
+  .main-content::before,
+  .main-content::after {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 1520px) {
+  .error-page {
+    background: #fff;
+  }
+
+  .error-page:before {
+    display: none;
   }
 }

@@ -34,7 +34,7 @@ export const ErrorPage = html`
 			  height="327"
 			/>
 			<h1 class="main-headline">Страница не найдена :(</h1>
-			<p class="notfound-message">Вернитесь на главную, чтоб увидеть много полезной информации</p>
+			<p class="notfound-message">Вернитесь на главную, чтобы увидеть много полезной информации</p>
 			<button
 			  class="backhome-button"
 			  @click=${(e) => onBackHomeLinkClick(e)}
