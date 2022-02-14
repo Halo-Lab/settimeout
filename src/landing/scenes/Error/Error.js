@@ -12,13 +12,15 @@ export const ErrorPage = html`
 	<div class="error-page">
 		<header class="error-header">
 			<div class="error-header-container">
-				<img 
-				  src=${getImageURL(Image.ERRORLOGO)} 
-				  loading="eager" 
-				  alt="SetTimeout logo"
-				  width="241"
-				  height="36"
-				/>
+			    <route-link href="/">
+				    <img 
+				      src=${getImageURL(Image.ERRORLOGO)} 
+				      loading="eager" 
+				      alt="SetTimeout logo"
+				      width="241"
+				      height="36"
+				    />
+				</route-link>
 				<a href="mailto:hey@settimeout.dev" class="mailto-link"
 					>📨 hey@settimeout.dev</a
 				>
