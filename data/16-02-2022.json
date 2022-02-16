@@ -1,0 +1,96 @@
+{
+	"greetingTitle": "Привет, это SetTimeout, developer!",
+	"greetingSubtitle": "LiveView, Hotwire и другие инструменты позволяют делать пользовательский интерфейс на бэкенде, не используя JavaScript. Значит ли это, что фронтендерам пора переквалифицироваться? Читайте в статье Move over JavaScript: Back-end languages are coming to the front-end Клинта Финли.",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://webformyself.com/5-glavnyx-oshibok-v-css/",
+					"title": "5 главных ошибок в CSS",
+					"description": "Язык CSS — простой, мощный и декларативный. Однако существует множество заблуждений и неправильного его использования. Они могут превратить разметку CSS в сложный нечитаемый и немасштабируемый код.",
+					"author": "Jose Granja",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://css-tricks.com/thierry-koblentz-atomic-css/",
+					"title": "The Making of Atomic CSS: An Interview With Thierry Koblentz",
+					"description": "Интервью с Тьерри Коблентцем, автором Atomic CSS, поможет понять историю и предысторию, которые привели к созданию популярного подхода к архитектуре CSS, отдающего предпочтение небольшим одноцелевым классам.",
+					"author": "Pankaj Parashar",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://habr.com/ru/company/htmlacademy/blog/648325/",
+					"title": "Тренды веб-разработки в 2022 простыми словами",
+					"description": "Расшифровка лайва HTML Academy про тренды веб-разработки, технологии, требования и востребованность.",
+					"author": "Блог компании HTML Academy",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://twitter.com/mokevnin/status/1491429628854272002",
+					"title": "Тред Кирилла Мокевнина про Zero Downtime Deployment.",
+					"description": "Автор рассказывает, как можно деплоиться часто, не создавая неудобств для пользователей продукта.",
+					"author": "Кирилл Мокевнин",
+					"tags": ["Twitter"]
+				},
+				{
+					"link": "https://github.com/readme/featured/server-side-languages-for-front-end",
+					"title": "Move over JavaScript: Back-end languages are coming to the front-end",
+					"description": "Обзорная статья знакомит читателя с серверными инструментами, которые позволяют делать UI без JavaScript.",
+					"author": "Klint Finle",
+					"tags": ["English"]
+				},
+				{
+					"link": "https://skillbox.ru/media/code/baruch-sadogursky-nazyvaya-devops-professiey-my-niveliruem-smysl-termina/",
+					"title": "Называя DevOps профессией, мы нивелируем смысл термина",
+					"description": "Автор рассказывает о DevOps и объясняет, как правильно называть специалистов в этой области.",
+					"author": "Барух Садогурский",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/perexod-na-react-router-v6-polnoe-rukovodstvo/",
+					"title": "Переход на React Router v6: полное руководство",
+					"description": "useMatch вместо useRouteMatch, вложенные роуты, useNavigate и многое другое в статье о React Router v6.",
+					"author": "Joel Adewole",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://timeweb.com/ru/community/articles/kak-sdelat-svoy-blokirovshchik-reklamy-dlya-google-chrome",
+					"title": "Как сделать свой блокировщик рекламы для Google Chrome",
+					"description": "Управлять состоянием можно разными способами, в том числе и с помощью Jotai.",
+					"author": "Space Police",
+					"tags": []
+				},
+				{
+					"link": "https://habr.com/ru/company/kts/blog/647241/",
+					"title": "React Drag & Drop: Игра в бутылки",
+					"description": "И снова старый добрый Angular. Все еще актуален и востребован, о чем и говорит автор.",
+					"author": "Сергей Громов",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Психология, продуктивность, soft skills",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/company/englishdom/blog/650385/",
+					"title": "Drink to speak: исследуем влияние алкоголя при изучении английского",
+					"description": "Тема влияния алкоголя на языковые способности близка к известной шутке про пик Балмера. Стоит ли пить алкоголь, чтобы лучше разговаривать на иностранном языке или программировать?",
+					"author": "Блог компании EnglishDom",
+					"tags": []
+				}
+			]
+		}
+	]
+}
