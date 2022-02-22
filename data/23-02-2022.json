@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Привет, это SetTimeout, developer!",
+	"greetingSubtitle": "Что было, что будет, чем фронтендер успокоится? Да-да, лейтмотив этого письма — текущее состояние экосистемы JavaScript, а также её перспективы. Также в этом выпуске полезные гайды по предупреждение ререндеринга в React и использованию CSS Layer.",
+	"sections": [
+		{
+			"title": "Вёрстка",
+			"cards": [
+				{
+					"link": "https://habr.com/ru/post/652047/",
+					"title": "Практический пример использования CSS Layer",
+					"description": "SS Layer — это мощный апдейт языка, о котором будет полезно узнать всем фронтендерам уже сейчас, так как он довольно сильно меняет представление о том, как писать стили.",
+					"author": "Артур Стамбульцян",
+					"tags": []
+				},
+				{
+					"link": "https://webformyself.com/standartizaciya-stilej-fokusa-s-pomoshhyu-polzovatelskix-svojstv-css/",
+					"title": "Стандартизация стилей фокуса с помощью пользовательских свойств CSS",
+					"description": "В статье рассматривается метод, позволяющий сделать стили фокуса более управляемыми с помощью пользовательских свойств CSS.",
+					"author": "Stephanie Eckles",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://web-standards.ru/articles/inherit-initial-unset-revert/",
+					"title": "Объ­яс­не­ние клю­че­вых слов initial, inherit, unset и revert в CSS",
+					"description": "В CSS есть несколько ключевых слов для задания значений свойств. В статье рассматривается несколько из них: initial, inherit, unset и revert.",
+					"author": "Elad Shechter",
+					"tags": ["Переведено"]
+				}
+			]
+		},
+		{
+			"title": "Веб-разработка",
+			"cards": [
+				{
+					"link": "https://2021.stateofjs.com/ru-RU/",
+					"title": "State of JS 2011",
+					"description": "Результаты ежегодного исследования состояния экосистемы JavaScript. Хотите узнать, какой фронтенд-фреймворк самый популярный? Читайте отчёт.",
+					"author": "Алексей Пыльцын",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://youtu.be/AWYfsNWiPqo",
+					"title": "JS в 2022: прогнозы и пожелания",
+					"description": "Если в отчёте State of JS можно увидеть текущее состояние экосистемы, то автор этого видео пытается заглянуть в ближайшее будущее и спрогнозировать перспективы развития JavaScript.",
+					"author": "Илья Климов",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "Фреймворки и библиотеки",
+			"cards": [
+				{
+					"link": "https://webformyself.com/5-sposobov-izbezhat-povtornogo-renderinga-komponentov-react/",
+					"title": "5 способов избежать повторного рендеринга компонентов React",
+					"description": "Одним из условий оптимизации приложения является устранение повторных рендеров. Но не только useMemo и useCallback могут справиться с этой задачей.",
+					"author": "Chameera Dulanga",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://webformyself.com/luchshij-sposob-reshit-zadachu-skvoznoj-peredachi-dannyx-v-react/",
+					"title": "Лучший способ решить задачу сквозной передачи данных в React",
+					"description": "Когда стоит использовать Context API и почему композиция компонентов является лучшим решением?",
+					"author": "David Herbert",
+					"tags": ["Переведено"]
+				},
+				{
+					"link": "https://medium.com/fafnur/создание-лейаутов-и-сеток-с-помощью-angular-cdk-и-angular-material-bd4f15ebbf54",
+					"title": "Создание лейаутов и сеток с помощью Angular CDK и Angular Material",
+					"description": "На примерах автор объясняет как создать адаптивные лейауты и использованием Angular CDK и Angular Material.",
+					"author": "Александр Серенко",
+					"tags": []
+				}
+			]
+		}
+	]
+}
