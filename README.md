@@ -38,7 +38,7 @@ interface Mail {
 
 > To add a mailing letter header, you need to fill in the "greetingTitle" and "greetingSubtitle" fields in the json-file.
 
-There are only four tags recognizable now (see `Tag` type). If you need to add more, then edit `shared/assets/index.js` file and add corresponding image.
+There are only four tags recognizable now (see `Tag` type). If you need to add more, then edit `shared/assets/index.js` file and add corresponding images.
 
 Available titles to which icons will be automatically added: "Вёрстка" | "JavaScript" | "Веб-разработка" | "Фреймворки и библиотеки" | "Психология, продуктивность, soft skills". If you need to add more, then edit `shared/assets/index.js` file and add corresponding image.
 
