@@ -101,11 +101,12 @@ As you can see, any asset can be imported in JS. Bundler will handle them.
 
 There should be `.env` file with next variables:
 
-1. DOMAIN=site's domain name
+1. DOMAIN=<site's domain name>
 2. LIST_ID=<value>
 3. GTAG_ID=<value>
-4. UNISENDER_API_KEY=<value>
-5. UNISENDER_BASE_URL=<value>
+4. BASE_NETLIFY_URL=<value>
+5. UNISENDER_API_KEY=<value>
+6. UNISENDER_BASE_URL=<value>
 
 Use of these variables vary by the environment:
 

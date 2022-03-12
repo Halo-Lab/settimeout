@@ -2,7 +2,7 @@ import { env } from "process";
 
 import { Handler } from "@netlify/functions";
 
-import { get } from "/server/utils/request";
+import { get } from "./utils/request";
 
 const API_KEY = process.env.UNISENDER_API_KEY;
 const LIST_ID = process.env.LIST_ID; // the list of contacts in unisender to which you want to add a new contact

@@ -5,7 +5,7 @@ import {
 	AddedContactInfo,
 } from "/shared/types";
 
-const BASE_NETLIFY_URL = "/.netlify/functions";
+const BASE_NETLIFY_URL = import.meta.env.BASE_NETLIFY_URL;
 
 export const addContact = (
 	email: string,

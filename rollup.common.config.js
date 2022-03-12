@@ -18,6 +18,7 @@ const toReplace = {
 	__public__: "/build",
 	"import.meta.env.LIST_ID": JSON.stringify(env.LIST_ID),
 	"import.meta.env.GTAG_ID": JSON.stringify(env.GTAG_ID),
+	"import.meta.env.BASE_NETLIFY_URL": JSON.stringify(env.BASE_NETLIFY_URL),
 };
 
 const isProduction = env.NODE_ENV === "production";
