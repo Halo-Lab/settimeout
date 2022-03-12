@@ -1,14 +1,21 @@
-[dev]
-	command = "make start_site"
-
 [build]
-  command = "make build_site"
+	command = "make build_site"
+	publish = "public"
+
+[dev]
+	command = "make site_dev"
+	publish = "public"
+	port = 3000
 
 [functions]
-  node_bundler = "esbuild"
+	node_bundler = "esbuild"
 
 [[redirects]]
-  from = "/*"
-  to = "/"
-  status = 200
+	from = "/*"
+	to = "/.netlify/functions/index"
+	status = 200
 
+[[headers]]
+	for = "/*"
+	[headers.values]
+		"Cache-Control" = "public, max-age=31536000, s-maxage=31536000"

@@ -1,44 +1,28 @@
-NODE_ENV = production
-BASE_URL = https://settimeout.dev
+site_dev: clean_site
+	@npx rollup --config rollup.site.config.js --watch
 
-build_email:
-	@make clean
-	@NODE_ENV=$(NODE_ENV) BASE_URL=$(BASE_URL) node ./src/email/index.js
-	@npx parcel build ./src/email/email.html
+build_site: clean_site
+	@NODE_ENV=production npx rollup --config rollup.site.config.js
 
-build_site:
-	@make clean
-	@npx parcel build ./src/landing/index.html
-	@make join_data
-	@make copy_images
+email_dev: clean_email
+	@npx rollup --config rollup.email.config.js --watch
 
-start_email:
-	@make clean
-	@node ./src/email/index.js
-	@npx parcel ./src/email/email.html
-
-start_site:
-	@make clean
-	@make join_data
-	@npx parcel src/landing/index.html
-
-copy_images:
-	@echo "Start copying..."
-	@node scripts/copyImages.js
-	@echo "Finish copying."
-
-join_data:
-	@echo "Loading data..."
-	@node scripts/prepareData.js
-	@echo "Data was prepared."
+build_email: clean_email
+	@NODE_ENV=production npx rollup --config rollup.email.config.js
+	@node dist/index.js
 
 format:
 	@echo "Start formatting files..."
 	@npx prettier --write .
 	@echo "Finish formatting files."
 
-clean:
+clean_email:
 	@echo "Start cleaning the previous build."
-	@node scripts/cleanup.js
+	@rm -rf dist
+	@echo "Output files and artifacts were cleaned."
+
+clean_site:
+	@echo "Start cleaning the previous build."
+	@rm -rf public/build
 	@echo "Output files and artifacts were cleaned."
 
