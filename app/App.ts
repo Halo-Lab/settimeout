@@ -13,7 +13,7 @@ import "./App.css";
 export const App = html`
 	<!--data-body-unique-->
 	${router(
-		{ pattern: "/", template: Home },
+		{ exact: true, pattern: "/", template: Home },
 		{ pattern: "/thanks", template: Thanks },
 		{ pattern: "/email-confirmation", template: EmailConfirmation },
 		{ pattern: "/unsubscribe", template: Unsubscribe },
