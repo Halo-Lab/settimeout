@@ -1,8 +1,9 @@
 import { Handler } from "@netlify/functions";
 import { current, html, renderToString } from "@prostory/edelweiss";
 
-import { App, Head } from "/app/App";
 import { OpenGraph } from "./components/OpenGraph";
+import { App, Head } from "/app/App";
+import { fetchHomeResource } from "./routes/home";
 import { AnalyticsBody, AnalyticsHead } from "./components/analytics";
 
 const page = html`
@@ -50,6 +51,10 @@ const page = html`
 
 export const handler: Handler = async (event, context) => {
 	current(event.path);
+
+	if (current() === "/" || current().startsWith("/mail")) {
+		await fetchHomeResource();
+	}
 
 	return {
 		statusCode: 200,

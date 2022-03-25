@@ -8,9 +8,10 @@ import "./index.css";
 const userName = data("");
 
 effect(() => {
-	const name = subscriberName();
-	if (name.trim() !== "") {
-		userName(name.trim());
+	const name = subscriberName().trim();
+
+	if (name !== "") {
+		userName(name);
 	}
 });
 
@@ -32,9 +33,7 @@ export const Thanks = html`
 							Спасибо
 							<span class="gratitude-reason">
 								за
-								подписку${() => {
-									return userName() === "" ? "" : `, ${userName()}`;
-								}}!
+								подписку${() => (userName() === "" ? "" : `, ${userName()}`)}!
 							</span>
 						</h1>
 						<p class="thanks-notification">

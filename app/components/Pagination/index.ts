@@ -1,40 +1,11 @@
-import { html, data, effect } from "@prostory/edelweiss";
-
-import { emails } from "/app/api/emails";
+import { html } from "@prostory/edelweiss";
 
 import "./index.css";
 
-export const page = data(0);
-
-effect(() => page(emails().length - 1));
-
-const onPreviousMailingBtnClick = () => {
-	const currentPage = page();
-
-	if (currentPage > 0) page(currentPage - 1);
-
-	window.scrollTo({
-		top: 0,
-		behavior: "smooth",
-	});
-};
-
-const onNextMailingBtnClick = () => {
-	page(page() + 1);
-
-	window.scrollTo({
-		top: 0,
-		behavior: "smooth",
-	});
-};
-
-const PreviousMailingBtn = () =>
-	page() !== 0
+const PreviousMailLink = (url?: string) =>
+	url
 		? html`
-				<button
-					class="pagination-button previous-mailing-btn"
-					@click=${onPreviousMailingBtnClick}
-				>
+				<a href="${url}" class="pagination-button previous-mailing-btn">
 					<svg
 						width="18"
 						height="14"
@@ -48,19 +19,14 @@ const PreviousMailingBtn = () =>
 						/>
 					</svg>
 					<span>Предыдущая рассылка</span>
-				</button>
+				</a>
 		  `
 		: "";
 
-const NextMailingBtn = () => {
-	const mailingTotalCount = emails().length - 1;
-
-	return page() < mailingTotalCount
+const NextMailLink = (url?: string) =>
+	url
 		? html`
-				<button
-					class="pagination-button next-mailing-btn"
-					@click=${onNextMailingBtnClick}
-				>
+				<a href=${url} class="pagination-button next-mailing-btn">
 					<span>Следующая рассылка</span>
 					<svg
 						width="18"
@@ -75,13 +41,14 @@ const NextMailingBtn = () => {
 							fill="currentColor"
 						/>
 					</svg>
-				</button>
+				</a>
 		  `
 		: "";
-};
 
-export const Pagination = html`
+export const Pagination = (previousUrl?: string, nextUrl?: string) => html`
 	<div class="pagination">
-		<div class="container">${PreviousMailingBtn} ${NextMailingBtn}</div>
+		<div class="container">
+			${PreviousMailLink(previousUrl)} ${NextMailLink(nextUrl)}
+		</div>
 	</div>
 `;
