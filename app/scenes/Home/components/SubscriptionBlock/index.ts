@@ -43,7 +43,7 @@ const onSubscriptionFormSubmit = async (event: SubmitEvent) => {
 
 const subscriptionMessage = html`
 	<span class="subscription-message">
-		Кажется, вы уже подписаны на эту рассылку
+		It seems you've already subscribed
 	</span>
 `;
 
@@ -52,9 +52,9 @@ export const SubscriptionBlock = html`
 		<div class="subscription-content-wrap">
 			<div class="subscription-content-img"></div>
 			<div class="subscription-content">
-				<h2 class="subscription-appeal-title">Подпишись на рассылку</h2>
+				<h2 class="subscription-appeal-title">Subscribe to get useful information</h2>
 				<p class="subscription-appeal-description">
-					Получай полезные статьи о веб-разработке и инструментах раз в неделю!
+					Read articles about web-development once a week!
 				</p>
 
 				<form class="subscription-form" @submit=${onSubscriptionFormSubmit}>
@@ -62,7 +62,7 @@ export const SubscriptionBlock = html`
 						<input
 							type="text"
 							.value=${subscriberName}
-							placeholder="Ваше имя"
+							placeholder="Your name"
 							autocomplete="name"
 							name="name"
 							id="name"
@@ -77,7 +77,7 @@ export const SubscriptionBlock = html`
 						<input
 							type="email"
 							.value=${subscriberEmail}
-							placeholder="Ваш Email"
+							placeholder="Your Email"
 							autocomplete="email"
 							required
 							name="email-address"
@@ -90,7 +90,7 @@ export const SubscriptionBlock = html`
 						/>
 					</label>
 					<button type="submit" class="subscription-form-btn-submit">
-						Подписаться
+						Subscribe
 					</button>
 					${() => (isSubscribed() ? subscriptionMessage : "")}
 				</form>
@@ -98,7 +98,7 @@ export const SubscriptionBlock = html`
 
 			<div class="subscription-footer">
 				<a href="mailto:hey@settimeout.dev" class="subscription-footer-mailto">
-					Остались вопросы? Напишите нам
+					Do you have questions? Contact us
 				</a>
 				<p class="subscription-footer-copyright">
 					&copy; SetTimeout.dev ${new Date().getFullYear()}
