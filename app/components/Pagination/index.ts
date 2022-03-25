@@ -47,7 +47,7 @@ const PreviousMailingBtn = () =>
 							fill="currentColor"
 						/>
 					</svg>
-					<span>Предыдущая рассылка</span>
+					<span>Privious issue</span>
 				</button>
 		  `
 		: "";
@@ -61,7 +61,7 @@ const NextMailingBtn = () => {
 					class="pagination-button next-mailing-btn"
 					@click=${onNextMailingBtnClick}
 				>
-					<span>Следующая рассылка</span>
+					<span>Next issue</span>
 					<svg
 						width="18"
 						height="14"

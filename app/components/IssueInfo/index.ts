@@ -29,7 +29,7 @@ export const IssueInfo = (number: number, date: string) => {
 		<div class="issue">
 			<div class="container">
 				<div class="issue-description">
-					<span class="issue-title">Выпуск </span>
+					<span class="issue-title">Issue </span>
 					<span class="issue-number">#${number}</span>
 				</div>
 				${dateElement}
