@@ -76,7 +76,7 @@ const createInputOutput = (paths) =>
 				urlOptions: { emitFiles: false, publicPath: `/${buildDirectory}/` },
 				stylesOptions: { onExtract: () => false },
 			}),
-			external: [],
+			external: ["process"],
 		}))
 		.concat(appEntry);
 
