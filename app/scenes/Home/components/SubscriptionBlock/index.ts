@@ -1,4 +1,4 @@
-import { html, data, current, effect } from "@prostory/edelweiss";
+import { html, data, current } from "@prostory/edelweiss";
 
 import { addContact, getContact, isSuccessResult } from "/app/api/unisender";
 

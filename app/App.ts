@@ -1,4 +1,4 @@
-import { hydrate, isServer, meta, router } from "@prostory/edelweiss";
+import { html, hydrate, meta, router } from "@prostory/edelweiss";
 
 import { Error } from "./scenes/Error";
 import { Thanks } from "/app/scenes/Thanks";
@@ -10,19 +10,28 @@ import "reseter.css";
 
 import "./App.css";
 
-export const App = router(
-	{ pattern: "/", template: Home },
-	{ pattern: "/thanks", template: Thanks },
-	{ pattern: "/email-confirmation", template: EmailConfirmation },
-	{ pattern: "/unsubscribe", template: Unsubscribe },
-	{ pattern: "/not_found", template: Error }
-);
+export const App = html`
+	<!--data-body-unique-->
+	${router(
+		{ pattern: "/", template: Home },
+		{ pattern: "/thanks", template: Thanks },
+		{ pattern: "/email-confirmation", template: EmailConfirmation },
+		{ pattern: "/unsubscribe", template: Unsubscribe },
+		{ pattern: "/not_found", template: Error }
+	)}
+`;
 
-export const Head = meta({
-	route: "/",
-	template: HomeMeta,
-});
+export const Head = html`
+	<!--data-head-unique-->
+	${meta({
+		// TODO: uncomment it when there will be <title> for the each page
+		// exact: true,
+		route: "/",
+		template: HomeMeta,
+	})}
+`;
 
-if (!isServer()) {
-	hydrate(document.body);
+if (!import.meta.env.IS_SERVER) {
+	hydrate(Head, document.head);
+	hydrate(App, document.body);
 }

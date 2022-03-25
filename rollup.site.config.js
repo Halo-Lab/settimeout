@@ -22,6 +22,9 @@ const appEntry = {
 		assetFileNames: "[name].[ext]",
 	},
 	plugins: plugins({
+		replaceOptions: {
+			"import.meta.env.IS_SERVER": false,
+		},
 		urlOptions: {
 			publicPath: `/${buildDirectory}/`,
 		},
@@ -60,6 +63,7 @@ const createInputOutput = (paths) =>
 			},
 			plugins: plugins({
 				replaceOptions: {
+					"import.meta.env.IS_SERVER": true,
 					__styles__: `/${buildDirectory}/${basename(appEntryName).replace(
 						/[jt]s$/,
 						"css"

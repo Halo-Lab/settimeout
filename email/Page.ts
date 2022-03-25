@@ -1,10 +1,10 @@
-import { html, render } from "@prostory/edelweiss";
+import { html, renderToString } from "@prostory/edelweiss";
 
 import { Body } from "./Body";
 import { Email } from "/shared/types";
 
 export const Page = (email: Email) =>
-	render(html`
+	renderToString(html`
 		<!DOCTYPE html>
 		<html lang="ru">
 			<head>

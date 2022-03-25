@@ -17,6 +17,7 @@ interface ImportMeta {
 	readonly env: {
 		readonly LIST_ID: string;
 		readonly GTAG_ID: string;
+		readonly IS_SERVER: boolean;
 		readonly BASE_NETLIFY_URL: string;
 	};
 }

@@ -1,11 +1,11 @@
 import { Handler } from "@netlify/functions";
-import { current, html, render } from "@prostory/edelweiss";
+import { current, html, renderToString } from "@prostory/edelweiss";
 
 import { App, Head } from "/app/App";
 import { OpenGraph } from "./components/OpenGraph";
 import { AnalyticsBody, AnalyticsHead } from "./components/analytics";
 
-const page = () => html`
+const page = html`
 	<!DOCTYPE html>
 	<html lang="ru">
 		<head>
@@ -56,6 +56,6 @@ export const handler: Handler = async (event, context) => {
 		headers: {
 			"content-type": "text/html",
 		},
-		body: render(page()),
+		body: renderToString(page),
 	};
 };
