@@ -1,7 +1,7 @@
 site_dev: clean_site
 	@npx rollup --config rollup.site.config.js --watch
 
-build_site: clean_site copy_data
+build_site: clean_site
 	@NODE_ENV=production npx rollup --config rollup.site.config.js
 
 email_dev: clean_email
@@ -26,7 +26,3 @@ clean_site:
 	@rm -rf public/build
 	@echo "Output files and artifacts were cleaned."
 
-copy_data:
-	@echo "Copy data files..."
-	@cp -r data/ public/data/
-	@echo "Done copying data files." 

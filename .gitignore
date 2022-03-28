@@ -2,7 +2,6 @@ dist/
 build/
 netlify/
 node_modules/
-public/data/
 .DS_Store
 .git/
 .idea/
