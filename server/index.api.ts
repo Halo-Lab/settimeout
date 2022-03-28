@@ -1,5 +1,5 @@
 import { Handler } from "@netlify/functions";
-import { current, html, renderToString } from "@prostory/edelweiss";
+import { current, html, language, renderToString } from "@prostory/edelweiss";
 
 import { OpenGraph } from "./components/OpenGraph";
 import { App, Head } from "/app/App";
@@ -8,7 +8,7 @@ import { AnalyticsBody, AnalyticsHead } from "./components/analytics";
 
 const page = html`
 	<!DOCTYPE html>
-	<html lang="ru">
+	<html lang="${language()}">
 		<head>
 			<meta charset="UTF-8" />
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,11 +27,11 @@ const page = html`
 
 			<meta
 				name="description"
-				content="Еженедельная рассылка о разработке: JavaScript, HTML, CSS, React, Vue, Svelte и другие инструменты. Полезные письма раз в неделю."
+				content="Weekly newsletter about the development of JavaScript, HTML, CSS, React, Vue, Svelte and other tools. Helpful emails once a week."
 			/>
 			<meta
 				name="keywords"
-				content="рассылка о веб-разработке, полезные статьи о JavaScript, email рассылка о программировании и вёрстке, развитие программиста, статьи о soft skills программиста"
+				content="web development newsletter, useful articles about JavaScript, mailing list about programming and HTML, developer education, articles about soft skills"
 			/>
 			<meta name="author" content="Halo Lab Developers" />
 

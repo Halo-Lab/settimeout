@@ -1,4 +1,4 @@
-import { html } from "@prostory/edelweiss";
+import { html, language } from "@prostory/edelweiss";
 
 import "./index.css";
 
@@ -10,10 +10,10 @@ export const IssueInfo = (number: number, date: string) => {
 	};
 
 	const dateFull = new Date(date)
-		.toLocaleString("en-GB", dateFullOptions)
+		.toLocaleString(language(), dateFullOptions)
 		.replace(/г\./, "");
 
-	const dateWeekDay = new Date(date).toLocaleString("en-GB", {
+	const dateWeekDay = new Date(date).toLocaleString(language(), {
 		weekday: "long",
 	});
 

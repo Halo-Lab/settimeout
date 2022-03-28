@@ -1,4 +1,4 @@
-import { html, hydrate, meta, router } from "@prostory/edelweiss";
+import { html, hydrate, language, meta, router } from "@prostory/edelweiss";
 
 import { Error } from "./scenes/Error";
 import { Thanks } from "/app/scenes/Thanks";
@@ -9,6 +9,8 @@ import { Home, HomeMeta, homeResource } from "./scenes/Home";
 import "reseter.css";
 
 import "./App.css";
+
+language("en-GB");
 
 export const App = html`
 	<!--data-body-unique-->

@@ -7,13 +7,13 @@ export const OpenGraph = html`
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="Получай полезные письма о веб-разработке раз в неделю!"
+		content="Get useful newsletters about web development every week!"
 	/>
 
 	<meta content="summary" name="twitter:card" />
 	<meta content="SetTimeout, developer!" name="twitter:title" />
 	<meta
-		content="Получай полезные письма о веб-разработке раз в неделю!"
+		content="Get useful newsletters about web development every week!"
 		name="twitter:description"
 	/>
 	<meta content="__public__/twitter-card-image.jpg" name="twitter:image" />
