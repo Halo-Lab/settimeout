@@ -31,11 +31,11 @@ export const Error = html`
 					width="588"
 					height="327"
 				/>
-				<h1 class="main-headline">Страница не найдена :(</h1>
+				<h1 class="main-headline">Page is not found :(</h1>
 				<p class="notfound-message">
-					Вернитесь на главную, чтобы увидеть много полезной информации
+					Go to the homepage to get useful information
 				</p>
-				<a href="/" class="backhome-button"> Вернуться на главную </a>
+				<a href="/" class="backhome-button"> Back to the homepage </a>
 			</div>
 		</main>
 	</div>

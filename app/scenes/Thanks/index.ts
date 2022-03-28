@@ -30,17 +30,16 @@ export const Thanks = html`
 				<main class="thanks-main">
 					<section class="thanks-main-content">
 						<h1 class="thanks-title">
-							Спасибо
+							Thank you
 							<span class="gratitude-reason">
-								за
-								подписку${() => (userName() === "" ? "" : `, ${userName()}`)}!
+								for
+								subscription${() => (userName() === "" ? "" : `, ${userName()}`)}!
 							</span>
 						</h1>
 						<p class="thanks-notification">
-							Проверьте свою почту, скоро мы пришлем вам подтверждение. Обещаем
-							не спамить, а присылать только полезные материалы!
+							Check your email, we will send confirmation soon. Only useful information, no wasting time messages.
 						</p>
-						<a href="/" class="back-home-link"> Вернуться на главную </a>
+						<a href="/" class="back-home-link"> Back to the Homepage </a>
 					</section>
 				</main>
 

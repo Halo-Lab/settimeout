@@ -24,7 +24,7 @@ export const EmailConfirmation = html`
 						</h1>
 
 						<a href="https://www.settimeout.dev/" class="back-home-button">
-							Back to Homepage
+							Back to the Homepage
 						</a>
 					</section>
 				</main>
