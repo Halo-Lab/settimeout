@@ -3,8 +3,8 @@ import { html, hydrate, meta, router } from "@prostory/edelweiss";
 import { Error } from "./scenes/Error";
 import { Thanks } from "/app/scenes/Thanks";
 import { Unsubscribe } from "/app/scenes/Unsubscribe";
-import { Home, HomeMeta } from "./scenes/Home";
 import { EmailConfirmation } from "/app/scenes/EmailConfirmation";
+import { Home, HomeMeta, homeResource } from "./scenes/Home";
 
 import "reseter.css";
 
@@ -13,7 +13,7 @@ import "./App.css";
 export const App = html`
 	<!--data-body-unique-->
 	${router(
-		{ exact: true, pattern: "/", template: Home },
+		{ exact: true, pattern: "/(?:mail/[\\w-]+)?", template: Home },
 		{ pattern: "/thanks", template: Thanks },
 		{ pattern: "/email-confirmation", template: EmailConfirmation },
 		{ pattern: "/unsubscribe", template: Unsubscribe },
@@ -31,7 +31,8 @@ export const Head = html`
 	})}
 `;
 
+export { homeResource };
+
 if (!import.meta.env.IS_SERVER) {
-	hydrate(Head, document.head);
-	hydrate(App, document.body);
+	hydrate([Head, App]);
 }
