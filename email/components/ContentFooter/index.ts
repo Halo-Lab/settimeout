@@ -4,7 +4,7 @@ import { Image, getImageURI } from "/shared/assets";
 
 export const ContentFooter = html`
 	<div class="content-footer">
-		<div class="content-footer-text">Полезные письма о разработке 💙</div>
+		<div class="content-footer-text">Useful articles about web development 💙</div>
 		<div class="content-footer-logo">
 			<a
 				href="https://www.settimeout.dev"

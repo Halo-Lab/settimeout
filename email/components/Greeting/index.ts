@@ -5,9 +5,9 @@ import { getImageURI, Image } from "/shared/assets";
 import "./index.css";
 
 export const Greeting = (title?: string, subtitle?: string) => {
-	const defaultTitle = "Привет, это SetTimeout!&nbsp;✌";
+	const defaultTitle = "Hello, this is SetTimeout!&nbsp;✌";
 	const defaultSubtitle =
-		"Подготовили для тебя новую подборку полезных материалов.";
+		"Here are new useful articles for you.";
 
 	if (title === undefined || title.trim() === "") title = defaultTitle;
 	if (subtitle === undefined || subtitle.trim() === "")

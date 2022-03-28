@@ -18,7 +18,7 @@ const PreviousMailLink = (url?: string) =>
 							fill="currentColor"
 						/>
 					</svg>
-					<span>Предыдущая рассылка</span>
+					<span>Previous issue</span>
 				</a>
 		  `
 		: "";
@@ -27,7 +27,7 @@ const NextMailLink = (url?: string) =>
 	url
 		? html`
 				<a href=${url} class="pagination-button next-mailing-btn">
-					<span>Следующая рассылка</span>
+					<span>Next issue</span>
 					<svg
 						width="18"
 						height="14"

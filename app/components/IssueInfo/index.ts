@@ -10,10 +10,10 @@ export const IssueInfo = (number: number, date: string) => {
 	};
 
 	const dateFull = new Date(date)
-		.toLocaleString("Ru-ru", dateFullOptions)
+		.toLocaleString("en-GB", dateFullOptions)
 		.replace(/г\./, "");
 
-	const dateWeekDay = new Date(date).toLocaleString("Ru-ru", {
+	const dateWeekDay = new Date(date).toLocaleString("en-GB", {
 		weekday: "long",
 	});
 
@@ -29,7 +29,7 @@ export const IssueInfo = (number: number, date: string) => {
 		<div class="issue">
 			<div class="container">
 				<div class="issue-description">
-					<span class="issue-title">Выпуск </span>
+					<span class="issue-title">Issue </span>
 					<span class="issue-number">#${number}</span>
 				</div>
 				${dateElement}

@@ -14,7 +14,7 @@ export const Home = html`
 			${() => {
 				const data = resource();
 
-				return data !== null ? MailBlock(data) : "afa";
+				return data !== null ? MailBlock(data) : "";
 			}}
 		</div>
 		${SubscriptionBlock}

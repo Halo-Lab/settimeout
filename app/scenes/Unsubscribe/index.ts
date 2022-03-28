@@ -42,11 +42,11 @@ export const Unsubscribe = html`
 				<div class="unsubscribe-container">
 					<h1 class="unsubscribe-title">Мы будем скучать по вам :(</h1>
 					<p class="unsubscribe-notification">
-						Вы отписались и больше не будете получать сообщений от
+						You have successfully unsubscribed and will not receive any messages from
 						SetTimeout.dev
 					</p>
 					<a href="https://www.settimeout.dev/" class="subscribe-again">
-						Подписаться снова
+						Subscribe once again
 					</a>
 					<div class="unsubscribe-hero"></div>
 				</div>
@@ -54,7 +54,7 @@ export const Unsubscribe = html`
 		</main>
 		<footer class="unsubscribe-footer">
 			<a href="mailto:hey@settimeout.dev" class="unsubscribe-footer-mailto">
-				Остались вопросы? Напишите нам
+				Still have questions? Email us
 			</a>
 			<p class="unsubscribe-footer-copyright">
 				&copy; SetTimeout.dev ${new Date().getFullYear()}

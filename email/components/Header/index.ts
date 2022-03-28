@@ -24,7 +24,7 @@ export const Header = (issueNumber: number) =>
 						</a>
 					</td>
 					<td class="issue">
-						выпуск <span class="issue-num">#${issueNumber}</span>
+						issue <span class="issue-num">#${issueNumber}</span>
 					</td>
 				</tr>
 			</table>
