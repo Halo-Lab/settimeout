@@ -1,4 +1,7 @@
 dist
+build
+netlify
 node_modules
 .netlify
 
+package-lock.json

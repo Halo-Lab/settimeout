@@ -1,0 +1,291 @@
+.confirmation-page {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	height: 100%;
+
+	background-color: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		height: 100%;
+
+		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+	}
+}
+
+/* === header === */
+
+.confirmation-header-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-header-container {
+		justify-content: space-between;
+		align-items: center;
+
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 85px;
+	}
+}
+
+.confirmation-header {
+	background-color: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-header {
+		background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+	}
+}
+
+.settimeout-mailto-link {
+	display: none;
+}
+
+@media screen and (min-width: 1280px) {
+	.settimeout-mailto-link {
+		display: block;
+
+		padding: 20px;
+
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 130%;
+		color: #3bb5f2;
+		text-decoration: none;
+		outline: none;
+	}
+
+	.settimeout-mailto-link:hover,
+	.settimeout-mailto-link:focus {
+		text-decoration: underline;
+	}
+}
+
+/* === main ===*/
+
+.main-wrap {
+	background-color: #3bb5f2;
+	background-image: linear-gradient(to right, #3bb5f2 50%, #ffffff 50%);
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-container {
+		display: flex;
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+}
+
+.confirmation-main {
+	display: flex;
+	flex-direction: column;
+
+	background-color: #3bb5f2;
+
+	background-image: url("__public__/mail.png"), url("__public__/book.png"),
+		url("__public__/note.png");
+	background-repeat: no-repeat;
+	background-position: 5px 40px, 10px 410px, 315px 0;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-main {
+		width: 50%;
+		background-image: url("__public__/mail.png"), url("__public__/book.png"),
+			url("__public__/note.png");
+		background-repeat: no-repeat;
+		background-position: 20px 0, 0px 520px, 470px 560px;
+	}
+}
+
+.confirmation-main-content {
+	margin-top: 110px;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+
+		margin-top: 160px;
+		padding-left: 85px;
+	}
+}
+
+.confirmation-title {
+	margin: 0 0 34px;
+
+	font-size: 34px;
+	line-height: 130%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.gratitude-reason {
+	display: block;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-title {
+		font-size: 65px;
+		line-height: 120%;
+		text-align: left;
+	}
+}
+
+.confirmation-notification {
+	margin: 0 auto 46px auto;
+	padding: 0 10%;
+
+	font-size: 14px;
+	line-height: 140%;
+	color: #ffffff;
+
+	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-notification {
+		padding: 0;
+		margin: 0 0 46px 0;
+		width: 430px;
+
+		font-size: 20px;
+		line-height: 150%;
+	}
+}
+
+.back-home-button {
+	display: block;
+
+	width: 230px;
+
+	padding: 15px;
+	margin: 0 auto 84px auto;
+
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 130%;
+
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	background: #3bb5f2;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	border-radius: 6px;
+
+	cursor: pointer;
+	outline: none;
+}
+
+.back-home-button:hover,
+.back-home-button:focus {
+	color: #2f9acf;
+	background-color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+	.back-home-button {
+		display: inline-block;
+
+		font-size: 16px;
+		margin: 0 auto 84px 0;
+	}
+}
+
+/* === hero === */
+
+.confirmation-hero {
+	background-color: #3bb5f2;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-hero {
+		width: 50%;
+
+		position: relative;
+	}
+}
+
+.confirmation-hero-image {
+	width: 56%;
+	min-width: 210px;
+	height: 23%;
+	min-height: 165px;
+
+	margin: 0 auto;
+
+	background-color: transparent;
+	background-image: url("__public__/typing-man.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: 210px;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-hero-image {
+		position: absolute;
+		left: 0;
+		bottom: -15%;
+
+		width: 100%;
+		height: 730px;
+
+		background-position: 50% 100%;
+		background-size: 464px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-hero {
+		background-color: #ffffff;
+	}
+}
+
+/* === footer === */
+
+.confirmation-footer {
+	padding: 54px 0 25px;
+	background-color: #ffffff;
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-footer {
+		position: static;
+
+		width: 50%;
+
+		background: transparent;
+	}
+}
+
+.confirmation-footer-copyright {
+	font-size: 15px;
+	line-height: 130%;
+	text-align: center;
+	color: rgba(15, 32, 77, 0.6);
+}
+
+@media screen and (min-width: 1280px) {
+	.confirmation-footer-copyright {
+		margin-left: 85px;
+
+		font-size: 12px;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.6);
+	}
+}

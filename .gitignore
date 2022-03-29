@@ -1,20 +1,16 @@
-node_modules/
-build/
 dist/
+build/
+netlify/
+node_modules/
+.DS_Store
 .git/
+.idea/
 .vscode/
-.parcel-cache/
 .vercel/
 .netlify/
-.DS_Store
 
 *.swp
 *.swo
-# SSG of the email
-email.html
 
-# Local Netlify folder
-.netlify
-
-#Environment variables
+# Environment variables
 .env

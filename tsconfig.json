@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"module": "esnext",
+		"target": "esnext",
+		"isolatedModules": true,
+		"moduleResolution": "Node",
+		"baseUrl": ".",
+		"paths": {
+			"/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
