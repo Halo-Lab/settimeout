@@ -119,7 +119,6 @@
 	.thanks-main-content {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-end;
 
 		margin-top: 160px;
 		padding-right: 100px;
