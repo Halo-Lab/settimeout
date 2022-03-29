@@ -20,7 +20,7 @@ export const EmailConfirmation = html`
 					<section class="confirmation-main-content">
 						<h1 class="confirmation-title">
 							Your email is confirmed! Thank you
-							<span class="gratitude-reason">за подписку!</span>
+							<span class="gratitude-reason">for subscription!</span>
 						</h1>
 
 						<a href="https://www.settimeout.dev/" class="back-home-button">
