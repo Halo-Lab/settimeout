@@ -1,0 +1,35 @@
+.header {
+	max-width: 750px;
+	padding: 3%;
+	margin-right: 8%;
+	margin-left: 8%;
+	font-family: Helvetica, sans-serif;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.logo {
+	width: 100%;
+	padding-right: 5px;
+}
+
+.issue {
+	width: 100%;
+	white-space: nowrap;
+	color: #0f204d;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+	.issue {
+		font-size: 12px;
+	}
+}
+
+.issue-num {
+	padding: 3px 6px;
+	background: #0f204d;
+	color: #ffffff;
+	border-radius: 40px;
+}
