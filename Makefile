@@ -26,3 +26,5 @@ clean_site:
 	@rm -rf public/build
 	@echo "Output files and artifacts were cleaned."
 
+build_sitemap:
+	@node scripts/generateSitemap.js
