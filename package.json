@@ -2,9 +2,6 @@
 	"name": "settimeout.dev",
 	"type": "module",
 	"version": "0.0.1",
-	"scripts": {
-		"sitemap": "node generateSitemap.js"
-	},
 	"devDependencies": {
 		"@netlify/functions": "^1.0.0",
 		"@rollup/plugin-alias": "^3.1.9",

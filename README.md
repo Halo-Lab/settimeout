@@ -118,12 +118,13 @@ add new one you should add it there and write type for that variable in `global.
 
 ### Simemap updates
 
-Every time you add new letter, remember to update `sitemap.xml`. It is necessary to inform Google about new content issue, and you can do it with updated and actual `sitemap.xml`. To update site map, run:
+Remember to update the `sitemap.xml` file every time you add a new letter. It is necessary to inform Google about the new content issue, and you can do it with updated and actual `sitemap.xml`. To update it, run:
 
 ```
-make build_sitemap
+ make build_sitemap
 ```
-Then push updated `sitemap.xml` to the repository.
+ 
+ Then push updated `sitemap.xml` to the repository.
 
 
 ## Word from authors
