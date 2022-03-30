@@ -2,6 +2,9 @@
 	"name": "settimeout.dev",
 	"type": "module",
 	"version": "0.0.1",
+	"scripts": {
+		"sitemap": "node generateSitemap.js"
+	},
 	"devDependencies": {
 		"@netlify/functions": "^1.0.0",
 		"@rollup/plugin-alias": "^3.1.9",
@@ -25,6 +28,8 @@
 	"dependencies": {
 		"@fluss/core": "^0.35.0",
 		"@prostory/edelweiss": "^2.1.0-alpha.13",
-		"reseter.css": "^2.0.0"
+		"@xmldom/xmldom": "^0.8.1",
+		"reseter.css": "^2.0.0",
+		"xml-formatter": "^2.6.1"
 	}
 }
