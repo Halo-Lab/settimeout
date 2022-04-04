@@ -1,5 +1,4 @@
 import fs from "fs";
-import path from "path";
 import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
 import format from "xml-formatter";
 
@@ -10,7 +9,7 @@ const contentPagesUrls = currentIssues.map((issue) => {
 	const sliced = issue.substring(0, lastSymbol);
 
 	const siteUrlWithMailDir = "https://www.settimeout.dev/mail";
-	const issueUrl = path.join(siteUrlWithMailDir, sliced);
+	const issueUrl = `${siteUrlWithMailDir}/${sliced}`;
 
 	return issueUrl;
 });
