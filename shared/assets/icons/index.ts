@@ -4,12 +4,12 @@ import SmileIcon from "./smile.png";
 import AsteriskIcon from "./asterisk.png";
 
 export enum Icon {
-	MARKUP = "Вёрстка",
+	MARKUP = "Layout design",
 	UNKNOWN = "Unknown",
 	JAVASCRIPT = "JavaScript",
-	FRAMEWORKS = "Фреймворки и библиотеки",
-	PSYCHOLOGY = "Психология, продуктивность, soft skills",
-	WEB_DEVELOPMENT = "Веб-разработка",
+	FRAMEWORKS = "Frameworks and libraries",
+	PSYCHOLOGY = "Productivity, soft skills",
+	WEB_DEVELOPMENT = "Web development",
 }
 
 export interface IconsData {

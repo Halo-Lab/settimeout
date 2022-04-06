@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "We are developers from Ukraine. Despite the war in our country we decided to continue making content selections about web-development. It is difficult to make it when ukrainians die from bullets and explosions, but it is more difficult to stay silent. So, here are useful articles for you.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.joshwcomeau.com/css/understanding-layout-algorithms/",
+					"title": "Understanding Layout Algorithms",
+					"description": "CSS is so much more than a collection of properties. It’s a constellation of inter-connected layout algorithms. This article will help us understand what’s going on in CSS.",
+					"author": "Josh Comeau",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/01/css-radial-conic-gradient/",
+					"title": "A Deep CSS Dive Into Radial And Conic Gradients",
+					"description": "In this article, we’ll be taking a closer look at two gradients: conic-gradient and radial-gradient. You’ll see how each one of them works in detail, what the differences and similarities are between them, how and where to use them, and some use cases for each.",
+					"author": "Ahmad Shadeed",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/elisabethleonhardt/a-down-to-earth-explication-of-the-noopener-noreferrer-attributes-92n",
+					"title": "A down-to-earth explication of the noopener noreferrer attributes",
+					"description": "This article will give you a better idea of how noopener and no-referrer attributes work and why to use them. ",
+					"author": "Elisabeth Leonhardt",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://youtu.be/ElMnHDSFaCw",
+					"title": "What Software Architecture Should Look Like",
+					"description": "This video is a step back to the fundamentals of development. Dave Farley speaks about software architecture. It is very important topic, especially for web developers.",
+					"author": "Dave Farley",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://blog.bitsrc.io/functional-programming-part-3-the-powers-of-currying-213eb69b234b",
+					"title": "Functional Programming (Part 3): The Power of Currying",
+					"description": "Currying is one of the most powerful concepts of functional programming. This concept is not simple, so this article will be useful for those who wants to understand functional paradigm better.",
+					"author": "Ahmad M. Hawwash",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/giant-machines/stop-using-javascript-classes-d0b6890ef097",
+					"title": "Stop Using JavaScript Classes!",
+					"description": "Object-oriented programming is one of the most popular paradigms. So, this article can surprise developers, who prefer OOP. Author recommends not to use classes. Is it really possible?",
+					"author": "Johnny Araujo",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Frameworks and libraries",
+			"cards": [
+				{
+					"link": "https://aglowiditsolutions.com/blog/react-18-new-updates-features/",
+					"title": "React 18 : Concurrency, Automatic Batching, Transitions & Other Updates",
+					"description": "It happened! The official release of React 18 is already available on npm.",
+					"author": "Saurabh Barot",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/adrai/all-side-optimized-nextjs-translations-4n9i",
+					"title": "All side optimized Next.js translations",
+					"description": "Optimization is able to speed up the app and boost search results. How to optimize translation using i18n for SSR, SSG and CSR read in an article.",
+					"author": "Adriano Raiano",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/how-to-use-proxy-nextjs/",
+					"title": "How to use a proxy in Next.js",
+					"description": "What is a proxy? A useful guide on how and why should use proxy in Next JS.",
+					"author": "Precious Luke",
+					"tags": []
+				}
+			]
+		}
+	]
+}
