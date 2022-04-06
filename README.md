@@ -23,8 +23,7 @@ The email structure is described in `/shared/types.ts` file.
 There are only four tags recognizable now (see `Tag` type). If you need to add more, then edit `shared/assets/index.ts`
 file and add corresponding images.
 
-Available titles to which icons will be automatically added: "Вёрстка" | "JavaScript" | "Веб-разработка" | "Фреймворки
-и библиотеки" | "Психология, продуктивность, soft skills". If you need to add more, then edit `shared/assets/index.ts`
+Available titles to which icons will be automatically added: "Layout design" | "JavaScript" | "Web development" | "Frameworks and libraries" | "Productivity, soft skills". If you need to add more, then edit `shared/assets/index.ts`
 file and add corresponding image.
 
 #### Images
