@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Can you imagine move to strong typing in native JavaScript? Type Annotations is on Proposal Level 1 stage. But you can take a look at in now.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://css-tricks.com/5-accessibility-quick-wins-you-can-implement-today/",
+					"title": "5 Accessibility Quick Wins You Can Implement Today",
+					"description": "Here are five accessibility quick wins you can implement today. Even seemingly small improvements can have a nice quality of life benefits for many people.",
+					"author": "Daniel Yuschick",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/",
+					"title": "Those HTML Attributes You Never Use",
+					"description": "The author describes and demonstrates some interesting HTML attributes that you may or may not have heard of and perhaps find useful enough to personally use in one of your projects.",
+					"author": "Louis Lazaris",
+					"tags": []
+				},
+				{
+					"link": "https://ishadeed.com/snippet/fit-content/",
+					"title": "Use Cases For CSS fit-content",
+					"description": "In this short article we’ll explore some use-cases for CSS fit-content.",
+					"author": "Ahmad Shadeed",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://youtu.be/ASOSEiJCyEM",
+					"title": "You NEED To Stop Using Pull Requests",
+					"description": "Dave Farley shares his personal opinion about pull request. Author says they are redundant. Can you believe it?",
+					"author": "Dave Farley",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://fjolt.com/article/javascript-type-annotations",
+					"title": "Types may be coming to Javascript",
+					"description": "Type Annotations now on Proposal Level 1 stage. Just imaging that TC39 Group will adopt this proposal! How will it change JavaScript?",
+					"author": "Johnny Simpson",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Frameworks and libraries",
+			"cards": [
+				{
+					"link": "https://innrvoice.medium.com/solving-scroll-into-view-problem-in-react-my-way-a8056a1bdc11",
+					"title": "Solving “scroll into view” problem in React",
+					"description": "There are many npm packages and custom solutions for solving the problem of executing code when some element scrolls into view. Here is one of these custom libraries, maybe it is what you were looking for",
+					"author": "innrVoice",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7",
+					"title": "How to Build Scalable Architecture for your Next.js Project",
+					"description": "What, how and why? Nice step by step setup guide for your Next.js project.",
+					"author": "Alex Eagleson",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/modern-web-animations-with-gsap-and-vue-3",
+					"title": "Modern web animations with Gsap and Vue 3",
+					"description": "First of all, the application should be as user-friendly and intuitive as possible. Good animations can make your project more colorful and dynamic.",
+					"author": "Mads Brodt",
+					"tags": []
+				}
+			]
+		}
+	]
+}
