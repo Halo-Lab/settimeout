@@ -2,7 +2,7 @@ site_dev: clean_site
 	@npx rollup --config rollup.site.config.js --watch
 
 build_site: clean_site
-	@NODE_ENV=production npx rollup --config rollup.site.config.js
+	@npx rollup --config rollup.site.config.js
 
 email_dev: clean_email
 	@npx rollup --config rollup.email.config.js --watch
