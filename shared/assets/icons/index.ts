@@ -10,6 +10,10 @@ export enum Icon {
 	FRAMEWORKS = "Frameworks and libraries",
 	PSYCHOLOGY = "Productivity, soft skills",
 	WEB_DEVELOPMENT = "Web development",
+	OLD_MARKUP = "Вёрстка",
+	OLD_FRAMEWORKS = "Фреймворки и библиотеки",
+	OLD_PSYCHOLOGY = "Психология, продуктивность, soft skills",
+	OLD_WEB_DEVELOPMENT = "Веб-разработка",
 }
 
 export interface IconsData {
@@ -25,7 +29,17 @@ const iconsData: readonly IconsData[] = [
 		url: StarIcon,
 	},
 	{
+		key: Icon.OLD_MARKUP,
+		name: "star",
+		url: StarIcon,
+	},
+	{
 		key: Icon.WEB_DEVELOPMENT,
+		name: "light",
+		url: LightIcon,
+	},
+	{
+		key: Icon.OLD_WEB_DEVELOPMENT,
 		name: "light",
 		url: LightIcon,
 	},
@@ -40,7 +54,17 @@ const iconsData: readonly IconsData[] = [
 		url: AsteriskIcon,
 	},
 	{
+		key: Icon.OLD_FRAMEWORKS,
+		name: "asterisk",
+		url: AsteriskIcon,
+	},
+	{
 		key: Icon.PSYCHOLOGY,
+		name: "smile",
+		url: SmileIcon,
+	},
+	{
+		key: Icon.OLD_PSYCHOLOGY,
 		name: "smile",
 		url: SmileIcon,
 	},
