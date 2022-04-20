@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Functional programming, accessibility, powerful library for image visual effects — you will find those topics in today's issue of SetTimeout. Have a fun!",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://csswizardry.com/2022/03/optimising-largest-contentful-paint/",
+					"title": "Optimising Largest Contentful Paint",
+					"description": "The author wants to show you some interesting tricks and optimisations, as well as some pitfalls and bugs, starting with some very simple tips.",
+					"author": "Harry Roberts",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/fig781/intro-to-website-accessibility-with-css-5715",
+					"title": "Intro to Website Accessibility with CSS",
+					"description": "This article covered a few of the main ways to make your site more accessible with CSS.",
+					"author": "Aden Eilers",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/03/guide-hover-pointer-media-queries/",
+					"title": "A Guide To Hover And Pointer Media Queries",
+					"description": "The author will talk about how to adapt our sites to the different scenarios of a device pointer: whether it has a pointer or not or how accurate it is.",
+					"author": "Cristian Díaz",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/forever-functional-from-methods-to-functions-and-back",
+					"title": "Forever Functional - From methods to functions, and back",
+					"description": "If you like functional style, it will be interesting for you to know how to transform array methods to functions and use them not only with arrays.",
+					"author": "Federico Kereki",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/@julienetienne/why-go-the-benefits-of-golang-6c39ea6cff7e",
+					"title": "Why Go: The benefits of Golang",
+					"description": "For those who want to look beyond JavaScript and manage another language — think about Golang. Author tells about this instrument and it’s features.",
+					"author": "Julien Etienne",
+					"tags": []
+				},
+				{
+					"link": "https://jrsinclair.com/articles/2022/javascript-function-composition-whats-the-big-deal/",
+					"title": "JavaScript Function Composition: What’s the Big Deal?",
+					"description": "Yet another article for functional paradigm lovers. Read about functional composition and use it in your projects.",
+					"author": "James Sinclair",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Frameworks and libraries",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/build-indoor-maps-fabric-js-using-react/",
+					"title": "Build indoor maps with Fabric.js and React",
+					"description": "Fabric.js allows you to drag, scale, and rotate images. What else this powerful library can do? Read in the article.",
+					"author": "Martin Kimani",
+					"tags": []
+				},
+				{
+					"link": "https://www.robinwieruch.de/react-folder-structure/",
+					"title": "React Folder Structure in 5 Steps",
+					"description": "Perhaps one of the highly opinionated topics. This is just one way to structure the project. It suits you or not, you decide.",
+					"author": "Robin Wieruch",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/powerful-vue-js-form-development-formkit/",
+					"title": "Powerful Vue.js form development with FormKit",
+					"description": "Validation, styling, and localization forms in Vue. js using Form Kit. FormKit presents itself as a full-fledged framework created to help developers write great forms.",
+					"author": "Dylan Tientcheu",
+					"tags": []
+				}
+			]
+		}
+	]
+}
