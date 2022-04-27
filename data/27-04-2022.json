@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Global fetch and test runner in Node 18 — this might be the main news in today's issue of SetTimeout, developer.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://dev.to/lambdatest/finding-cross-browser-compatibility-issues-in-html-and-css-p0k",
+					"title": "Finding Cross Browser Compatibility Issues in HTML and CSS",
+					"description": "Cross-browser compatibility bugs are inevitable for any web project, regardless of its development platform. But, before you handle them you need to find out the errors first.",
+					"author": "Deeksha Agarwal",
+					"tags": []
+				},
+				{
+					"link": "https://hidde.blog/more-to-give-than-just-the-div-semantics-and-how-to-get-them-right/",
+					"title": "More to give than just the div: semantics and how to get them right",
+					"description": "When used right, HTML helps us build websites and apps that work for a broad range of users. Let’s look at what semantics are and how to get them right.",
+					"author": "Hidde de Vries",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/03/building-web-layouts-dual-screen-foldable-devices/",
+					"title": "Building Web Layouts For Dual-Screen And Foldable Devices",
+					"description": "Dual screen and foldable devices are just the next step in responsive design, so they’re viewed as another responsive design target that we can style for with media features.",
+					"author": "Stephanie Stimac",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://nodejs.org/en/blog/announcements/v18-release-announce/",
+					"title": "Node.js 18 is now available!",
+					"description": "Global fetch and test runner seems to be the most interesting experimental features of new current version of Node. Read official release post to get more information. ",
+					"author": "Node.js project",
+					"tags": []
+				},
+				{
+					"link": "https://www.infoworld.com/article/3657759/clojure-meets-dart-in-clojuredart.html",
+					"title": "Clojure meets Dart in ClojureDart",
+					"description": "A port of Clojure that compiles to Dart, ClojureDart aims to extend the use of Clojure to mobile and desktop applications.",
+					"author": "Paul Krill",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Frameworks and libraries",
+			"cards": [
+				{
+					"link": "https://dev.to/officialbidisha/react-18-to-the-rescue-38g3",
+					"title": "React 18 - New Features & Improvement Strategies",
+					"description": "Let's talk a little more about React 18. Here are the latest changes with practical examples.",
+					"author": "Bidisha Das",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/how-build-faster-animation-transitions-react/",
+					"title": "How to build faster animation transitions in React",
+					"description": "React Transition Hooks is a library similar to the popular react-transition-group , but it’s lightweight, has simpler syntaxes, and is more performant.",
+					"author": "David Omotayo",
+					"tags": []
+				},
+				{
+					"link": "https://javascript.plainenglish.io/angular-rxjs-dont-let-it-be-your-enemy-make-it-your-best-friend-22e90640d0c1",
+					"title": "Meet RxJS: Your Best Friend in Angular in 2022",
+					"description": "RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code. In this article, you will learn how to optimize your application with some of these operators.",
+					"author": "DevJo",
+					"tags": []
+				}
+			]
+		}
+	]
+}
