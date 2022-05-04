@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Python is crawling to browsers while Austrian goverment buys JavaScript. One of these assertions is true, but which one?",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://dev.to/justice_hub/5-css-properties-you-dont-know-2ilp",
+					"title": "5 CSS properties you don't know",
+					"description": "Author of this article tells about some amazing properties which are not commonly used.",
+					"author": "Justice-hub",
+					"tags": []
+				},
+				{
+					"link": "https://hidde.blog/boolean-attributes-in-html-and-aria-whats-the-difference/",
+					"title": "Boolean attributes in HTML and ARIA: what's the difference?",
+					"description": "Some attributes in ARIA are boolean(-like). These attributes may seem a lot like boolean attributes in HTML, but there are some important differences to be aware of.",
+					"author": "Hidde de Vries",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/almanac/properties/g/grid-template-columns/",
+					"title": "grid-template-columns",
+					"description": "This article details the grid-template-columns property, defining the grid container’s columns by specifying the grid tracks’ size and their line names.",
+					"author": "Mojtaba Seyedi",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://medium.com/@eran_39947/taking-pyscript-to-test-drive-d8796ca6af25",
+					"title": "Taking PyScript to test drive",
+					"description": "Python moves to JavaScript territoria. Can it compete with JS?",
+					"author": "Eran Shlomo",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/@billwohlers/why-i-avoid-sql-databases-f99bc6fdc438",
+					"title": "Why I Avoid SQL Databases",
+					"description": "Which type of database should your choose and why? This is not complete guide of choosing database, but a good review of pros and cons of NoSQL databases.",
+					"author": "Bill Wohlers",
+					"tags": []
+				},
+				{
+					"link": "https://sebastiancarlos.medium.com/austria-buys-javascript-from-brendan-eich-3d2aa81e823b",
+					"title": "Austria buys JavaScript from Brendan Eich",
+					"description": "Can you believe that government can buy most popular programming language? God bless it is just a funny blog post, that will make you laugh.",
+					"author": "Sebastian Carlos",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Frameworks and libraries",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/working-with-svgs-in-react-native",
+					"title": "Working with SVGs in React Native",
+					"description": "There are many ways to import and work with SVG images. In this article, we will be looking at different ways of manipulating SVG images in React Native applications.",
+					"author": "Samaila Bala",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/@ahmadkzx/vue-offline-page-fbae11e7c3b7",
+					"title": "Vue Offline Page",
+					"description": "The Internet is not always stable, and therefore, working with Vue, you have the opportunity to display offline pages using state. In the article, the author describes step-by-step instructions.",
+					"author": "Ahmad Karimzade",
+					"tags": []
+				},
+				{
+					"link": "https://javascript.plainenglish.io/react-internationalization-i18n-and-localization-l10n-guide-fa3c1162a296",
+					"title": "React Internationalization (i18n) and Localization (l10n) Guide",
+					"description": "What's the difference between localization and internationalization? Make your app more accessible and better suited for international markets.",
+					"author": "Ronak Patel",
+					"tags": []
+				}
+			]
+		}
+	]
+}
