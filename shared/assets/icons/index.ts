@@ -14,6 +14,7 @@ export enum Icon {
 	OLD_FRAMEWORKS = "Фреймворки и библиотеки",
 	OLD_PSYCHOLOGY = "Психология, продуктивность, soft skills",
 	OLD_WEB_DEVELOPMENT = "Веб-разработка",
+	REACT = "ReactJS",
 }
 
 export interface IconsData {
@@ -55,6 +56,11 @@ const iconsData: readonly IconsData[] = [
 	},
 	{
 		key: Icon.OLD_FRAMEWORKS,
+		name: "asterisk",
+		url: AsteriskIcon,
+	},
+	{
+		key: Icon.REACT,
 		name: "asterisk",
 		url: AsteriskIcon,
 	},

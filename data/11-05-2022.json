@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "This issue is full of useful in-depth guides. Do you want to know how actually virtual DOM is implemented in React? Have you alredy read about building a grid from images with a fixed aspect ratio? And finally, do you know how your WiFi router works?",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/",
+					"title": "Modern Fluid Typography Using CSS Clamp",
+					"description": "Author explores fluid typography principles, use-cases, best practices, implementation with CSS clamp function, and how to calculate the right parameters.",
+					"author": "Adrian Bece",
+					"tags": []
+				},
+				{
+					"link": "https://themeisle.com/blog/css-animations-tutorial",
+					"title": "CSS Animations Tutorial: Complete Guide for Beginners",
+					"description": "This is a full syntax guide and interactive CSS animations tutorial for beginners. Use it as a reference to learn the different parts of the CSS animation spec.",
+					"author": "Louis Lazaris",
+					"tags": []
+				},
+				{
+					"link": "https://9elements.com/blog/combined-aspect-ratio-grid/",
+					"title": "Building a combined CSS-aspect-ratio-grid",
+					"description": "The article contains a practical solution to the problem of building a grid from images with a fixed aspect ratio.",
+					"author": "Tim Nguyen",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://www.developer-tech.com/news/2022/may/04/github-mandate-2fa-help-secure-software-supply-chain",
+					"title": "GitHub will mandate 2FA to help secure the software supply chain",
+					"description": "GitHub will require all users who contribute code on the platform to use 2FA as part of its latest security improvements.",
+					"author": "Ryan Daws",
+					"tags": []
+				},
+				{
+					"link": "https://youtu.be/vvKbMueRzrI",
+					"title": "How WiFi Works",
+					"description": "Do you want to go beyond coding routing and dive into hardware world? Start with video explanation of how your WiFi router works.",
+					"author": "Computerphile",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/solve-react-useeffect-hook-infinite-loop-patterns/",
+					"title": "How to solve the React useEffect Hook’s infinite loop patterns",
+					"description": "I think most developers know how fixed problems with infinite loops. But if someone forgot some specific cases this is a great article to remember how to do this.",
+					"author": "Hussain Arif",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/usereducer-is-a-better-option-than-usestate",
+					"title": "useReducer Is A Better Option Than useState",
+					"description": "The name of the article sounds weird but in some cases it makes sense. In the article, the author describes the difference between useState and useReducer using an example.",
+					"author": "Juboye Johnson",
+					"tags": []
+				},
+				{
+					"link": "https://indepth.dev/posts/1501/exploring-how-virtual-dom-is-implemented-in-react",
+					"title": "Exploring how virtual DOM is implemented in React",
+					"description": "What's the difference between localization and internationalization? Make your app more accessible and better suited for international marketsUnderstanding the internals of a development tool can sometimes be quite important, especially when optimizing and debugging. Bring to your attention the fundamental aspects of the virtual DOM React.",
+					"author": "Andrei Gatej",
+					"tags": []
+				}
+			]
+		}
+	]
+}
