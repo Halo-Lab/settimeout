@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Progressive image loading in React, story of web components and other useful guides in new issue of SetTimeout, developer.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://codersblock.com/blog/deep-dive-into-text-wrapping-and-word-breaking/",
+					"title": "Deep Dive into Text Wrapping and Word Breaking",
+					"description": "This article discusses various ways to control text wrapping on a web page. CSS gives us a lot of tools to make sure our text looks the way we want it to, but we’ll also look at some tricks using HTML and special characters.",
+					"author": "Will Boyd",
+					"tags": []
+				},
+				{
+					"link": "https://blog.jim-nielsen.com/2022/ordering-css-delcarations/",
+					"title": "Ordering CSS Declarations",
+					"description": "In this article, you will learn about the nuances of sorting CSS properties.",
+					"author": "Jim Nielsen",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/05/magical-svg-techniques/",
+					"title": "Magical SVG Techniques",
+					"description": "Smart SVG techniques, from generative SVG grids to SVG paths with masks, grainy SVG gradients, cut-out effects, and fractional SVG stars. Let’s look at some magical SVG techniques that you can use right away..",
+					"author": "Cosima Mielke",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://youtu.be/fKqgdT-KLrM",
+					"title": "The Story of Web Components",
+					"description": "This is the story of Web Components and why, at least for now, they haven't managed to gain meaningful adoption.",
+					"author": "uidotdev",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://blog.logrocket.com/16-useful-typescript-javascript-shorthands-know/",
+					"title": "16 useful TypeScript and JavaScript shorthands to know",
+					"description": "JavaScript and TypeScript share a number of useful shorthand alternatives for common code concepts. Shorthand code alternatives can help reduce lines of code, which is something we typically strive for.",
+					"author": "Ibiyemi Adewakun",
+					"tags": []
+				},
+				{
+					"link": "https://www.freecodecamp.org/news/javascript-es-modules-and-module-bundlers/",
+					"title": "The JavaScript Modules Handbook – Complete Guide to ES Modules and Module Bundlers",
+					"description": "Modules and Module Bundlers are essential components of modern web development. But understanding how they work can quickly become overwhelming.",
+					"author": "Oluwatobi Sofela",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/progressive-image-loading-react-tutorial/",
+					"title": "Progressive image loading in React: Tutorial",
+					"description": "Images can have a great impact on websites. Progressive image loading especially on a slow internet connection can improve user experience.",
+					"author": "Ibadehin Mojeed",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/building-a-progressive-web-app-with-react-18",
+					"title": "Building a Progressive Web App with React 18",
+					"description": "What is a Progressive Web App (PWA), how does it work, and for what? All about this you can read in the article.",
+					"author": "Juboye Johnson",
+					"tags": []
+				},
+				{
+					"link": "https://www.developerway.com/posts/components-composition-how-to-get-it-right",
+					"title": "React components composition: how to get it right",
+					"description": "How and when we should separate our code into independent components and how to compose them properly are among the most things in React. The author offers a few techniques and rules to help identify when and how to extract components on time.",
+					"author": "Nadia Makarevich",
+					"tags": []
+				}
+			]
+		}
+	]
+}
