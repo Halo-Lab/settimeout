@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Do you work with terminal during development process? If no, here is guide which will help you to start.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://sprucecss.com/blog/writing-better-css",
+					"title": "Writing Better CSS",
+					"description": "Writing better and more manageable CSS is something to strive for as a front-end developer. But why is CSS better? This article will help you figure it out.",
+					"author": "Adam Laki",
+					"tags": []
+				},
+				{
+					"link": "https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/",
+					"title": "The Surprising Truth About Pixels and Accessibility",
+					"description": "This article will help you better understand which unit to use in any scenario.",
+					"author": "Josh Comeau",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/05/lesser-known-underused-css-features-2022/",
+					"title": "Lesser-Known And Underused CSS Features In 2022",
+					"description": "CSS is constantly evolving, and some cool and useful properties either go completely unnoticed or are not talked about as much as others for some reason or another. In this article, we’ll cover a fraction of those CSS properties and selectors.",
+					"author": "Adrian Bece",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://www.joshwcomeau.com/javascript/terminal-for-js-devs/",
+					"title": "The Front-End Developer's Guide to the Terminal",
+					"description": "Modern front-end frameworks like React, Angular, and Vue rely heavily on the terminal. If you're not comfortable with command line interfaces, you'll struggle to run a local development server or build your application! ",
+					"author": "Josh Comeau",
+					"tags": []
+				},
+				{
+					"link": "https://levelup.gitconnected.com/5-advanced-javascript-concepts-that-will-make-you-a-better-developer-5d04292107a1",
+					"title": "5 Advanced JavaScript concepts that will make you a better developer",
+					"description": "May be you know these concepts, but it is good to refresh them in your mind.",
+					"author": "Henrik Larsen Toft",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/usetransition-vs-usedeferredvalue-in-react-18",
+					"title": "UseTransition() Vs UseDeferredValue() In React 18",
+					"description": "Most likely, many of you have already become familiar with the innovations of React 18. The article's author thinks it's time to talk more about the main hooks in this update.",
+					"author": "Daniel Ita",
+					"tags": []
+				},
+				{
+					"link": "https://betterprogramming.pub/react-v18-why-useeffect-suddenly-go-crazy-db1b42eb2730",
+					"title": "React v18: Why useEffect Suddenly Got Crazy?",
+					"description": "What's wrong with useEffect in React 18? The mystery is hidden in the mount/unmount/remount pattern of loading components in strict mode.",
+					"author": "Sameer Kumar",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/build-a-react-timer-application-with-useref",
+					"title": "Build a React Timer Application with useRef",
+					"description": "Something useful and simple about useRef hook, let's remember that it can do.",
+					"author": "Gabriel Odochukwu",
+					"tags": []
+				}
+			]
+		}
+	]
+}
