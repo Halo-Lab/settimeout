@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Do you want to manage good engineeiring practices? This issue of SetTimeout, developer will help you.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://dev.to/babib/7-shocking-html-tips-you-probably-dont-know-about-ggd",
+					"title": "8 Shocking HTML tips you probably don't know about",
+					"description": "These are a collection of HTML tips that would blow your mind! ",
+					"author": "Babi",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/almanac/properties/g/grid-template/",
+					"title": "Deep dive into grid-template",
+					"description": "The grid-template CSS property is a shorthand that allows you to define grid columns, rows, and areas in a CSS grid container with one declaration.",
+					"author": "Mojtaba Seyedi",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/",
+					"title": "You Don’t Need A UI Framework",
+					"description": "CSS is constantly evolving, and some cool and useful properties either go completely unnoticed or are not talked about as much as others for some reason or another. In this article, we’ll cover a fraction of those CSS properties and selectors.",
+					"author": "Josh Comeau",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://2ality.com/2022/05/processing-arrays-non-destructively.html",
+					"title": "Processing Arrays non-destructively: for-of vs. .reduce() vs. .flatMap()",
+					"description": "This is in-depth guide to arrays processing instruments.",
+					"author": "Dr. Axel Rauschmayer",
+					"tags": []
+				},
+				{
+					"link": "https://blog.tegadev.xyz/an-introductory-guide-to-ci-cd-for-frontend-developers",
+					"title": "An introductory guide to Contiuous Integration and Delivery/Deployment (CI/CD) for Frontend Developers",
+					"description": "This article is mast have reading if you want to manage good engineering practices.",
+					"author": "Denedo Oghenetega Joseph",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/05/kubernetes-front-end-developers/",
+					"title": "Kubernetes For Frontend Developers",
+					"description": "If you want to deep dive to Kubernetes, start with this intro guide.",
+					"author": "Benjamin Ajibade",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://youtu.be/HPoC-k7Rxwo",
+					"title": "Goodbye, useEffect",
+					"description": "How to simplify work with side effects in React apps and do you need to manage them only in useEffect hook?",
+					"author": "David Khourshid",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/",
+					"title": "Build strongly typed polymorphic components with React and TypeScript",
+					"description": "All React Developers in each project create reuse components, this is the main principle of React. How to do it really good this using TypeScript read in this article.",
+					"author": "Ohans Emmanuel",
+					"tags": []
+				},
+				{
+					"link": "https://www.emizentech.com/blog/types-of-react-components.html",
+					"title": "Types of ReactJs Components in Programming",
+					"description": "React consists of components this is a fundamental unit and building block of React. Nowadays the most popular approach is functional programming. But not needed to forget other types of components.",
+					"author": "Amit Samsukha",
+					"tags": []
+				}
+			]
+		}
+	]
+}
