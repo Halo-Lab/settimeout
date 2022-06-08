@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Do you want to deep dive into the topic of website performance? This issue of “SetTimeout, developer” will help you with that.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.smashingmagazine.com/2021/09/deep-dive-wonderful-world-svg-displacement-filtering/",
+					"title": "A Deep Dive Into The Wonderful World Of SVG Displacement Filtering",
+					"description": "This article explains the SVG feDisplacementMap filter primitive with a good number of examples to demonstrate the concept of animated displacement maps.",
+					"author": "Dirk Weber",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/just-how-long-should-alt-text-be/",
+					"title": "Just How Long Should Alt Text Be?",
+					"description": "Alternative text helps make content more accessible, but writing it can sometimes be tricky. This article can help you understand how long this text should be.",
+					"author": "Geoff Graham",
+					"tags": []
+				},
+				{
+					"link": "https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/",
+					"title": "Diving into the ::before and ::after Pseudo-Elements",
+					"description": "The ::before and ::after pseudo-elements are incredibly versatile tools in the CSS toolkit. Understanding them can help you craft practical CSS to solve all sorts of problems.",
+					"author": "Will Boyd",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://pkg.land",
+					"title": "How to find npm package alternative quickly",
+					"description": "The new site pkg.land can help you with that. Just type the package name and get a list of alternatives.",
+					"author": "pkg.land",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger",
+					"title": "How to use Chrome as a Code Editor and Debugger",
+					"description": "Can you code without your IDE or code editor? Probably not. But you can make quick changes with your browser.",
+					"author": "Craig Buckler",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/geekculture/how-does-dan-abramov-optimize-beta-reactjs-org-after-be-complained-about-website-speed-840b02cf5ee8",
+					"title": "How Does Dan Abramov Optimize beta.reactjs.org After Be Complained about Website Speed?",
+					"description": "It was not like the Mike Tyson vs. Lennox Lewis battle, but Dan Abramov vs. Evan You is worth watching too.",
+					"author": "bytefish",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://piyushsinha.tech/optimizing-performance-in-react-apps-i",
+					"title": "Optimizing Performance in React Apps - I",
+					"description": "Performance is one of the most critical parts of web development. In React, we have some useful hooks memoization. So let's see what this article has to offer us.",
+					"author": "Piyush Sinha",
+					"tags": []
+				},
+				{
+					"link": "https://piyushsinha.tech/optimizing-performance-in-react-apps-ii",
+					"title": "Optimizing Performance in React Apps - II",
+					"description": "In continuing the previous article, let's see what else has a negative impact on performance and consider ways of solving this.",
+					"author": "Piyush Sinha",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/andreyen/how-to-use-throttle-and-debounce-in-react-app-13af",
+					"title": "How to Use Throttle and Debounce in React to Increase Performance",
+					"description": "A little bit more about performance optimization. This time it will be about new useful hooks.",
+					"author": "Andrey Smirnov",
+					"tags": []
+				}
+			]
+		}
+	]
+}
