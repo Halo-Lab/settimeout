@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://blog.greenroots.info/the-story-of-the-custom-scrollbar-using-css",
+					"title": "The story of the custom scrollbar using CSS",
+					"description": "In this article, you will learn how to easily customize the scrollbar with a bit of CSS by following a step-by-step explanation. ",
+					"author": "Tapas Adhikary",
+					"tags": []
+				},
+				{
+					"link": "https://tympanus.net/codrops/2022/01/19/animate-anything-along-an-svg-path/",
+					"title": "Animate Anything Along an SVG Path",
+					"description": "In this article, we will explore the getPointAtLength() function and see how we can use the data of an SVG path for creative use cases.",
+					"author": "Louis Hoebregts",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/m4rrc0/lazy-loading-images-so-easy-you-wont-believe-it-a-native-strategy-2pcp",
+					"title": "Lazy loading images, so easy you won’t believe it (a native strategy)",
+					"description": "In this article, the author describes a solution for lazy loading images while using the platform to the max.",
+					"author": "M4rrc0",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/",
+					"title": "Introducing Achievements: recognizing the many stages of a developer’s coding journey",
+					"description": "GitHub presented active users with new achievement badges. Have you seen them already?",
+					"author": "Bailey Brooks",
+					"tags": []
+				},
+				{
+					"link": "https://runjs.app/blog/mathematical-notation-for-javascript-developers-explained",
+					"title": "Mathematical Notation for JavaScript Developers Explained",
+					"description": "Being able to understand and implement mathematics in JavaScript can be very useful. This is particularly true when working with highly visual and interactive applications — something JavaScript is well suited for.",
+					"author": "RunJS team",
+					"tags": []
+				},
+				{
+					"link": "https://www.freecodecamp.org/news/higher-order-functions-in-javascript/",
+					"title": "Higher Order Functions in JavaScript – Beginner's Guide",
+					"description": "In JavaScript, functions are treated as first-class citizens. We can treat functions as values and assign them to another variable, pass them as arguments to another function, or even return them from another function.",
+					"author": "Soham De Roy",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/routing-with-react-router-6",
+					"title": "Routing with React Router 6",
+					"description": "React Router is used throughout any React development process. Not long ago, we were acquainted with React Router 6, and it'll be useful to remember all of its features.",
+					"author": "Amazing Enyichi Agu",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/implement-recaptcha-react-application/",
+					"title": "How to implement reCAPTCHA in a React application",
+					"description": "Sometimes, we need to implement reCAPTCHA in the project, but this is not a common task. This step-by-step guide will help you with that.",
+					"author": "David Omotayo",
+					"tags": []
+				},
+				{
+					"link": "https://piyushsinha.tech/multi-step-form-with-react-and-formik",
+					"title": "Multi-Step Form with React & Formik",
+					"description": "Nowadays, multi-step form is the way to go if one needs to collect detailed user data. Why? because allowing users to complete their information in smaller chunks is less intimidating for them.",
+					"author": "Piyush Sinha",
+					"tags": []
+				}
+			]
+		}
+	]
+}
