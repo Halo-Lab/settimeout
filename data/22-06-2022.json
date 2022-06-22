@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://sarajw.hashnode.dev/aspects-of-accessibility-a11y-semantics-contrast-and-anxiety",
+					"title": "Aspects of Accessibility (a11y) - Semantics, Contrast and... Anxiety?",
+					"description": "This article is a brief overview that covers a11y issues with page structure, contrast levels, and anxiety-inducing design.",
+					"author": "Sara W",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/conditionally-styling-selected-elements-in-a-grid-container/",
+					"title": "Conditionally Styling Selected Elements in a Grid Container",
+					"description": "This article will show a neat way to display selectable options in a grid. By handling more advanced selecting techniques that use combinators and pseudos, we can extend our styling powers far beyond any one item.",
+					"author": "Preethi",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/understanding-the-template-element-in-html",
+					"title": "Understanding the Template Element in HTML",
+					"description": "In this article, we will learn about the <template> HTML5 element, the benefits and downsides of utilizing them, and their usage.",
+					"author": "Jude Miracle",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://blog.jetbrains.com/space/2022/06/16/feature-flags/",
+					"title": "Feature Flags: What They Are and How to Use Them",
+					"description": "Here’s a secret: new features are deployed to production long before they become available to everyone. Instead of big and risky deployments, you can use feature flags to enable functionality when you’re ready.",
+					"author": "Maarten Balliauw",
+					"tags": []
+				},
+				{
+					"link": "https://vitest.dev",
+					"title": "ViTest — yet another testing framework and runner",
+					"description": "Have you ever complained about the lack of testing frameworks in the JS ecosystem? Meet ViTest — another rival for Jest and Mocha.",
+					"author": "ViTest team",
+					"tags": []
+				},
+				{
+					"link": "https://dx.tips/the-end-of-localhost",
+					"title": "The End of Localhost",
+					"description": "Dev environments should be cattle, not pets. It looks likely that in the future, most development will not be done on localhost, the most precious pet of all.",
+					"author": "swyx",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/using-typescript-in-react-a-crash-course",
+					"title": "Using Typescript in React: a Crash Course",
+					"description": "Typescript helps you avoid mistakes and makes your code more comfortable for yourself and other developers in the project. That's why understanding the basic capabilities of TS is especially important nowadays.",
+					"author": "Ajibade Ola-Oluwa",
+					"tags": []
+				},
+				{
+					"link": "https://blog.bitsrc.io/understanding-the-suspense-api-in-react-18-bbea3f6f6df1",
+					"title": "Understanding the Suspense API in React 18",
+					"description": "If you don't know what React Suspense is, this article will be helpful for you. With Suspense, you can optimize and significantly improve your app.",
+					"author": "Fernando Doglio",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/fetching-and-updating-data-with-react-query",
+					"title": "Fetching and Updating Data with React Query",
+					"description": "React Query is one of the powerful libraries in React ecosystem for caching data. In this article, you will learn how to fetch and update a list of users from a database with React Query.",
+					"author": "Ajibade Ola-Oluwa",
+					"tags": []
+				}
+			]
+		}
+	]
+}
