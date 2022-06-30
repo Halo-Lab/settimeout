@@ -1,0 +1,91 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Check out the fresh reads from Dan Abramov about useEffects, updates in ECMAScript 2022, and more cool articles in today’s newsletter.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.netlify.com/blog/fun-parallax-scrolling-css-for-matterday/",
+					"title": "Fun CSS-only scrolling effects for Matterday",
+					"description": "In this article, the author explores the idea of layers obscuring and revealing things to create different illusions and experiment with scroll speeds.",
+					"author": "Lynn Fisher",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/06/guide-windows-high-contrast-mode/",
+					"title": "The Guide To Windows High Contrast Mode",
+					"description": "From this article, we can learn how to make our sites friendly for Windows High Contrast Mode. Also, we’ll study a handy set of practices we can use for that purpose.",
+					"author": "Cristian Díaz",
+					"tags": []
+				},
+				{
+					"link": "https://speckyboy.com/css-snippets-shadow-effects/",
+					"title": "8 CSS Snippets That Demonstrate the Power of Shadow Effects",
+					"description": "With CSS, you can create some seriously impressive shadows. In this article, you will find some top snippets that cover both сommon everyday use and jaw-dropping complexity.",
+					"author": "Eric Karkovack",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://2ality.com/2022/06/ecmascript-2022.html",
+					"title": "Ecma International approves ECMAScript 2022: What’s new?",
+					"description": "On 22 June 2022, the 123rd Ecma General Assembly approved the ECMAScript 2022 language specification, which means that it’s officially a standard now. ",
+					"author": "Dr. Axel Rauschmayer.",
+					"tags": []
+				},
+				{
+					"link": "https://javascript.plainenglish.io/how-can-programmers-discuss-the-project-plan-with-the-clients-39ea168aa3a9",
+					"title": "How Can Programmers Discuss the Project Plan With the Clients",
+					"description": "Communicating with code owners is an essential part of a programmer’s work. How to communicate effectively?",
+					"author": "Josef Cruz",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/infinite-scrolling-with-react-query",
+					"title": "Infinite scrolling with React Query",
+					"description": "Pagination and infinite scrolling are effective patterns when working with large data. Infinite scroll helps increase performance in applications, and doing it with React Query is quite simple.",
+					"author": "Mandah Israel",
+					"tags": []
+				},
+				{
+					"link": "https://betterprogramming.pub/understanding-the-closure-trap-of-react-hooks-6c560c408cde",
+					"title": "Understanding the Closure Trap of React Hooks",
+					"description": "Another article about diving into React Hooks. A deep understanding of basic things in React can improve your work efficiency. Let's look at the most classic problem — the closure trap of React Hooks.",
+					"author": "bytefish",
+					"tags": []
+				},
+				{
+					"link": "https://css-tricks.com/different-ways-to-write-css-in-react/",
+					"title": "Different Ways to Write CSS in React",
+					"description": "We have several ways to write CSS in React. Thanks to this article, you will find out about other not-so-traditional or popular ways we can do it.",
+					"author": "Saleh Mubashar",
+					"tags": []
+				},
+				{
+					"link": "https://beta.reactjs.org/learn/you-might-not-need-an-effect",
+					"title": "You Might Not Need an Effect",
+					"description": "This chapter of React documentation was announced by Dan Abramov. It will make you rethink working with effects in React.",
+					"author": "Dan Abramov",
+					"tags": []
+				},
+				{
+					"link": "https://youtu.be/tz0fDABt67g",
+					"title": "Every Beginner React Developer Makes This Mistake With State",
+					"description": "By far one of the biggest beginner mistakes in React is developers storing derived state. This is a huge problem that is incredibly hard to detect unless you know what you are looking for.",
+					"author": "Web Dev Simplified",
+					"tags": ["Youtube"]
+				}
+			]
+		}
+	]
+}
