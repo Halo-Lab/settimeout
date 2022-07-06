@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "Do you follow any convention when writing commit messages? In this issue, you will find articles about this subject. Of course, there are other useful topics here too.",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/when-how-to-choose-html-form-validation/",
+					"title": "When and how to choose HTML for form validation",
+					"description": "HTML5 and the modern DOM APIs are already equipped for form validation. In this article, we’ll dive deep into all things HTML form validation.",
+					"author": "Joe Attardi",
+					"tags": []
+				},
+				{
+					"link": "https://blog.mayank.co/the-case-for-using-sass-in-2022",
+					"title": "The case for using Sass in 2022",
+					"description": "Is Sass still relevant? Let’s take another look at Sass and some of the things it is still useful for in 2022.",
+					"author": "Mayank",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/virgomoon/flex-plus-grid-equals-css-success-1ka2",
+					"title": "Flex plus Grid equals CSS success",
+					"description": "In this article, the author shows his experiment with flex and Grid, explaining how to use these properties in practice.",
+					"author": "Joseph Guillory",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+					"title": "Write Better Commits, Build Better Projects",
+					"description": "High-quality Git commits are the key to a maintainable and collaborative open- or closed-source project. Learn strategies to improve and use commits to streamline your development process.",
+					"author": "Victoria Dye",
+					"tags": []
+				},
+				{
+					"link": "https://cbea.ms/git-commit/",
+					"title": "How to Write a Git Commit Message",
+					"description": "This evergreen guide on how to write Git Commit messages will help you and your team manage commits log well and make it readable.",
+					"author": "Cbeams",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/using-barrel-exports-organize-react-components/",
+					"title": "Using barrel exports to organize React components",
+					"description": "In this article, you will see one of the concepts for import modules at reacts. A barrel enables us to consolidate, or roll up, exports from multiple files or modules into one single module.",
+					"author": "Nelson Michael",
+					"tags": []
+				},
+				{
+					"link": "https://www.telerik.com/blogs/integrating-google-places-autocomplete-api-react-app",
+					"title": "Integrating Google Places Autocomplete API in a React App",
+					"description": "Google has many useful services, and Google Maps is one of them. In this article, we'll look at how to work with the Places API, which is a part of it.",
+					"author": "Chinedu Imoh",
+					"tags": []
+				},
+				{
+					"link": "https://blog.logrocket.com/notes-app-react-localstorage/",
+					"title": "How to build a notes app with React and localStorage",
+					"description": "It's time to remember how to use localStorage with React by creating an example app for notes. The app will have a few settings and its functionality will be to create, read and delete notes.",
+					"author": "Saleh Mubashar",
+					"tags": []
+				}
+			]
+		}
+	]
+}
