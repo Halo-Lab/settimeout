@@ -1,0 +1,91 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/",
+					"title": "Equal Columns With Flexbox: It’s More Complicated Than You Might Think",
+					"description": "Discover which SVG patterns we should avoid and which ones are the most inclusive when comparing different combinations of OSs, browsers, and screen readers.",
+					"author": "Kevin Powell",
+					"tags": []
+				},
+				{
+					"link": "https://kilianvalkhof.com/2022/css-html/are-you-sure-thats-a-number-input/",
+					"title": "Are you sure that’s a number input?",
+					"description": "Not all inputs that accept digits should be inputs with type=”number”. This article will help you to be sure that you use them for numbers, not for things that just happen to be made up of digits.",
+					"author": "Kilian Valkhof",
+					"tags": []
+				},
+				{
+					"link": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
+					"title": "Mobile-First CSS: Is It Time for a Rethink?",
+					"description": "Mobile-first design methodology has been a common design pattern for many years. This article explores the advantages and disadvantages of this approach.",
+					"author": "Patrick Clancey",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://youtu.be/RDfqrf1B2cM",
+					"title": "The State of Serverless 2022",
+					"description": "How serverless has evolved over the past years? How has it influenced our workflows?",
+					"author": "Jeremy Daly",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://blog.openreplay.com/forever-functional-debouncing-and-throttling-for-performance",
+					"title": "Forever Functional: Debouncing and throttling for performance",
+					"description": "In many cases, you want to limit how often a function is called. Implementing such limits can lead to complex code unless a functional technique is used.",
+					"author": "Federiko Kereki",
+					"tags": []
+				},
+				{
+					"link": "https://bun.sh",
+					"title": "Bun",
+					"description": "Bun is a fast all-in-one JavaScript runtime with a native bundler, transpiler, task runner, and npm built-in. Bundle, transpile, install and run JavaScript & TypeScript projects",
+					"author": "all in Bun",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://labs.pineview.io/build-test-and-deploy-an-app-react18-vite-netlify-nightwatch/",
+					"title": "Learn how to build, test and deploy a bookstore app with React 18, Vite, and Netlify functions",
+					"description": "This guide will cover in detail the steps to create a working model bookstore single-page application using the latest React 18, and run it using Vite.",
+					"author": "Yevhen Kapelianovych",
+					"tags": []
+				},
+				{
+					"link": "https://www.telerik.com/blogs/integrating-google-places-autocomplete-api-react-app",
+					"title": "How to Refactor Large React Components",
+					"description": "The story from a real project of how several developers worked on one component at different times and why structure is really necessary.",
+					"author": "Mohammad Faisal",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/data-fetching-with-suspense-in-react",
+					"title": "Data fetching with Suspense in React",
+					"description": "In this article, we will look at Suspense in React and see how it can be helpful in some cases.",
+					"author": "Marvel Ken",
+					"tags": []
+				},
+				{
+					"link": "https://www.developerway.com/posts/react-elements-children-parents",
+					"title": "The mystery of React Element, children, parents and re-renders",
+					"description": "Some basic things about React’s elements will help us dive into React mechanics to have a better understanding of their work principles.",
+					"author": "Nadia Makarevich",
+					"tags": []
+				}
+			]
+		}
+	]
+}
