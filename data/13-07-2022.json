@@ -8,7 +8,7 @@
 				{
 					"link": "https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/",
 					"title": "Equal Columns With Flexbox: It’s More Complicated Than You Might Think",
-					"description": "Discover which SVG patterns we should avoid and which ones are the most inclusive when comparing different combinations of OSs, browsers, and screen readers.",
+					"description": "As awesome as flexbox is, what it’s doing under the hood is actually a little strange. To really understand what’s going on, this article suggests looking at an example of column styling using flexbox.",
 					"author": "Kevin Powell",
 					"tags": []
 				},

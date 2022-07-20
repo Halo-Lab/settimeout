@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://jakearchibald.com/2022/img-aspect-ratio/",
+					"title": "Avoiding <img> layout shifts: aspect-ratio vs width & height attributes",
+					"description": "In this article, you will discover how to avoid layout shifts using width and height attributes or aspect-ratio in CSS, whichever is most appropriate.",
+					"author": "Jake Archibald",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2021/05/accessible-svg-patterns-comparison/",
+					"title": "Accessible SVGs: Perfect Patterns For Screen Reader Users",
+					"description": "Discover which SVG patterns we should avoid and which ones are the most inclusive when comparing different combinations of OSs, browsers, and screen readers.",
+					"author": "Carie Fisher",
+					"tags": []
+				},
+				{
+					"link": "https://ryanfeigenbaum.com/dark-mode/",
+					"title": "The Complete Guide to the Dark Mode Toggle",
+					"description": "This complete guide to the dark mode toggle includes best practices for implementing a color mode switcher on your website using custom variables, prefers-color-scheme, and more.",
+					"author": "Ryan Feigenbaum",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://levelup.gitconnected.com/docker-for-frontend-developers-4eeaedf10dc7",
+					"title": "Docker for frontend developers",
+					"description": "This article is for frontend developers who are unfamiliar with Docker. The author analyzes some aspects related to optimizing traffic for launch and touches on some security issues.",
+					"author": "Evgeniy Kravtsov.",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/@buffet_time/why-you-should-move-to-pnpm-82962f332418",
+					"title": "Why you should move to PNPM",
+					"description": "PNPM (Performant NPM) is a fast, disk space efficient package manager for node as a replacement for NPM.",
+					"author": "Daniel Turcich",
+					"tags": []
+				},
+				{
+					"link": "https://javascript.plainenglish.io/ranking-javascript-frameworks-by-popularity-for-2022-db08548870ef",
+					"title": "Ranking JavaScript Frameworks by Popularity for 2022",
+					"description": "It’s that time of year again when StackOverflow releases its developer survey. There were many newcomers and a new No. 1 too!",
+					"author": "Rich Kurtzman",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://www.freecodecamp.org/news/how-to-build-a-fullstack-authentication-system-with-react-express-mongodb-heroku-and-netlify/",
+					"title": "How to Build a Full-Stack Authentication App With React, Express, MongoDB, Heroku, and Netlify",
+					"description": "If you ever wanted to try to build MERN stack application, this simple guide will help you learn how, as it explains basing things on such an application.",
+					"author": "Njoku Samson Ebere",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377",
+					"title": "Applying SOLID principles in React",
+					"description": "SOLID is one of the more effective practices in OOP programming. This article will show you how to use these principles in REACT and why.",
+					"author": "Konstantin Lebedev",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/sending-emails-from-react-with-emailjs",
+					"title": "Sending emails from React with EmailJS",
+					"description": "EmailJS is a JavaScript library that helps send emails using only client-side technologies. This article will teach you how to send emails using React with EmailJS.",
+					"author": "Chisom Uma",
+					"tags": []
+				}
+			]
+		}
+	]
+}
