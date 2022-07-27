@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.bram.us/2022/07/08/the-future-of-css-variable-units-powered-by-custom-properties/",
+					"title": "The Future of CSS: Variable Units, powered by Custom Properties",
+					"description": "The CSS Working Group recently approved the start of work on the css-variables-2 specification. The first planned addition is the support for “User Units”. Let’s take a closer look at it in this article.",
+					"author": "Bramus",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/07/powerful-image-optimization-tools/",
+					"title": "Powerful Image Optimization Tools",
+					"description": "Optimizing the size of images can have a bigger impact on performance than all the other areas combined. In this article, the author covers different tools available for reducing the size of images.",
+					"author": "Louis Lazaris",
+					"tags": []
+				},
+				{
+					"link": "https://css-irl.info/logical-properties-for-useful-shorthands/",
+					"title": "Logical Properties for Useful Shorthands",
+					"description": "Logical properties are very well-supported in browsers now, so it’s a good time to start using them. This article demonstrates a logical property that enables us to adjust the padding correctly.",
+					"author": "Michelle Barker",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://medium.com/front-end-weekly/s-o-l-i-d-principles-with-js-examples-db95b44e82e",
+					"title": "S.O.L.I.D Principles with JS examples",
+					"description": "The SOLID Principles were presented initially by Uncle Bob in his book Agile Software Development: Principles, Patterns, and Practices, and they are meant to make software designs more understandable, flexible, and maintainable.",
+					"author": "rxluz",
+					"tags": []
+				},
+				{
+					"link": "https://youtu.be/6eP7_iDJk4k",
+					"title": "Computing with Soft Robots",
+					"description": "Even the most impressive soft robots have an external control system. What if the software could be running on soft hardware? Associate Professor Perla Maiolino explains the soft logic in soft robots.",
+					"author": "Perla Maiolino",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://renatopozzi.me/articles/architecting-react-apps-like-its-2030",
+					"title": "Architecting React Apps Like it's 2030",
+					"description": "Take up your swords, gentlemen, the holy war is approaching. The author thinks this is how a good app architecture should be structured. Do you agree with him?",
+					"author": "Renato Pozzi",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/understanding-react-dynamic-imports-for-faster-websites",
+					"title": "Understanding React dynamic imports for faster websites",
+					"description": "In this article, you’ll learn how to boost performance by using route-centric code splitting. This helps improve performance in some cases when you use huge files and JavaScript bundles.",
+					"author": "Ejiro Thankgod",
+					"tags": []
+				},
+				{
+					"link": "https://blog.bitsrc.io/how-to-build-a-skeleton-loader-with-react-1dd359cda582",
+					"title": "How to Build a Skeleton Loader with React",
+					"description": "If you are bored with Spinners and Loaders, the author of this article suggests another solution to inform users that content will take some time to load.",
+					"author": "L Javier Tovar",
+					"tags": []
+				}
+			]
+		}
+	]
+}
