@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://hidde.blog/focus-visible-more-than-keyboard/",
+					"title": "With :focus-visible, you can have focus styles when it makes sense",
+					"description": "With :focus-visible pseudo class we have a new way to only show focus styles when they make sense. How does that work? Find out from this article.",
+					"author": "Hidde de Vries",
+					"tags": []
+				},
+				{
+					"link": "https://webdesign.tutsplus.com/tutorials/masonry-layouts-with-css-grid-and-object-fit-cover--cms-37989",
+					"title": "How to Build Seamless Masonry Layouts With CSS Grid and object-fit:cover",
+					"description": "In this article, the author will show how to use CSS Grid to build a responsive image grid that will follow a masonry-style layout on desktop screens.",
+					"author": "George Martsoukos",
+					"tags": []
+				},
+				{
+					"link": "Can SVG Symbols affect web performance?",
+					"title": "Can SVG Symbols affect web performance?",
+					"description": "The SVG Symbol is a technique for reusing inlined SVGs elements. This article might be interesting for you if you are striving for the best performance.",
+					"author": "Bart Stefański",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://youtu.be/qpAkYk1LK-U",
+					"title": "Solid.js, Bun and other topics on Real World React meetup",
+					"description": "End-to-end ReactivityRefetch, Reactivity Unchained in Solid.js, and Bun — these are hot topics in the web-development world today.",
+					"author": "All in Real World React",
+					"tags": ["Youtube"]
+				},
+				{
+					"link": "https://effective-shell.com",
+					"title": "Effective Shell",
+					"description": "This book is for anyone interested in computing and willing to learn more about the exciting but sometimes daunting world of the shell.",
+					"author": "All in Effective Shell",
+					"tags": []
+				},
+				{
+					"link": "https://youtu.be/ORI29ot_Zck",
+					"title": "New JS runtimes Deno & Bun",
+					"description": "Here, the speaker looks at the new kids on the block — Bun and Deno, exploring how they might someday replace Node.",
+					"author": "Shawn Swyx Wang",
+					"tags": ["Youtube"]
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.openreplay.com/improving-image-rendering-speed",
+					"title": "Improving image rendering speed",
+					"description": "Images are essential elements of websites. In this article, we will look at how images render in different popular web browsers and how Next.js can help improve these parameters.",
+					"author": "Favour Ogbonda",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/codex/10-vs-code-extensions-to-super-fast-your-productivity-in-react-71e6b4c132c1",
+					"title": "10 VS Code Extensions to Super fast your Productivity in React",
+					"description": "If you use WebStorm, this article is not for you. Here, you will learn about extensions for VSCode, which make it easy to manage your project files, lint your code, and debug your apps.",
+					"author": "Arslan Ijaz",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/codex/react-vs-preact-5b0309949112",
+					"title": "React Vs. Preact",
+					"description": "Sometimes, we don’t need to use the full power of React, especially if our projects are really small. In this article, you will find out what Preact is and how it differs from React.",
+					"author": "Favour Ogbonda",
+					"tags": []
+				}
+			]
+		}
+	]
+}
