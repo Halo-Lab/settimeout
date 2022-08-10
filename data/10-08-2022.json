@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.smashingmagazine.com/2022/08/fluid-sizing-multiple-media-queries/",
+					"title": "Fluid Sizing Instead Of Multiple Media Queries",
+					"description": "In this article, we will talk about the fact that one of the drawbacks of fluid typography, namely the appearance of a large number of media queries, can be avoided. Or, at least, the number of records in @media rule can be reduced.",
+					"author": "Ruslan Yevych",
+					"tags": []
+				},
+				{
+					"link": "Finer grained control over CSS transforms with individual transform properties",
+					"title": "Finer grained control over CSS transforms with individual transform properties",
+					"description": "In this article, the author will show how to use CSS Grid to build a responsive image grid that will follow a masonry-style layout on desktop screensThis article describes individual properties for CSS transforms. These are scale, rotate, and translate, which you can use to individually define those parts of a transformation.",
+					"author": "Bramus, L. David Baron",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/dailydevtips1/html-fallback-images-on-error-1aka",
+					"title": "HTML fallback images on error",
+					"description": "This article explains how we can use the onerror attribute on the image to set a fallback.",
+					"author": "Chris Bongers",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://getfrontend.tips",
+					"title": "Front-end tips",
+					"description": "Tips, Tricks, Best Practices for front-end developers. This is an unordered list of useful instruments and practices.",
+					"author": "All in Front-end tips",
+					"tags": []
+				},
+				{
+					"link": "https://github.com/mtdvio/every-programmer-should-know",
+					"title": "Every Programmer Should Know",
+					"description": "Another resource list for developers. And it is unordered too, but from chaos comes order. ",
+					"author": "All in Every Programmer Should Know",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://adevnadia.medium.com/react-re-renders-guide-why-react-components-re-render-a4efab132c10",
+					"title": "React re-renders guide: why components re-render",
+					"description": "This complete guide with useful links covers the most important patterns to help prevent re-renders and a few anti-patterns that could lead to unnecessary re-renders and poor performance.",
+					"author": "Nadia Makarevich",
+					"tags": []
+				},
+				{
+					"link": "https://blog.openreplay.com/building-a-shopping-cart-in-react-with-redux-toolkit-and-redux-persist",
+					"title": "Building a shopping cart in React with Redux Toolkit and Redux Persist",
+					"description": "In this article, the author introduces you to the basic principles — Redux Toolkit and Redux Persist, using a shopping cart example.",
+					"author": "Taminoturoko Briggs",
+					"tags": []
+				},
+				{
+					"link": "https://orizens.com/blog/500ms-to-1-7ms-in-react-a-journey-and-a%20checklist/",
+					"title": "500ms to 1.7ms In React: A Journey And A Checklist",
+					"description": "The author of this article shares her experience in increasing React performance. This might be helpful in some of your projects.",
+					"author": "Oren Farhi",
+					"tags": []
+				}
+			]
+		}
+	]
+}
