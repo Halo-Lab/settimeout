@@ -13,7 +13,7 @@
 					"tags": []
 				},
 				{
-					"link": "Finer grained control over CSS transforms with individual transform properties",
+					"link": "https://web.dev/css-individual-transform-properties/",
 					"title": "Finer grained control over CSS transforms with individual transform properties",
 					"description": "In this article, the author will show how to use CSS Grid to build a responsive image grid that will follow a masonry-style layout on desktop screensThis article describes individual properties for CSS transforms. These are scale, rotate, and translate, which you can use to individually define those parts of a transformation.",
 					"author": "Bramus, L. David Baron",
