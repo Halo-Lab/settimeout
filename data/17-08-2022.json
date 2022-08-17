@@ -1,0 +1,77 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/",
+					"title": "<article> vs. <section>: How To Choose The Right One",
+					"description": "Have you asked yourself whether to use a <section> or an <article> element? In this article, you will explore how grouping content affects the accessibility and how you can make it all count for users.",
+					"author": "Olushuyi Olutimilehin",
+					"tags": []
+				},
+				{
+					"link": "https://chenhuijing.com/blog/the-horizontal-overflow-problem/",
+					"title": "The horizontal overflow problem",
+					"description": "This article examines unintended horizontal over-scrolling on mobile. You will learn why this phenomenon exists and how we can do our best to avoid it.",
+					"author": "Chen Hui Jing",
+					"tags": []
+				},
+				{
+					"link": "https://codeburst.io/css-keyframe-animation-with-pause-between-keyframes-50a3b3d14354",
+					"title": "CSS Keyframe Animation with Pause between Keyframes",
+					"description": "How can we make the animation pause between keyframes? You will find the answer in this article.",
+					"author": "Davecar Grave",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://www.gatsbyjs.com/blog/re-introducing-gatsby-a-reactive-site-generator/",
+					"title": "(Re-) Introducing Gatsby, A Reactive Site Generator",
+					"description": "Gatsby Cloud can now publish to our CDN in one second. This is 100x faster than the exact same Gatsby site building on a standard CI/CD service!",
+					"author": "Kyle Mathews",
+					"tags": []
+				},
+				{
+					"link": "https://portal.gitnation.org/contents/record-and-tuple-immutable-data-structures-in-js",
+					"title": "Record & Tuple: Immutable Data Structures in JS",
+					"description": "Record & Tuple is a proposed feature for JavaScript that aims to introduce new immutable value types. Records are immutable key/value structures, and Tuples are immutable sequences of data.",
+					"author": "Robin Ricard",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/guide-adding-google-login-react-app/",
+					"title": "The guide to adding Google login to your React app",
+					"description": "In this article, we will learn how Google login works and how we can add it to our React app using a package called react-google-login.",
+					"author": "Chimezie Innocent",
+					"tags": []
+				},
+				{
+					"link": "https://javascript.plainenglish.io/10-best-react-notification-libraries-in-2022-e06e8d338bb3",
+					"title": "10 Best React Notification Libraries in 2022",
+					"description": "We need notifications almost in every project. Naturally, you can make custom components, but in this article, you will find many ready-made solutions.",
+					"author": "Chris1993",
+					"tags": []
+				},
+				{
+					"link": "https://www.freecodecamp.org/news/authenticate-with-face-recognition-reactjs/",
+					"title": "How to Authenticate a User with Face Recognition in React.js",
+					"description": "The security of a web application is an important topic to discuss and consider. Email-password authentication, phone auth, and OAuth are all somewhat trivial. Now let's look at something really unusual.",
+					"author": "Hrishikesh Pathak",
+					"tags": []
+				}
+			]
+		}
+	]
+}
