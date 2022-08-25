@@ -1,0 +1,84 @@
+{
+	"greetingTitle": "Hi, this is SetTimeout, developer!",
+	"greetingSubtitle": "",
+	"sections": [
+		{
+			"title": "Layout design",
+			"cards": [
+				{
+					"link": "https://www.matuzo.at/blog/2022/focus-outline/",
+					"title": "Outline is your friend",
+					"description": "In this article, you will learn about the advantages and disadvantages of the outline property and why you should use it.",
+					"author": "Manuel Matuzovic",
+					"tags": []
+				},
+				{
+					"link": "https://css-irl.info/quick-tip-negative-animation-delay/",
+					"title": "Quick Tip: Negative Animation Delay",
+					"description": "In this article, you will find a tiny CSS tip for making staged animations feel much more natural: Negative animation delay.",
+					"author": "Michelle Barker",
+					"tags": []
+				},
+				{
+					"link": "https://dev.to/refine/neumorphism-with-css-a-new-design-trend-2ng5",
+					"title": "Neumorphism with CSS - A new design trend",
+					"description": "In this article, we’ll talk about the Neumorphism trend, which emphasizes minimalism in design circles, and show you how to use it as a web developer in CSS.",
+					"author": "Necati Özmen",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "Web development",
+			"cards": [
+				{
+					"link": "https://medium.com/geekculture/5-ai-tools-every-software-developer-should-be-using-in-2022-afc4fb149c60",
+					"title": "5 AI Tools Every Software Developer Should Be Using in 2022",
+					"description": "Almost everyone knows Tabnine and Copilot. But what about the tools beyond smart autocomplete?",
+					"author": "Arslan Ahmad",
+					"tags": []
+				},
+				{
+					"link": "https://medium.com/vanguards-of-code/lodash-is-dead-long-live-radash-d9d52abf428b",
+					"title": "Lodash is dead. Long live Radash",
+					"description": "Lodash is a powerful library, but it has many obsolete functions. Radash is the new instrument that combines the power of Lodash and Rambda.",
+					"author": "Ray Apps",
+					"tags": []
+				},
+				{
+					"link": "https://betterprogramming.pub/recursion-vs-loops-in-javascript-d588c5b0df31",
+					"title": "Recursion vs. Loops in JavaScript",
+					"description": "Recursion is the nemesis of every developer, only matched in power by its friend — regular expressions.",
+					"author": "Tyler Hawkins",
+					"tags": []
+				}
+			]
+		},
+		{
+			"title": "ReactJS",
+			"cards": [
+				{
+					"link": "https://blog.logrocket.com/building-draggable-slider-react/",
+					"title": "Building a draggable slider in React",
+					"description": "Nowadays, one way or another, sliders are an essential part of modern UIs. In this article, we will find out how to use one of React's libraries for building draggable functionality in the slider.",
+					"author": "Pelumi Akintokun",
+					"tags": []
+				},
+				{
+					"link": "https://www.smashingmagazine.com/2022/08/react-context-propagation-javascript/",
+					"title": "An Introduction To Context Propagation In JavaScript",
+					"description": "State management in React could be represented in many ways. Redux, MobX, React-query, and other popular libraries can be replaced in some cases by a native React API — ReactContext",
+					"author": "Evyatar Alush",
+					"tags": []
+				},
+				{
+					"link": "https://www.robinwieruch.de/react-form/",
+					"title": "How to use Forms in React",
+					"description": "The examples in this article are easy, but sometimes it’s helpful to remember how to use React without different libraries, and one of the most common cases is React Forms.",
+					"author": "Robin Wierchul",
+					"tags": []
+				}
+			]
+		}
+	]
+}
